@@ -30,7 +30,7 @@
 
 `https://sqdwz.github.io/hainan-airspace/`
 
-> 当前仓库为 Private。GitHub Pages 对私有仓库的支持取决于 GitHub 账户方案；如果使用 GitHub Free，最省事的方式是将该仓库改为 Public。
+当前仓库已设为 **Public**，并已启用 GitHub Pages。
 
 ## 当前文件
 
