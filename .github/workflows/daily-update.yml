@@ -1,15 +1,13 @@
-name: Daily Hainan Airspace Update
+name: Manual Hainan Airspace Fallback
 
 on:
-  schedule:
-    - cron: "0 4 * * *"
   workflow_dispatch:
 
 permissions:
   contents: write
 
 concurrency:
-  group: hainan-airspace-daily-update
+  group: hainan-airspace-manual-fallback
   cancel-in-progress: false
 
 jobs:
@@ -39,6 +37,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No data changes"
           else
-            git commit -m "chore: update daily airspace report"
+            git commit -m "chore: manual airspace report refresh"
             git push
           fi
