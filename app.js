@@ -12,7 +12,7 @@ function statusLabel(status){
 }
 
 function esc(s=''){
-  return String(s).replace(/[&<>'"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));
+  return String(s).replace(/[&<>'\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c]));
 }
 
 function renderNotice(n){
@@ -36,8 +36,20 @@ function renderNotice(n){
   </article>`;
 }
 
+function renderTyphoon(t){
+  if(!t || !t.affects_hainan){
+    return '<div class="typhoon-card quiet"><div class="typhoon-title">当前未发现影响海南的台风或热带气旋系统</div><p>仅跟踪台风、热带低压等热带气旋信息，不展示普通雷雨或一般天气。</p></div>';
+  }
+  return `<div class="typhoon-card alert">
+    <div class="typhoon-title">${esc(t.headline || t.name || '台风系统影响海南')}</div>
+    <div class="typhoon-meta">${esc(t.system_type || '热带气旋')} · ${esc(t.publisher || '气象部门')} · 来源时间 ${esc(t.source_time || '未明确')}</div>
+    <p>${esc(t.summary || '')}</p>
+    ${t.source_url ? `<a href="${esc(t.source_url)}" target="_blank" rel="noopener">查看气象原文</a>` : ''}
+  </div>`;
+}
+
 function render(data){
-  $('#meta').textContent = `生成时间：${data.generated_at || '未知'} ｜ 数据范围：海南省禁飞、临时禁飞及空域管制公开信息`;
+  $('#meta').textContent = `生成时间：${data.generated_at || '未知'} ｜ 数据范围：海南省禁飞、临时空域管制与台风影响公开信息`;
   const s = data.summary || {};
   const newCount = s.new || 0;
   const active = s.active || 0;
@@ -52,10 +64,12 @@ function render(data){
   $('#stats').innerHTML = stats.map(([k,v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join('');
 
   const notices = data.notices || [];
-  const current = notices.filter(n => ['active','upcoming','new','unknown'].includes(n.status));
-  const ended = notices.filter(n => n.status === 'ended');
-  $('#activeList').innerHTML = current.length ? current.map(renderNotice).join('') : '<div class="empty">当前未发现生效中或即将生效的公开管制公告。</div>';
+  $('#activeList').innerHTML = notices.length ? notices.map(renderNotice).join('') : '<div class="empty">当前未发现生效中或即将生效的公开管制公告。</div>';
+
+  const ended = data.ended_recent || [];
   $('#endedList').innerHTML = ended.length ? ended.map(renderNotice).join('') : '<div class="empty">暂无近期结束记录。</div>';
+
+  $('#typhoonBox').innerHTML = renderTyphoon(data.typhoon);
 
   $('#sourceList').innerHTML = (data.sources || []).map(src => `<div class="source ${src.ok === false ? 'warn':''}"><span>${esc(src.name)}</span><span>${src.ok === false ? '需复核' : '已检索'}</span></div>`).join('');
 }
