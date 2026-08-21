@@ -12,7 +12,13 @@ function statusLabel(status){
 }
 
 function esc(s=''){
-  return String(s).replace(/[&<>'\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','\"':'&quot;'}[c]));
+  return String(s).replace(/[&<>"']/g, c => {
+    if(c === '&') return '&amp;';
+    if(c === '<') return '&lt;';
+    if(c === '>') return '&gt;';
+    if(c === '"') return '&quot;';
+    return '&#39;';
+  });
 }
 
 function renderNotice(n){
