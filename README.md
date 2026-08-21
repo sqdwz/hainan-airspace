@@ -1,38 +1,54 @@
 # 海南省禁飞及空域管制公告日报
 
-一个静态网页，用于汇总海南省范围内公开发布的禁飞、临时禁飞、低慢小航空器及空域管制信息。
+一个静态网页，用于汇总海南省范围内公开发布的禁飞、临时禁飞、低慢小航空器、空域管制以及台风/热带气旋影响信息。
 
 ## 自动更新方式
 
-本项目不需要额外服务器，当前采用：
+当前采用：
 
-**ChatGPT 定时任务 → GitHub 数据文件 → GitHub Pages**
+**ChatGPT 定时任务 → GitHub 增量数据 → GitHub Pages**
 
-- ChatGPT 定时任务每天北京时间中午检索海南禁飞/空域管制公开信息。
-- 检索后直接读取并更新本仓库 `data/notices.json`、`data/latest.json`。
-- 同时保存 `data/history/YYYY-MM-DD.json` 作为当天历史日报。
-- `data/notices.json` 用于去重、保留旧公告和更新 active / upcoming / ended 状态。
-- 首页固定读取 `data/latest.json`，因此网址不变、内容随数据更新。
-- 每次 `main` 分支数据发生变化后，`.github/workflows/pages.yml` 会自动重新部署网页。
+每天北京时间中午，ChatGPT 定时任务负责检索、判断、去重并直接更新本仓库数据。GitHub 负责长期存储和网页发布。
 
-因此，日常更新不依赖仓库里的 Python 定时脚本；GitHub 只负责存储数据和发布页面。
+## 增量存储结构
 
-## 手动备用更新
+- `data/current.json`：只保存当前正在生效、即将生效、新发布或待核验且仍需持续跟踪的管制公告。
+- `data/archive/YYYY.json`：按年份永久归档已结束公告；只有公告到期时才读取并追加对应年份归档。
+- `data/latest.json`：首页当前日报，只保存当前需要关注的信息和最多20条近期结束记录。
+- `data/history/YYYY-MM-DD.json`：每天一份日报快照，长期保留。
+- `data/typhoon.json`：当前影响海南的台风/热带风暴/热带低压等热带气旋状态。
+- `data/notices.json`：旧版全量库，保留兼容，不再作为每日任务的主要读取源。
 
-仓库保留了一套 Python 检索脚本作为备用方案，但不会每天自动运行。
+这样每日任务通常只需要读取 `current.json`、`latest.json` 和 `typhoon.json`，不会随着历史积累反复读取全部旧公告。
 
-需要手动执行时，在仓库 **Actions** 页面打开 `Manual Hainan Airspace Fallback`，点击 **Run workflow**。
+## 检索范围
 
-相关文件：
+优先官方来源：
 
-- `scripts/update.py`：备用检索与状态判断脚本
-- `.github/workflows/daily-update.yml`：仅手动触发的备用工作流
+- 中国民航局（CAAC）
+- 民航海南安全监督管理局
+- 海南省人民政府
+- 海南省公安及应急管理公开信息
+- 文昌、海口、三亚、琼海、澄迈等市县政府，并扩展到海南其他市县公开信息
+- 海口美兰、三亚凤凰、琼海博鳌及海南机场相关公开通告
+
+媒体补充：
+
+- 海南日报
+- 南海网 / 新海南客户端
+- 海南广播电视总台
+- 海口日报、三亚日报
+- 新华社、人民网、央视、中国新闻网等可靠媒体
+
+媒体主要用于发现线索，能够回溯官方原文时优先使用官方原文。
+
+## 台风跟踪
+
+只跟踪台风、热带风暴、热带低压等热带气旋系统。普通雷雨、暴雨和一般大风不纳入，除非官方明确说明由正在影响或预计影响海南的热带气旋导致。
+
+优先来源为中央气象台 / 中国气象局、海南省气象部门及海南省政府公开信息。
 
 ## GitHub Pages
-
-在仓库 **Settings → Pages** 中，**Build and deployment → Source** 使用：
-
-`GitHub Actions`
 
 网页由 `.github/workflows/pages.yml` 自动部署。
 
@@ -40,20 +56,17 @@
 
 `https://sqdwz.github.io/hainan-airspace/`
 
-当前仓库已设为 **Public**，并已启用 GitHub Pages。
+当前仓库为 Public，已启用 GitHub Pages。
 
-## 当前文件
+## 手动备用更新
 
-- `index.html`：日报网页
-- `styles.css`：页面样式
-- `app.js`：读取并渲染日报数据
-- `data/latest.json`：最新日报
-- `data/notices.json`：公告去重数据库
-- `data/history/`：历史日报
-- `scripts/update.py`：手动备用检索脚本
-- `.github/workflows/daily-update.yml`：手动备用更新
-- `.github/workflows/pages.yml`：网页自动部署
+仓库保留 Python 检索脚本和手动工作流作为备用，但不会每天自动运行：
 
-## 说明
+- `scripts/update.py`
+- `.github/workflows/daily-update.yml`
 
-公开网页检索可能存在页面未及时收录、网页结构变化、信息提取不完整等情况。该日报用于辅助检查，不替代 UOM 实时空域状态、NOTAM、军民航空管批复及属地审批要求。
+需要时可在 GitHub Actions 中手动触发 `Manual Hainan Airspace Fallback`。
+
+## 合规说明
+
+公开网页检索只能作为辅助监测，不能等同于飞行许可或完整合规判断。实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。
