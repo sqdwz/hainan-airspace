@@ -1,41 +1,47 @@
 # 海南省禁飞及空域管制公告日报
 
-固定网页展示海南省范围内禁飞、临时禁飞、低慢小航空器和空域管制公开信息。
+一个静态网页，用于汇总海南省范围内公开发布的禁飞、临时禁飞、低慢小航空器及空域管制信息。
 
 ## 自动更新方式
 
-本项目采用“ChatGPT 定时任务 + GitHub 数据文件”的方式更新，不需要额外服务器。
+本项目不需要额外服务器：
 
-- ChatGPT 定时任务每天北京时间中午检查海南禁飞/空域管制公开信息。
-- 检索后直接更新本仓库 `data/latest.json`。
-- 同时保存 `data/history/YYYY-MM-DD.json` 作为历史日报。
-- 网页固定读取 `data/latest.json`，因此网址不变、内容自动变化。
+- 首页固定读取 `data/latest.json`。
+- GitHub Actions 每天北京时间 12:00 左右运行 `scripts/update.py`。
+- 自动搜索海南相关公开信息并更新数据。
+- 同时保存 `data/history/YYYY-MM-DD.json` 历史快照。
+- `data/notices.json` 用于去重和保留已发现公告。
+- 根据管制时间自动判断“正在生效 / 即将生效 / 已结束”。
+
+## 手动更新
+
+在仓库 **Actions** 页面打开 `Daily Hainan Airspace Update`，点击 **Run workflow**。
 
 ## GitHub Pages
 
-在 GitHub 打开：
+在仓库 **Settings → Pages** 中选择：
 
-`Settings → Pages → Build and deployment → Source: Deploy from a branch`
-
-选择：
-
+- Source: `Deploy from a branch`
 - Branch: `main`
 - Folder: `/ (root)`
 
-保存后，项目站点通常为：
+启用后固定网址通常为：
 
 `https://sqdwz.github.io/hainan-airspace/`
 
-> GitHub Free 需要公共仓库才能使用 GitHub Pages；GitHub Pro 可从私有仓库发布 Pages。即使仓库为私有，只要 Pages 已发布，Pages 网站本身仍是公开访问的。
+> 当前仓库为 Private。GitHub Pages 对私有仓库的支持取决于 GitHub 账户方案；如果使用 GitHub Free，最省事的方式是将该仓库改为 Public。
 
 ## 当前文件
 
 - `index.html`：日报网页
 - `styles.css`：页面样式
 - `app.js`：读取并渲染日报数据
-- `data/latest.json`：当前最新日报
-- `data/history/`：每日历史快照
+- `data/latest.json`：最新日报
+- `data/notices.json`：公告去重数据库
+- `data/history/`：历史日报
+- `scripts/update.py`：每日检索与状态判断脚本
+- `.github/workflows/daily-update.yml`：每日自动运行配置
 
 ## 说明
 
-本项目用于公开信息汇总和飞行前辅助检查，不替代 UOM 实时空域状态、NOTAM、军民航空管批复及属地公安/空管要求。
+该项目依赖公开网页及搜索结果，可能存在网页未及时收录、页面结构变化或信息提取不完整的情况。实际无人机飞行前仍应核对 UOM、NOTAM、相关空管及属地审批要求。
