@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#f4f7fb" />
+  <title>海南省禁飞及空域管制公告日报</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <main class="shell">
+    <header class="hero">
+      <div class="title-row">
+        <span class="plane" aria-hidden="true">✈</span>
+        <div>
+          <h1>海南省禁飞及空域管制公告日报</h1>
+          <p id="meta">正在读取最新数据…</p>
+        </div>
+      </div>
+    </header>
+
+    <section id="summary" class="summary-card" aria-live="polite"></section>
+
+    <section class="stats" id="stats"></section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>当前生效 / 新发布的管制</h2>
+        <button id="refreshBtn" type="button">刷新</button>
+      </div>
+      <div id="activeList" class="notice-list"></div>
+    </section>
+
+    <section class="section">
+      <div class="section-head">
+        <h2>近期已结束</h2>
+      </div>
+      <div id="endedList" class="notice-list"></div>
+    </section>
+
+    <section class="section sources-section">
+      <div class="section-head">
+        <h2>检索来源</h2>
+      </div>
+      <div id="sourceList" class="source-list"></div>
+    </section>
+
+    <footer>
+      <p>公开信息辅助核查，不替代 UOM、NOTAM 或军民航空管实时审批结果。</p>
+      <p><a href="./data/latest.json" target="_blank" rel="noopener">查看 latest.json</a></p>
+    </footer>
+  </main>
+  <script src="./app.js" defer></script>
+</body>
+</html>
