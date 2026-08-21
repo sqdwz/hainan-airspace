@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21 18:50",
+  "generated_at": "2026-08-21 20:19",
   "date": "2026-08-21",
   "summary": {
     "new": 0,
@@ -26,15 +26,31 @@
       "first_seen": "2026-08-21"
     }
   ],
+  "ended_recent": [],
+  "typhoon": {
+    "updated_at": "2026-08-21 20:19",
+    "status": "active",
+    "affects_hainan": true,
+    "system_type": "热带低压",
+    "name": "南海热带低压",
+    "headline": "南海热带低压继续影响海南",
+    "source_time": "2026-08-20 18:00",
+    "summary": "中央气象台8月20日18时天气公报指出，未来三天受南海热带低压和西南季风共同影响，南海海域及华南南部有持续风雨天气；海南当天已出现强降雨。该栏仅跟踪台风及热带气旋系统，不纳入普通雷雨或一般天气预报。",
+    "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm?v=2026073108",
+    "publisher": "中央气象台"
+  },
   "sources": [
-    {"name": "中国民航局（CAAC）", "ok": true},
+    {"name": "中国民航局（CAAC）/民航海南监管公开信息", "ok": true},
     {"name": "海南省人民政府", "ok": true},
+    {"name": "海南省公安 / 应急管理公开信息", "ok": true},
     {"name": "文昌市人民政府", "ok": true},
     {"name": "海口市人民政府", "ok": true},
     {"name": "三亚市人民政府", "ok": true},
     {"name": "琼海市人民政府", "ok": true},
-    {"name": "民航海南安全监督管理局", "ok": true},
-    {"name": "海口美兰 / 三亚凤凰 / 琼海博鳌机场公开信息", "ok": true},
-    {"name": "新闻媒体补充检索", "ok": true}
-  ]
+    {"name": "澄迈县人民政府", "ok": true},
+    {"name": "美兰 / 凤凰 / 博鳌及海南机场公开信息", "ok": true},
+    {"name": "海南日报 / 南海网 / 海南广电等媒体补充", "ok": true},
+    {"name": "中央气象台 / 中国气象局台风信息", "ok": true}
+  ],
+  "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
 }
