@@ -12,6 +12,7 @@
 - 同时保存 `data/history/YYYY-MM-DD.json` 历史快照。
 - `data/notices.json` 用于去重和保留已发现公告。
 - 根据管制时间自动判断“正在生效 / 即将生效 / 已结束”。
+- 每次 `main` 分支更新后，`pages.yml` 会重新发布网页。
 
 ## 手动更新
 
@@ -19,13 +20,13 @@
 
 ## GitHub Pages
 
-在仓库 **Settings → Pages** 中选择：
+在仓库 **Settings → Pages** 中，将 **Build and deployment → Source** 设为：
 
-- Source: `Deploy from a branch`
-- Branch: `main`
-- Folder: `/ (root)`
+`GitHub Actions`
 
-启用后固定网址通常为：
+之后网页会由 `.github/workflows/pages.yml` 自动部署。
+
+固定网址通常为：
 
 `https://sqdwz.github.io/hainan-airspace/`
 
@@ -40,7 +41,8 @@
 - `data/notices.json`：公告去重数据库
 - `data/history/`：历史日报
 - `scripts/update.py`：每日检索与状态判断脚本
-- `.github/workflows/daily-update.yml`：每日自动运行配置
+- `.github/workflows/daily-update.yml`：每日自动检索
+- `.github/workflows/pages.yml`：网页自动部署
 
 ## 说明
 
