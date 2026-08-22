@@ -23,7 +23,7 @@ function statusLabel(status){
 
 function sourceLabel(n){
   if(n.source_label) return n.source_label;
-  return ({official:'官方发布',media_repost:'媒体转载',media_report:'媒体发布'})[n.source_type] || '来源待核验';
+  return ({official:'官方发布',media_repost:'权威转载',media_report:'媒体发布'})[n.source_type] || '来源待核验';
 }
 
 function sourceTagClass(n){
@@ -95,12 +95,39 @@ function buildSummaryHtml(data){
   return `<div class="summary-primary">${primary}</div><div class="summary-warning">${warning}</div>`;
 }
 
+function normalizedLinks(n){
+  const raw = Array.isArray(n.links) && n.links.length
+    ? n.links
+    : (n.url ? [{name: n.source_type === 'official' ? '查看官方通告' : '查看通告', url:n.url, type:n.source_type === 'official' ? 'official' : 'legacy', rank:n.source_type === 'official' ? 1 : 99}] : []);
+
+  const seen = new Set();
+  const links = raw
+    .filter(item => item && item.url && !seen.has(item.url) && seen.add(item.url))
+    .map(item => ({...item, rank:Number.isFinite(Number(item.rank)) ? Number(item.rank) : 99}))
+    .sort((a,b) => a.rank - b.rank);
+
+  const officialLinks = links.filter(item => item.type === 'official' || item.rank === 1);
+  if(officialLinks.length) return {official:true, links:officialLinks.slice(0,1)};
+  return {official:false, links:links.slice(0,4)};
+}
+
+function renderNoticeLinks(n){
+  const group = normalizedLinks(n);
+  if(!group.links.length) return {label:'通告链接', html:'暂无'};
+  const html = `<div class="notice-links">${group.links.map((link,index) => {
+    const text = link.name || (index === 0 ? '查看通告' : `来源${index+1}`);
+    return `<a class="notice-link ${index === 0 ? 'is-primary' : ''}" href="${esc(link.url)}" target="_blank" rel="noopener">${index === 0 && !group.official ? '<span class="link-star">★</span>' : ''}${esc(text)}<span class="link-arrow">↗</span></a>`;
+  }).join('')}</div>`;
+  return {label:group.official ? '通告链接' : '相关链接', html};
+}
+
 function renderNotice(n){
   const cls = ['notice', n.status || 'unknown'].join(' ');
   const tags = [
     `<span class="tag source-label ${sourceTagClass(n)}">${esc(sourceLabel(n))}</span>`,
     `<span class="tag ${esc(n.status || '')}">${statusLabel(n.status)}</span>`
   ];
+  const linkGroup = renderNoticeLinks(n);
   return `<article class="${cls}">
     <div class="notice-top">
       <div class="notice-title">${esc(n.title)}</div>
@@ -111,7 +138,7 @@ function renderNotice(n){
       <tr><th>发布日期</th><td>${esc(n.publish_date || '未识别')}</td></tr>
       <tr><th>管制区域</th><td>${esc(n.area || '原文未明确提取')}</td></tr>
       <tr><th>管制时段</th><td>${esc(n.time_text || `${fmtTime(n.start_time)} — ${fmtTime(n.end_time)}`)}</td></tr>
-      <tr><th>通告链接</th><td>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">查看通告</a>` : '暂无'}</td></tr>
+      <tr><th>${linkGroup.label}</th><td>${linkGroup.html}</td></tr>
       <tr><th>摘要</th><td>${esc(n.summary || '暂无摘要')}</td></tr>
     </table>
   </article>`;
