@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-21 20:19",
+  "updated_at": "2026-08-22 11:13",
   "notices": [
     {
       "id": "wenchang-20260817-001",
@@ -16,6 +16,22 @@
       "url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
       "source_type": "official",
       "first_seen": "2026-08-21"
+    },
+    {
+      "id": "baoting-20260816-001",
+      "title": "关于对无人机等“低慢小”航空器进行临时飞行管制的通告",
+      "publisher": "保亭黎族苗族自治县人民政府",
+      "publish_date": "2026-08-16",
+      "area": "保亭县保城镇县城区域",
+      "start_time": "2026-08-17T00:00:00+08:00",
+      "end_time": "2026-08-22T23:59:59+08:00",
+      "time_text": "2026-08-17 至 2026-08-22（原文未明确具体时刻，按自然日辅助判断）",
+      "status": "active",
+      "is_new_today": false,
+      "summary": "为保障2026年海南七仙温泉嬉水节活动安全，保亭县保城镇县城区域对无人机等“低慢小”航空器实施临时飞行管制。原文仅写明8月17日至22日，未明确每日具体起止时刻；官方原文暂未被搜索引擎稳定检索到，当前链接为明确标注来源为保亭黎族苗族自治县人民政府的民航行业媒体转载。",
+      "url": "https://www.ccaonline.cn/tongyong/tyhot/1226016.html",
+      "source_type": "media_repost",
+      "first_seen": "2026-08-22"
     }
   ]
 }
