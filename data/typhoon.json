@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-08-21 20:19",
+  "updated_at": "2026-08-22 12:03",
   "status": "active",
   "affects_hainan": true,
-  "system_type": "热带低压",
-  "name": "南海热带低压",
-  "headline": "南海热带低压继续影响海南",
-  "source_time": "2026-08-20 18:00",
-  "summary": "中央气象台8月20日18时天气公报指出，未来三天受南海热带低压和西南季风共同影响，南海海域及华南南部有持续风雨天气；海南当天已出现强降雨。该栏仅跟踪台风及热带气旋系统，不纳入普通雷雨或一般天气预报。",
-  "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm?v=2026073108",
-  "publisher": "中央气象台",
+  "system_type": "热带风暴级",
+  "name": "第19号台风",
+  "headline": "第19号台风继续影响北部湾及海南沿海",
+  "source_time": "2026-08-22 08:00",
+  "summary": "北部湾热带低压已于8月21日下午加强为今年第19号台风（热带风暴级）。8月22日早晨该系统仍在北部湾活动并将继续回旋、缓慢加强；受其影响，海南岛沿海仍有较大风力，海南岛西部等地仍需防范持续降雨。",
+  "source_url": "https://www.nmc.cn/publish/alarm/45000041600200_20260822080835.html",
+  "publisher": "中国气象局中央气象台平台 / 广西壮族自治区气象台",
   "note": "飞行安全仍应以 UOM、NOTAM、空管审批及属地临时管制为准。"
 }
