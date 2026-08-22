@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-22 11:31",
+  "generated_at": "2026-08-22 12:03",
   "date": "2026-08-22",
   "summary": {
-    "new": 1,
+    "new": 0,
     "active": 2,
     "upcoming": 0,
     "ended": 0
   },
-  "message": "本次巡检发现1条新增的禁飞/空域管制公告",
+  "message": "本次巡检未发现新增的禁飞/空域管制公告",
   "notices": [
     {
       "id": "wenchang-20260817-001",
@@ -39,7 +39,7 @@
       "time_text": "2026-08-17 至 2026-08-22（原文未明确具体时刻，按自然日辅助判断）",
       "status": "active",
       "is_new_today": false,
-      "is_new_scan": true,
+      "is_new_scan": false,
       "summary": "为保障七仙温泉嬉水节（8月17–22日）安全，对保城镇县城区域实施低慢小航空器临时管制；应急/安保/警务等飞行须向公安机关备案并经批准。备案联系人：黄警官 18889905989。",
       "brief": "保亭县保城镇县城区域低慢小航空器管制持续至8月22日当天结束",
       "url": "https://www.ccaonline.cn/tongyong/tyhot/1226016.html",
@@ -54,23 +54,23 @@
   ],
   "ended_recent": [],
   "typhoon": {
-    "updated_at": "2026-08-21 20:19",
+    "updated_at": "2026-08-22 12:03",
     "status": "active",
     "affects_hainan": true,
-    "system_type": "热带低压",
-    "name": "南海热带低压",
-    "headline": "南海热带低压继续影响海南",
-    "source_time": "2026-08-20 18:00",
-    "summary": "中央气象台8月20日18时天气公报指出，未来三天受南海热带低压和西南季风共同影响，南海海域及华南南部有持续风雨天气；海南当天已出现强降雨。该栏仅跟踪台风及热带气旋系统，不纳入普通雷雨或一般天气预报。",
-    "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm?v=2026073108",
-    "publisher": "中央气象台"
+    "system_type": "热带风暴级",
+    "name": "第19号台风",
+    "headline": "第19号台风继续影响北部湾及海南沿海",
+    "source_time": "2026-08-22 08:00",
+    "summary": "北部湾热带低压已于8月21日下午加强为今年第19号台风（热带风暴级）。8月22日早晨该系统仍在北部湾活动并将继续回旋、缓慢加强；受其影响，海南岛沿海仍有较大风力，海南岛西部等地仍需防范持续降雨。",
+    "source_url": "https://www.nmc.cn/publish/alarm/45000041600200_20260822080835.html",
+    "publisher": "中国气象局中央气象台平台 / 广西壮族自治区气象台"
   },
   "sources": [
     {"name": "中国民航局（CAAC）/ 民航海南监管公开信息", "ok": true},
     {"name": "海南省人民政府 / 公安 / 应急公开信息", "ok": true},
-    {"name": "海南19个市县逐一巡检（新策略已启用，等待下一次完整任务执行）", "ok": false},
+    {"name": "海南19个市县逐一巡检", "ok": true},
     {"name": "美兰 / 凤凰 / 博鳌及海南机场公开信息", "ok": true},
-    {"name": "海南日报 / 南海网 / 海南广电 / 民用航空资讯网等媒体补充", "ok": true},
+    {"name": "海南日报 / 南海网 / 海南广电 / 民航行业媒体等补充", "ok": true},
     {"name": "中央气象台 / 中国气象局 / 海南气象台风信息", "ok": true}
   ],
   "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
