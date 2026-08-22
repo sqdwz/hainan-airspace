@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22 12:03",
+  "generated_at": "2026-08-22 12:34",
   "date": "2026-08-22",
   "summary": {
     "new": 0,
@@ -13,6 +13,7 @@
       "id": "wenchang-20260817-001",
       "title": "关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
       "publisher": "文昌市人民政府",
+      "origin_publisher": "文昌市人民政府",
       "publish_date": "2026-08-17",
       "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区域；文昌市其他区域限制可能影响飞行安全的空飘物",
       "start_time": "2026-08-19T07:00:00+08:00",
@@ -24,6 +25,16 @@
       "summary": "为保障相关重大活动期间空域安全，8月19日07:00至24日12:00对龙楼镇、东郊镇、文教镇全域实施禁飞管制，禁止无人机、航模、轻型航空器及相关空飘物飞行或施放；应急飞行须按规定审批报备。",
       "brief": "文昌市龙楼/东郊/文教三镇核心禁飞持续至8月24日12时；如在周边区域作业，应核对行政边界与飞行范围，避免误入管制区",
       "url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
+      "primary_url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
+      "links": [
+        {
+          "name": "文昌市人民政府",
+          "url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
+          "type": "official",
+          "rank": 1,
+          "reposts_official": false
+        }
+      ],
       "source_type": "official",
       "source_label": "官方发布",
       "first_seen": "2026-08-21"
@@ -32,6 +43,7 @@
       "id": "baoting-20260816-001",
       "title": "关于对无人机等“低慢小”航空器进行临时飞行管制的通告",
       "publisher": "保亭黎族苗族自治县人民政府",
+      "origin_publisher": "保亭黎族苗族自治县人民政府",
       "publish_date": "2026-08-16",
       "area": "保亭县保城镇县城区域",
       "start_time": "2026-08-17T00:00:00+08:00",
@@ -42,9 +54,26 @@
       "is_new_scan": false,
       "summary": "为保障七仙温泉嬉水节（8月17–22日）安全，对保城镇县城区域实施低慢小航空器临时管制；应急/安保/警务等飞行须向公安机关备案并经批准。备案联系人：黄警官 18889905989。",
       "brief": "保亭县保城镇县城区域低慢小航空器管制持续至8月22日当天结束",
-      "url": "https://www.ccaonline.cn/tongyong/tyhot/1226016.html",
+      "url": "https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
+      "primary_url": "https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
+      "links": [
+        {
+          "name": "中国新闻网海南",
+          "url": "https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
+          "type": "central_media",
+          "rank": 2,
+          "reposts_official": true
+        },
+        {
+          "name": "民用航空资讯网",
+          "url": "https://www.ccaonline.cn/tongyong/tyhot/1226016.html",
+          "type": "aviation_media",
+          "rank": 5,
+          "reposts_official": true
+        }
+      ],
       "source_type": "media_repost",
-      "source_label": "媒体转载",
+      "source_label": "权威转载",
       "contact": {
         "name": "黄警官",
         "phone": "18889905989"
