@@ -10,6 +10,13 @@ function fmtTime(v){
   return new Intl.DateTimeFormat('zh-CN',{timeZone:'Asia/Shanghai',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hour12:false}).format(d).replaceAll('/','-');
 }
 
+function formatMonthDay(v){
+  if(!v) return '今日';
+  const parts = String(v).split('-');
+  if(parts.length < 3) return v;
+  return `${Number(parts[1])}月${Number(parts[2])}日`;
+}
+
 function statusLabel(status){
   return ({active:'正在生效',upcoming:'即将生效',ended:'已结束',new:'新发布',unknown:'待核验'})[status] || '待核验';
 }
@@ -36,6 +43,56 @@ function esc(s=''){
     if(c === '"') return '&quot;';
     return '&#39;';
   });
+}
+
+function cleanBrief(s=''){
+  return String(s).trim().replace(/[。；;，,\s]+$/g, '');
+}
+
+function fallbackBrief(n){
+  if(n.status !== 'active') return '';
+  const area = n.area || n.publisher || '相关区域';
+  const end = n.end_time ? fmtTime(n.end_time) : '';
+  if(end && !end.includes('未明确')) return `${area}管制持续至${end}`;
+  return `${area}当前仍处于管制有效期内`;
+}
+
+function noticeBrief(n){
+  return cleanBrief(n.brief || fallbackBrief(n));
+}
+
+function buildSummaryHtml(data){
+  const s = data.summary || {};
+  const newCount = s.new || 0;
+  const active = s.active || 0;
+  const upcoming = s.upcoming || 0;
+
+  let primary = newCount
+    ? `本次巡检发现 <strong>${newCount} 条</strong> 新增管制公告。`
+    : '本次巡检未发现新增管制公告。';
+
+  const stateParts = [];
+  if(active > 0) stateParts.push(`当前仍有 <strong>${active} 条</strong> 管制生效`);
+  if(upcoming > 0) stateParts.push(`另有 <strong>${upcoming} 条</strong> 即将生效`);
+  if(stateParts.length) primary += `${stateParts.join('，')}。`;
+
+  const allNotices = [...(data.notices || []), ...(data.ended_recent || [])];
+  const todayPublished = allNotices.filter(n => n.publish_date === data.date || n.is_new_today === true);
+  const dayLabel = formatMonthDay(data.date);
+  const activeNotices = (data.notices || []).filter(n => n.status === 'active');
+
+  let warning = todayPublished.length
+    ? `⚠️ 今日（${dayLabel}）发现 <strong>${todayPublished.length} 条</strong> 海南省新发布的禁飞/空域管制公告。`
+    : `⚠️ 今日（${dayLabel}）未发现海南省新发布的禁飞/空域管制公告。`;
+
+  const highlights = activeNotices.map(noticeBrief).filter(Boolean);
+  if(highlights.length){
+    warning += todayPublished.length
+      ? ` 当前仍需重点关注：${highlights.join('；')}。`
+      : ` 但以下既有管制措施仍在有效期内，需特别留意：${highlights.join('；')}。`;
+  }
+
+  return `<div class="summary-primary">${primary}</div><div class="summary-warning">${warning}</div>`;
 }
 
 function renderNotice(n){
@@ -142,13 +199,7 @@ function renderStats(data){
 function render(data){
   latestData = data;
   $('#meta').textContent = `生成时间：${data.generated_at || '未知'} ｜ 数据范围：海南省禁飞、临时空域管制与台风影响公开信息`;
-  const s = data.summary || {};
-  const newCount = s.new || 0;
-  const active = s.active || 0;
-  const upcoming = s.upcoming || 0;
-  $('#summary').innerHTML = newCount
-    ? `本次巡检发现 <strong>${newCount} 条</strong> 新增管制公告。当前仍有 <strong>${active} 条</strong> 管制生效，另有 <strong>${upcoming} 条</strong> 即将生效。`
-    : `本次巡检未发现新增的禁飞/空域管制公告。当前仍有 <strong>${active} 条</strong> 管制生效，另有 <strong>${upcoming} 条</strong> 即将生效。`;
+  $('#summary').innerHTML = buildSummaryHtml(data);
 
   renderStats(data);
   renderNoticeLists(data);
