@@ -1,0 +1,63 @@
+{
+  "generated_at": "2026-08-22 11:13",
+  "date": "2026-08-22",
+  "summary": {
+    "new": 0,
+    "active": 2,
+    "upcoming": 0,
+    "ended": 0
+  },
+  "message": "今日未发现海南省新的禁飞/空域管制公告",
+  "notices": [
+    {
+      "id": "wenchang-20260817-001",
+      "title": "关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-08-17",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区域；文昌市其他区域限制可能影响飞行安全的空飘物",
+      "start_time": "2026-08-19T07:00:00+08:00",
+      "end_time": "2026-08-24T12:00:00+08:00",
+      "time_text": "2026-08-19 07:00 — 2026-08-24 12:00",
+      "status": "active",
+      "is_new_today": false,
+      "summary": "管制期间龙楼、东郊、文教三镇禁止无人机、航空模型、轻型航空器及相关空飘物飞行或施放，应急飞行须按规定审批报备。",
+      "url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
+      "source_type": "official",
+      "first_seen": "2026-08-21"
+    },
+    {
+      "id": "baoting-20260816-001",
+      "title": "关于对无人机等“低慢小”航空器进行临时飞行管制的通告",
+      "publisher": "保亭黎族苗族自治县人民政府",
+      "publish_date": "2026-08-16",
+      "area": "保亭县保城镇县城区域",
+      "start_time": "2026-08-17T00:00:00+08:00",
+      "end_time": "2026-08-22T23:59:59+08:00",
+      "time_text": "2026-08-17 至 2026-08-22（原文未明确具体时刻，按自然日辅助判断）",
+      "status": "active",
+      "is_new_today": false,
+      "summary": "为保障2026年海南七仙温泉嬉水节活动安全，保亭县保城镇县城区域对无人机等“低慢小”航空器实施临时飞行管制。原文仅写明8月17日至22日，未明确每日具体起止时刻；官方原文暂未被搜索引擎稳定检索到，当前链接为明确标注来源为保亭黎族苗族自治县人民政府的民航行业媒体转载。",
+      "url": "https://www.ccaonline.cn/tongyong/tyhot/1226016.html",
+      "source_type": "media_repost",
+      "first_seen": "2026-08-22"
+    }
+  ],
+  "ended_recent": [],
+  "typhoon": {
+    "updated_at": "2026-08-21 20:19",
+    "status": "active",
+    "affects_hainan": true,
+    "system_type": "热带低压",
+    "name": "南海热带低压",
+    "headline": "南海热带低压继续影响海南",
+    "source_time": "2026-08-20 18:00",
+    "summary": "中央气象台8月20日18时天气公报指出，未来三天受南海热带低压和西南季风共同影响，南海海域及华南南部有持续风雨天气；海南当天已出现强降雨。该栏仅跟踪台风及热带气旋系统，不纳入普通雷雨或一般天气预报。",
+    "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm?v=2026073108",
+    "publisher": "中央气象台"
+  },
+  "sources": [
+    {"name": "海南19个市县逐一巡检（新策略已启用，等待下一次完整任务执行）", "ok": false},
+    {"name": "保亭黎族苗族自治县人民政府相关通告（民航行业媒体转载核验）", "ok": true}
+  ],
+  "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
+}
