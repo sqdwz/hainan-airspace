@@ -1,5 +1,8 @@
 const $ = (s) => document.querySelector(s);
 
+let latestData = null;
+let activeFilter = null;
+
 function fmtTime(v){
   if(!v) return '未明确';
   const d = new Date(v);
@@ -9,6 +12,20 @@ function fmtTime(v){
 
 function statusLabel(status){
   return ({active:'正在生效',upcoming:'即将生效',ended:'已结束',new:'新发布',unknown:'待核验'})[status] || '待核验';
+}
+
+function sourceLabel(n){
+  if(n.source_label) return n.source_label;
+  return ({official:'官方发布',media_repost:'媒体转载',media_report:'媒体发布'})[n.source_type] || '来源待核验';
+}
+
+function sourceTagClass(n){
+  return ({official:'source-official',media_repost:'source-repost',media_report:'source-media'})[n.source_type] || 'source-unknown';
+}
+
+function isScanNew(n){
+  if(typeof n.is_new_scan === 'boolean') return n.is_new_scan;
+  return n.is_new_today === true;
 }
 
 function esc(s=''){
@@ -23,9 +40,10 @@ function esc(s=''){
 
 function renderNotice(n){
   const cls = ['notice', n.status || 'unknown'].join(' ');
-  const tags = [];
-  if(n.is_new_today) tags.push('<span class="tag">今日新发布</span>');
-  tags.push(`<span class="tag ${esc(n.status || '')}">${statusLabel(n.status)}</span>`);
+  const tags = [
+    `<span class="tag source-label ${sourceTagClass(n)}">${esc(sourceLabel(n))}</span>`,
+    `<span class="tag ${esc(n.status || '')}">${statusLabel(n.status)}</span>`
+  ];
   return `<article class="${cls}">
     <div class="notice-top">
       <div class="notice-title">${esc(n.title)}</div>
@@ -36,7 +54,7 @@ function renderNotice(n){
       <tr><th>发布日期</th><td>${esc(n.publish_date || '未识别')}</td></tr>
       <tr><th>管制区域</th><td>${esc(n.area || '原文未明确提取')}</td></tr>
       <tr><th>管制时段</th><td>${esc(n.time_text || `${fmtTime(n.start_time)} — ${fmtTime(n.end_time)}`)}</td></tr>
-      <tr><th>原文链接</th><td>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">打开原文</a>` : '暂无'}</td></tr>
+      <tr><th>通告链接</th><td>${n.url ? `<a href="${esc(n.url)}" target="_blank" rel="noopener">查看通告</a>` : '暂无'}</td></tr>
       <tr><th>摘要</th><td>${esc(n.summary || '暂无摘要')}</td></tr>
     </table>
   </article>`;
@@ -54,27 +72,86 @@ function renderTyphoon(t){
   </div>`;
 }
 
+function matchesFilter(n, filter){
+  if(!filter) return true;
+  if(filter === 'scan-new') return isScanNew(n);
+  return n.status === filter;
+}
+
+function emptyText(filter){
+  return ({
+    'scan-new':'本次巡检暂无新增公告。',
+    active:'当前暂无正在生效的公告。',
+    upcoming:'当前暂无即将生效的公告。',
+    ended:'暂无近期结束记录。'
+  })[filter] || '暂无符合条件的公告。';
+}
+
+function renderNoticeLists(data){
+  const current = data.notices || [];
+  const ended = data.ended_recent || [];
+  const activeSection = $('#activeList')?.closest('.section');
+  const endedSection = $('#endedList')?.closest('.section');
+
+  if(!activeFilter){
+    if(activeSection) activeSection.style.display = '';
+    if(endedSection) endedSection.style.display = '';
+    $('#activeList').innerHTML = current.length ? current.map(renderNotice).join('') : '<div class="empty">当前未发现生效中或即将生效的公开管制公告。</div>';
+    $('#endedList').innerHTML = ended.length ? ended.map(renderNotice).join('') : '<div class="empty">暂无近期结束记录。</div>';
+    return;
+  }
+
+  const currentMatches = current.filter(n => matchesFilter(n, activeFilter));
+  const endedMatches = ended.filter(n => matchesFilter(n, activeFilter));
+
+  if(currentMatches.length){
+    if(activeSection) activeSection.style.display = '';
+    $('#activeList').innerHTML = currentMatches.map(renderNotice).join('');
+  }else if(activeFilter !== 'ended' && !endedMatches.length){
+    if(activeSection) activeSection.style.display = '';
+    $('#activeList').innerHTML = `<div class="empty">${emptyText(activeFilter)}</div>`;
+  }else if(activeSection){
+    activeSection.style.display = 'none';
+  }
+
+  if(endedMatches.length){
+    if(endedSection) endedSection.style.display = '';
+    $('#endedList').innerHTML = endedMatches.map(renderNotice).join('');
+  }else if(activeFilter === 'ended'){
+    if(endedSection) endedSection.style.display = '';
+    $('#endedList').innerHTML = `<div class="empty">${emptyText(activeFilter)}</div>`;
+  }else if(endedSection){
+    endedSection.style.display = 'none';
+  }
+}
+
+function renderStats(data){
+  const s = data.summary || {};
+  const stats = [
+    {key:'scan-new',label:'本次巡检新增',value:s.new || 0},
+    {key:'active',label:'当前生效',value:s.active || 0},
+    {key:'upcoming',label:'即将生效',value:s.upcoming || 0},
+    {key:'ended',label:'近期结束',value:s.ended || 0}
+  ];
+  $('#stats').innerHTML = stats.map(item => `
+    <button type="button" class="stat ${activeFilter === item.key ? 'is-selected' : ''}" data-filter="${item.key}" aria-pressed="${activeFilter === item.key}" title="点击筛选，再次点击取消筛选">
+      <b>${item.value}</b><span>${item.label}</span>
+    </button>`).join('');
+}
+
 function render(data){
+  latestData = data;
   $('#meta').textContent = `生成时间：${data.generated_at || '未知'} ｜ 数据范围：海南省禁飞、临时空域管制与台风影响公开信息`;
   const s = data.summary || {};
   const newCount = s.new || 0;
   const active = s.active || 0;
   const upcoming = s.upcoming || 0;
   $('#summary').innerHTML = newCount
-    ? `今日发现 <strong>${newCount} 条</strong> 新发布的管制公告。当前仍有 <strong>${active} 条</strong> 管制生效，另有 <strong>${upcoming} 条</strong> 即将生效。`
-    : `今日未发现海南省新的禁飞/空域管制公告。当前仍有 <strong>${active} 条</strong> 管制生效，另有 <strong>${upcoming} 条</strong> 即将生效。`;
+    ? `本次巡检发现 <strong>${newCount} 条</strong> 新增管制公告。当前仍有 <strong>${active} 条</strong> 管制生效，另有 <strong>${upcoming} 条</strong> 即将生效。`
+    : `本次巡检未发现新增的禁飞/空域管制公告。当前仍有 <strong>${active} 条</strong> 管制生效，另有 <strong>${upcoming} 条</strong> 即将生效。`;
 
-  const stats = [
-    ['今日新增', newCount],['当前生效', active],['即将生效', upcoming],['近期结束', s.ended || 0]
-  ];
-  $('#stats').innerHTML = stats.map(([k,v]) => `<div class="stat"><b>${v}</b><span>${k}</span></div>`).join('');
-
-  const notices = data.notices || [];
-  $('#activeList').innerHTML = notices.length ? notices.map(renderNotice).join('') : '<div class="empty">当前未发现生效中或即将生效的公开管制公告。</div>';
-
-  const ended = data.ended_recent || [];
-  $('#endedList').innerHTML = ended.length ? ended.map(renderNotice).join('') : '<div class="empty">暂无近期结束记录。</div>';
-
+  renderStats(data);
+  renderNoticeLists(data);
   $('#typhoonBox').innerHTML = renderTyphoon(data.typhoon);
 
   $('#sourceList').innerHTML = (data.sources || []).map(src => `<div class="source ${src.ok === false ? 'warn':''}"><span>${esc(src.name)}</span><span>${src.ok === false ? '需复核' : '已检索'}</span></div>`).join('');
@@ -90,6 +167,15 @@ async function load(){
     $('#activeList').innerHTML = '<div class="empty">请稍后刷新页面。</div>';
   }
 }
+
+$('#stats')?.addEventListener('click', (event) => {
+  const card = event.target.closest('.stat[data-filter]');
+  if(!card || !latestData) return;
+  const selected = card.dataset.filter;
+  activeFilter = activeFilter === selected ? null : selected;
+  renderStats(latestData);
+  renderNoticeLists(latestData);
+});
 
 $('#refreshBtn')?.addEventListener('click', load);
 load();
