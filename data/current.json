@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-22 11:13",
+  "updated_at": "2026-08-22 11:26",
   "notices": [
     {
       "id": "wenchang-20260817-001",
@@ -12,9 +12,11 @@
       "time_text": "2026-08-19 07:00 — 2026-08-24 12:00",
       "status": "active",
       "is_new_today": false,
-      "summary": "管制期间龙楼、东郊、文教三镇禁止无人机、航空模型、轻型航空器及相关空飘物飞行或施放，应急飞行须按规定审批报备。",
+      "is_new_scan": false,
+      "summary": "为保障相关重大活动期间空域安全，8月19日07:00至24日12:00对龙楼镇、东郊镇、文教镇全域实施禁飞管制，禁止无人机、航模、轻型航空器及相关空飘物飞行或施放；应急飞行须按规定审批报备。",
       "url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
       "source_type": "official",
+      "source_label": "官方发布",
       "first_seen": "2026-08-21"
     },
     {
@@ -28,9 +30,15 @@
       "time_text": "2026-08-17 至 2026-08-22（原文未明确具体时刻，按自然日辅助判断）",
       "status": "active",
       "is_new_today": false,
-      "summary": "为保障2026年海南七仙温泉嬉水节活动安全，保亭县保城镇县城区域对无人机等“低慢小”航空器实施临时飞行管制。原文仅写明8月17日至22日，未明确每日具体起止时刻；官方原文暂未被搜索引擎稳定检索到，当前链接为明确标注来源为保亭黎族苗族自治县人民政府的民航行业媒体转载。",
+      "is_new_scan": true,
+      "summary": "为保障七仙温泉嬉水节（8月17–22日）安全，对保城镇县城区域实施低慢小航空器临时管制；应急/安保/警务等飞行须向公安机关备案并经批准。备案联系人：黄警官 18889905989。",
       "url": "https://www.ccaonline.cn/tongyong/tyhot/1226016.html",
       "source_type": "media_repost",
+      "source_label": "媒体转载",
+      "contact": {
+        "name": "黄警官",
+        "phone": "18889905989"
+      },
       "first_seen": "2026-08-22"
     }
   ]
