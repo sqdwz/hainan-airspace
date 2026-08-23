@@ -1,0 +1,11 @@
+{
+  "generated_at":"2026-08-23 12:35",
+  "date":"2026-08-23",
+  "summary":{"new":0,"active":1,"upcoming":0,"ended":1},
+  "message":"本次巡检未发现新增的禁飞/空域管制公告。当前仍有1条管制生效。",
+  "active_ids":["wenchang-20260817-001"],
+  "ended_ids":["baoting-20260816-001"],
+  "typhoon":{"status":"active","affects_hainan":true,"name":"第19号台风“紫檀”","system_type":"热带风暴级","source_time":"2026-08-23 08:00"},
+  "sources_complete":true,
+  "compliance_note":"公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
+}
