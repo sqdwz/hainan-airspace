@@ -1,9 +1,10 @@
 {
-  "generated_at": "2026-08-23 12:35",
-  "date": "2026-08-23",
-  "summary": {"new":0,"active":1,"upcoming":0,"ended":1},
-  "message": "本次巡检未发现新增的禁飞/空域管制公告。当前仍有1条管制生效。",
-  "notices": [
+  "generated_at": "2026-08-24 12:01",
+  "date": "2026-08-24",
+  "summary": {"new":0,"active":0,"upcoming":0,"ended":2},
+  "message": "本次巡检未发现新增的禁飞/空域管制公告。当前未发现仍在生效或即将生效的公开管制公告。",
+  "notices": [],
+  "ended_recent": [
     {
       "id":"wenchang-20260817-001",
       "title":"关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
@@ -14,18 +15,16 @@
       "start_time":"2026-08-19T07:00:00+08:00",
       "end_time":"2026-08-24T12:00:00+08:00",
       "time_text":"2026-08-19 07:00 — 2026-08-24 12:00",
-      "status":"active",
+      "status":"ended",
       "is_new_today":false,
       "is_new_scan":false,
       "summary":"为保障相关重大活动期间空域安全，8月19日07:00至24日12:00对龙楼镇、东郊镇、文教镇全域实施禁飞管制，禁止无人机、航模、轻型航空器及相关空飘物飞行或施放；应急飞行须按规定审批报备。",
-      "brief":"文昌市龙楼/东郊/文教三镇核心禁飞持续至8月24日12时；如在周边区域作业，应核对行政边界与飞行范围，避免误入管制区",
+      "brief":"文昌市龙楼/东郊/文教三镇核心禁飞已于8月24日12时结束",
       "url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
       "primary_url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
       "links":[{"name":"文昌市人民政府","url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml","type":"official","rank":1,"reposts_official":false}],
       "source_type":"official","source_label":"官方发布","first_seen":"2026-08-21"
-    }
-  ],
-  "ended_recent": [
+    },
     {
       "id":"baoting-20260816-001",
       "title":"关于对无人机等“低慢小”航空器进行临时飞行管制的通告",
@@ -39,13 +38,23 @@
       "status":"ended","is_new_today":false,"is_new_scan":false,
       "summary":"为保障七仙温泉嬉水节（8月17–22日）安全，对保城镇县城区域实施低慢小航空器临时管制；应急/安保/警务等飞行须向公安机关备案并经批准。备案联系人：黄警官 18889905989。",
       "brief":"保亭县保城镇县城区域低慢小航空器临时管制已于8月22日结束",
+      "url":"https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
       "primary_url":"https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
       "links":[{"name":"中国新闻网海南","url":"https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html","type":"central_media","rank":2,"reposts_official":true},{"name":"民用航空资讯网","url":"https://www.ccaonline.cn/tongyong/tyhot/1226016.html","type":"aviation_media","rank":5,"reposts_official":true}],
-      "source_type":"media_repost","source_label":"权威转载","first_seen":"2026-08-22"
+      "source_type":"media_repost","source_label":"权威转载","contact":{"name":"黄警官","phone":"18889905989"},"first_seen":"2026-08-22"
     }
   ],
   "typhoon": {
-    "updated_at":"2026-08-23 12:35","status":"active","affects_hainan":true,"system_type":"热带风暴级","name":"第19号台风“紫檀”","headline":"台风“紫檀”继续影响北部湾及海南西部","source_time":"2026-08-23 08:00","summary":"中央气象台8月23日08时提示，第19号台风“紫檀”（热带风暴级）仍在北部湾海面回旋，23日傍晚起将向东北转偏北移动并逐渐加强；受其影响，海南岛西部有大到暴雨风险，海南沿海及北部湾需继续防范大风。","source_url":"https://www.nmc.cn/publish/weatherperday/index.htm","publisher":"中国气象局中央气象台"
+    "updated_at":"2026-08-24 12:01",
+    "status":"active",
+    "affects_hainan":true,
+    "system_type":"热带风暴级",
+    "name":"第19号台风“紫檀”",
+    "headline":"台风“紫檀”继续影响北部湾及海南岛西部",
+    "source_time":"2026-08-24 08:00",
+    "summary":"中央气象台8月24日08时提示，第19号台风“紫檀”（热带风暴级）仍在北部湾海面回旋，强度还将有所加强，最强可达强热带风暴级；24日夜间起逐渐向广西沿海至广东雷州半岛西侧一带靠近。受其影响，24日至25日海南岛西部仍有大到暴雨风险，海南北部、西部近岸海域浪高较大。",
+    "source_url":"https://www.nmc.cn/publish/weatherperday/index.htm",
+    "publisher":"中国气象局中央气象台"
   },
   "sources": [
     {"name":"中国民航局（CAAC）/ 民航海南监管公开信息","ok":true},
