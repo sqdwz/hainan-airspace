@@ -1,27 +1,4 @@
 {
-  "updated_at": "2026-08-23 12:35",
-  "notices": [
-    {
-      "id": "wenchang-20260817-001",
-      "title": "关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
-      "publisher": "文昌市人民政府",
-      "origin_publisher": "文昌市人民政府",
-      "publish_date": "2026-08-17",
-      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区域；文昌市其他区域限制可能影响飞行安全的空飘物",
-      "start_time": "2026-08-19T07:00:00+08:00",
-      "end_time": "2026-08-24T12:00:00+08:00",
-      "time_text": "2026-08-19 07:00 — 2026-08-24 12:00",
-      "status": "active",
-      "is_new_today": false,
-      "is_new_scan": false,
-      "summary": "为保障相关重大活动期间空域安全，8月19日07:00至24日12:00对龙楼镇、东郊镇、文教镇全域实施禁飞管制，禁止无人机、航模、轻型航空器及相关空飘物飞行或施放；应急飞行须按规定审批报备。",
-      "brief": "文昌市龙楼/东郊/文教三镇核心禁飞持续至8月24日12时；如在周边区域作业，应核对行政边界与飞行范围，避免误入管制区",
-      "url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
-      "primary_url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
-      "links": [{"name":"文昌市人民政府","url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml","type":"official","rank":1,"reposts_official":false}],
-      "source_type": "official",
-      "source_label": "官方发布",
-      "first_seen": "2026-08-21"
-    }
-  ]
+  "updated_at": "2026-08-24 12:01",
+  "notices": []
 }
