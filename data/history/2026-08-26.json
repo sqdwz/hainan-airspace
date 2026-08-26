@@ -1,0 +1,44 @@
+{
+  "generated_at": "2026-08-26 12:41",
+  "date": "2026-08-26",
+  "summary": {"new":0,"active":1,"upcoming":0,"ended":2},
+  "message": "本次巡检未发现新增管制公告。当前仍有1条管制生效。",
+  "notices": [
+    {
+      "id": "wanning-20260811-balloon-001",
+      "title": "万宁市气象局关于2026年海南省第七届运动会期间停止开展升放气球审批活动的通告",
+      "publisher": "万宁市气象局",
+      "origin_publisher": "万宁市气象局",
+      "publish_date": "2026-08-11",
+      "area": "万宁市行政区域内涉及升放气球审批事项",
+      "start_time": "2026-08-16T00:00:00+08:00",
+      "end_time": "2026-08-26T23:59:59+08:00",
+      "time_text": "2026-08-16 至 2026-08-26（原文未明确具体时刻，按自然日辅助判断）",
+      "status": "active",
+      "is_new_today": false,
+      "is_new_scan": false,
+      "summary": "为保障2026年海南省第七届运动会期间空域交通安全，万宁市气象局自8月16日至26日暂停办理升放气球审批事项；在此期间涉及升放气球活动的单位和个人应停止办理相关审批并避免开展未经许可的升放活动。",
+      "brief": "万宁市省运会期间升放气球审批暂停至8月26日当天结束；涉及空飘物作业应特别留意属地审批状态",
+      "url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
+      "primary_url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
+      "links": [{"name":"万宁市人民政府","url":"https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html","type":"official","rank":1,"reposts_official":false}],
+      "source_type": "official",
+      "source_label": "官方发布",
+      "first_seen": "2026-08-25"
+    }
+  ],
+  "ended_recent": [
+    {"id":"wenchang-20260817-001","title":"关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告","publisher":"文昌市人民政府","origin_publisher":"文昌市人民政府","publish_date":"2026-08-17","area":"文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区域；文昌市其他区域限制可能影响飞行安全的空飘物","start_time":"2026-08-19T07:00:00+08:00","end_time":"2026-08-24T12:00:00+08:00","time_text":"2026-08-19 07:00 — 2026-08-24 12:00","status":"ended","is_new_today":false,"is_new_scan":false,"summary":"为保障相关重大活动期间空域安全，8月19日07:00至24日12:00对龙楼镇、东郊镇、文教镇全域实施禁飞管制，禁止无人机、航模、轻型航空器及相关空飘物飞行或施放；应急飞行须按规定审批报备。","brief":"文昌市龙楼/东郊/文教三镇核心禁飞已于8月24日12时结束","url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml","primary_url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml","links":[{"name":"文昌市人民政府","url":"https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml","type":"official","rank":1,"reposts_official":false}],"source_type":"official","source_label":"官方发布","first_seen":"2026-08-21"},
+    {"id":"baoting-20260816-001","title":"关于对无人机等“低慢小”航空器进行临时飞行管制的通告","publisher":"保亭黎族苗族自治县人民政府","origin_publisher":"保亭黎族苗族自治县人民政府","publish_date":"2026-08-16","area":"保亭县保城镇县城区域","start_time":"2026-08-17T00:00:00+08:00","end_time":"2026-08-22T23:59:59+08:00","time_text":"2026-08-17 至 2026-08-22（原文未明确具体时刻，按自然日辅助判断）","status":"ended","is_new_today":false,"is_new_scan":false,"summary":"为保障七仙温泉嬉水节（8月17–22日）安全，对保城镇县城区域实施低慢小航空器临时管制；应急/安保/警务等飞行须向公安机关备案并经批准。备案联系人：黄警官 18889905989。","brief":"保亭县保城镇县城区域低慢小航空器临时管制已于8月22日结束","url":"https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html","primary_url":"https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html","links":[{"name":"中国新闻网海南","url":"https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html","type":"central_media","rank":2,"reposts_official":true},{"name":"民用航空资讯网","url":"https://www.ccaonline.cn/tongyong/tyhot/1226016.html","type":"aviation_media","rank":5,"reposts_official":true}],"source_type":"media_repost","source_label":"权威转载","contact":{"name":"黄警官","phone":"18889905989"},"first_seen":"2026-08-22"}
+  ],
+  "typhoon": {"updated_at":"2026-08-26 12:41","status":"weakening","affects_hainan":true,"system_type":"热带低压级","name":"第19号台风“紫檀”","headline":"“紫檀”已减弱为热带低压，海南风雨影响逐步减弱","source_time":"2026-08-26 06:00","summary":"第19号台风“紫檀”已于8月25日18时40分前后在海南昌江沿海登陆，26日03时25分前后在广东徐闻沿海再次登陆，并于26日早晨减弱为热带低压。其中心继续向偏北方向移动并减弱，但残余环流仍给海南西北部及近海带来阵雨、局地较强降雨和一定风力影响，整体影响趋于减弱。","source_url":"https://e.weather.com.cn/news/2026/08/4772617.shtml","publisher":"中国天气网 / 中央气象台"},
+  "sources": [
+    {"name":"中国民航局（CAAC）/ 民航海南监管公开信息","ok":true},
+    {"name":"海南省人民政府 / 公安 / 应急公开信息","ok":true},
+    {"name":"海南19个市县逐一巡检","ok":true},
+    {"name":"美兰 / 凤凰 / 博鳌及海南机场公开信息","ok":true},
+    {"name":"海南日报 / 南海网 / 海南广电 / 中国新闻网 / 民航行业媒体等补充","ok":true},
+    {"name":"中央气象台 / 中国气象局 / 海南气象台风信息","ok":true}
+  ],
+  "compliance_note":"公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
+}
