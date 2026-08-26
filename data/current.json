@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-08-25 12:02",
+  "updated_at": "2026-08-26 12:41",
   "notices": [
     {
       "id": "wanning-20260811-balloon-001",
@@ -13,9 +13,9 @@
       "time_text": "2026-08-16 至 2026-08-26（原文未明确具体时刻，按自然日辅助判断）",
       "status": "active",
       "is_new_today": false,
-      "is_new_scan": true,
+      "is_new_scan": false,
       "summary": "为保障2026年海南省第七届运动会期间空域交通安全，万宁市气象局自8月16日至26日暂停办理升放气球审批事项；在此期间涉及升放气球活动的单位和个人应停止办理相关审批并避免开展未经许可的升放活动。",
-      "brief": "万宁市省运会期间升放气球审批暂停至8月26日结束；涉及空飘物作业应特别留意属地审批状态",
+      "brief": "万宁市省运会期间升放气球审批暂停至8月26日当天结束；涉及空飘物作业应特别留意属地审批状态",
       "url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
       "primary_url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
       "links": [
