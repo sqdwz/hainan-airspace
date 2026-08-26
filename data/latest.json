@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-08-25 12:02",
-  "date": "2026-08-25",
-  "summary": {"new":1,"active":1,"upcoming":0,"ended":2},
-  "message": "本次巡检发现1条新增管制公告。当前仍有1条管制生效。",
+  "generated_at": "2026-08-26 12:41",
+  "date": "2026-08-26",
+  "summary": {"new":0,"active":1,"upcoming":0,"ended":2},
+  "message": "本次巡检未发现新增管制公告。当前仍有1条管制生效。",
   "notices": [
     {
       "id": "wanning-20260811-balloon-001",
@@ -16,9 +16,9 @@
       "time_text": "2026-08-16 至 2026-08-26（原文未明确具体时刻，按自然日辅助判断）",
       "status": "active",
       "is_new_today": false,
-      "is_new_scan": true,
+      "is_new_scan": false,
       "summary": "为保障2026年海南省第七届运动会期间空域交通安全，万宁市气象局自8月16日至26日暂停办理升放气球审批事项；在此期间涉及升放气球活动的单位和个人应停止办理相关审批并避免开展未经许可的升放活动。",
-      "brief": "万宁市省运会期间升放气球审批暂停至8月26日结束；涉及空飘物作业应特别留意属地审批状态",
+      "brief": "万宁市省运会期间升放气球审批暂停至8月26日当天结束；涉及空飘物作业应特别留意属地审批状态",
       "url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
       "primary_url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
       "links": [{"name":"万宁市人民政府","url":"https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html","type":"official","rank":1,"reposts_official":false}],
@@ -68,16 +68,16 @@
     }
   ],
   "typhoon": {
-    "updated_at":"2026-08-25 12:02",
-    "status":"active",
+    "updated_at":"2026-08-26 12:41",
+    "status":"weakening",
     "affects_hainan":true,
-    "system_type":"热带风暴级",
+    "system_type":"热带低压级",
     "name":"第19号台风“紫檀”",
-    "headline":"台风“紫檀”继续影响北部湾及海南岛西部",
-    "source_time":"2026-08-25 08:00",
-    "summary":"中央气象台8月25日08时信息显示，第19号台风“紫檀”（热带风暴级）中心仍位于北部湾海面，预计25日夜间至26日白天在广西东南部至广东雷州半岛西侧一带沿海登陆。受其与西南季风共同影响，海南岛西部仍有大到暴雨，其中西北部部分地区可达大暴雨，海南岛沿海及北部湾继续有较大风力。",
-    "source_url":"https://www.nmc.cn/publish/weatherperday/index.htm",
-    "publisher":"中国气象局中央气象台"
+    "headline":"“紫檀”已减弱为热带低压，海南风雨影响逐步减弱",
+    "source_time":"2026-08-26 06:00",
+    "summary":"第19号台风“紫檀”已于8月25日18时40分前后在海南昌江沿海登陆，26日03时25分前后在广东徐闻沿海再次登陆，并于26日早晨减弱为热带低压。其中心继续向偏北方向移动并减弱，但残余环流仍给海南西北部及近海带来阵雨、局地较强降雨和一定风力影响，整体影响趋于减弱。",
+    "source_url":"https://e.weather.com.cn/news/2026/08/4772617.shtml",
+    "publisher":"中国天气网 / 中央气象台"
   },
   "sources": [
     {"name":"中国民航局（CAAC）/ 民航海南监管公开信息","ok":true},
