@@ -1,13 +1,13 @@
 {
-  "updated_at": "2026-09-08 11:12",
+  "updated_at": "2026-09-09 12:01",
   "status": "none",
   "affects_hainan": false,
   "system_type": null,
   "name": null,
   "headline": "当前未发现正在或预计影响海南的热带气旋",
-  "source_time": "2026-09-08 10:00",
-  "summary": "中央气象台9月8日中期天气预报将近期台风影响列入过去天气过程；第18号台风“沙德尔”已于9月3日17时停止编号。本次巡检未发现正在或预计影响海南的台风、热带风暴或热带低压。",
-  "source_url": "https://m.nmc.cn/publish/bulletin/mid-range.htm",
+  "source_time": "2026-09-09 08:00",
+  "summary": "中央气象台最新台风预警页面显示，最近一条台风预警为9月6日10时解除第24号台风“科罗旺”蓝色预警；9月9日沿岸海区预报未显示有正在或预计影响海南的台风、热带风暴或热带低压。本次巡检维持无活动影响状态。",
+  "source_url": "https://www.nmc.cn/publish/typhoon/warning_index.html",
   "publisher": "中央气象台",
   "note": "天气影响不等同于空域管制；飞行安全仍应以 UOM、NOTAM、空管审批及属地临时管制为准。"
 }
