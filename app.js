@@ -145,14 +145,30 @@ function renderNotice(n){
 }
 
 function renderTyphoon(t){
-  if(!t || !t.affects_hainan){
-    return '<div class="typhoon-card quiet"><div class="typhoon-title">当前未发现影响海南的台风或热带气旋系统</div><p>仅跟踪台风、热带低压等热带气旋信息，不展示普通雷雨或一般天气。</p></div>';
+  if(!t || (!t.affects_hainan && !['watch','active'].includes(t.status))){
+    return '<div class="typhoon-card quiet"><div class="typhoon-title">当前未发现影响海南的热带天气系统</div><p>持续跟踪热带扰动、潜在热带气旋、热带低压和已编号台风；普通雷雨单独由气象预警提示。</p></div>';
   }
-  return `<div class="typhoon-card alert">
+
+  const isWatch = t.status === 'watch' || ['disturbance','potential'].includes(t.stage);
+  const cardClass = isWatch ? 'watch' : 'alert';
+  const levelLabel = ({watch:'关注中',advisory:'天气影响',warning:'预警生效'})[t.impact_level] || (isWatch ? '关注中' : '正在影响');
+  const stageLabel = t.system_type || ({disturbance:'热带扰动',potential:'潜在热带气旋',depression:'热带低压',named:'台风'})[t.stage] || '热带天气系统';
+  const hazards = Array.isArray(t.hazards) && t.hazards.length
+    ? `<div class="weather-hazards">${t.hazards.map(item => `<span>${esc(item)}</span>`).join('')}</div>`
+    : '';
+  const links = Array.isArray(t.sources) && t.sources.length
+    ? t.sources
+    : (t.source_url ? [{name:t.publisher || '气象部门',url:t.source_url}] : []);
+  const sourceLinks = links.filter(item => item?.url).map(item => `<a href="${esc(item.url)}" target="_blank" rel="noopener">${esc(item.name || '查看气象原文')} ↗</a>`).join('');
+
+  return `<div class="typhoon-card ${cardClass}">
     <div class="typhoon-title">${esc(t.headline || t.name || '台风系统影响海南')}</div>
-    <div class="typhoon-meta">${esc(t.system_type || '热带气旋')} · ${esc(t.publisher || '气象部门')} · 来源时间 ${esc(t.source_time || '未明确')}</div>
+    <div class="weather-status"><span>${esc(levelLabel)}</span><span>${esc(stageLabel)}</span>${t.named === false ? '<span>尚未编号</span>' : ''}</div>
+    <div class="typhoon-meta">${esc(t.publisher || '气象部门')} · 来源时间 ${esc(t.source_time || '未明确')}${t.forecast_period ? ` · 影响时段 ${esc(t.forecast_period)}` : ''}</div>
     <p>${esc(t.summary || '')}</p>
-    ${t.source_url ? `<a href="${esc(t.source_url)}" target="_blank" rel="noopener">查看气象原文</a>` : ''}
+    ${hazards}
+    ${sourceLinks ? `<div class="weather-links">${sourceLinks}</div>` : ''}
+    ${t.note ? `<div class="weather-note">${esc(t.note)}</div>` : ''}
   </div>`;
 }
 

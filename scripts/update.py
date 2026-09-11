@@ -20,6 +20,7 @@ DATA_DIR = ROOT / "data"
 HISTORY_DIR = DATA_DIR / "history"
 STORE_PATH = DATA_DIR / "notices.json"
 LATEST_PATH = DATA_DIR / "latest.json"
+TYPHOON_PATH = DATA_DIR / "typhoon.json"
 TZ = ZoneInfo("Asia/Shanghai")
 NOW = datetime.now(TZ)
 TODAY = NOW.date()
@@ -74,6 +75,17 @@ QUERY_GROUPS = [
         "文昌 禁飞 无人机",
     ]),
 ]
+
+WEATHER_SOURCES = [
+    ("中央气象台每日天气提示", "https://www.nmc.cn/publish/weatherperday/index.htm"),
+    ("中央气象台天气公报", "https://www.nmc.cn/publish/weather-bulletin/index.htm"),
+    ("中央气象台台风快讯", "https://www.nmc.cn/publish/nwp/index.html"),
+]
+
+WEATHER_SYSTEM_TERMS = (
+    "热带扰动", "低压区", "潜在热带气旋", "热带低压", "热带风暴",
+    "强热带风暴", "台风", "强台风", "超强台风",
+)
 
 OFFICIAL_DOMAINS = (
     "caac.gov.cn",
@@ -416,6 +428,124 @@ def save_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def weather_stage(text: str) -> tuple[str, str, bool]:
+    if re.search(r"第\s*\d+\s*号台风|台风[“\"]", text):
+        return "named", "台风", True
+    if "热带低压" in text:
+        return "depression", "热带低压", False
+    if "潜在热带气旋" in text:
+        return "potential", "潜在热带气旋", False
+    return "disturbance", "热带扰动", False
+
+
+def hainan_weather_context(text: str) -> str:
+    compact = clean_space(text)
+    matches: list[str] = []
+    for match in re.finditer(r"海南(?:岛|省)?", compact):
+        start = max(0, match.start() - 260)
+        end = min(len(compact), match.end() + 360)
+        context = compact[start:end]
+        if any(term in context for term in WEATHER_SYSTEM_TERMS):
+            matches.append(context)
+    return " ".join(matches)
+
+
+def classify_weather_sources(items: list[dict], observed_at: datetime | None = None) -> dict:
+    observed_at = observed_at or NOW
+    contexts = []
+    matched_sources = []
+    for item in items:
+        context = hainan_weather_context(item.get("text", ""))
+        if not context:
+            continue
+        relation = any(term in context for term in (
+            "影响海南", "给海南", "趋向海南", "移向海南", "海南岛带来",
+            "海南岛等地", "海南岛将有", "海南岛有", "海南岛出现",
+        ))
+        if relation:
+            contexts.append(context)
+            matched_sources.append({"name": item["name"], "url": item["url"]})
+
+    if not contexts:
+        return {
+            "updated_at": observed_at.strftime("%Y-%m-%d %H:%M"),
+            "status": "none",
+            "impact_level": "none",
+            "affects_hainan": False,
+            "stage": "none",
+            "system_type": None,
+            "name": None,
+            "named": False,
+            "headline": "当前未发现影响海南的热带天气系统",
+            "source_time": observed_at.strftime("%Y-%m-%d %H:%M"),
+            "summary": "本次官方气象来源巡检未发现正在或预计影响海南的热带天气系统。",
+            "sources": [],
+            "publisher": "中央气象台",
+            "note": "天气监测不能替代 UOM、NOTAM、航空管制批复及属地临时管制核查。",
+        }
+
+    context = " ".join(contexts)
+    stage, system_type, named = weather_stage(context)
+    hazards = []
+    for label, terms in (
+        ("大到暴雨", ("大到暴雨", "暴雨", "大暴雨")),
+        ("海上大风", ("海域将有", "阵风", "大风")),
+        ("雷暴", ("雷暴", "强对流")),
+        ("风暴潮", ("风暴潮",)),
+    ):
+        if any(term in context for term in terms):
+            hazards.append(label)
+
+    is_watch = stage in {"disturbance", "potential"}
+    summary = clean_space(contexts[0])[:360]
+    return {
+        "updated_at": observed_at.strftime("%Y-%m-%d %H:%M"),
+        "status": "watch" if is_watch else "active",
+        "impact_level": "watch" if is_watch else "advisory",
+        "affects_hainan": True,
+        "stage": stage,
+        "system_type": system_type,
+        "name": None,
+        "named": named,
+        "headline": f"{system_type}正在或预计影响海南",
+        "source_time": observed_at.strftime("%Y-%m-%d %H:%M"),
+        "summary": summary,
+        "hazards": hazards,
+        "sources": matched_sources,
+        "source_url": matched_sources[0]["url"],
+        "publisher": "中央气象台",
+        "note": "尚未编号不等于没有风险；天气影响也不自动等同于空域管制。",
+    }
+
+
+def collect_weather() -> tuple[dict, list[dict]]:
+    fetched = []
+    source_status = []
+    for name, url in WEATHER_SOURCES:
+        try:
+            response = requests.get(url, headers=HEADERS, timeout=20)
+            response.raise_for_status()
+            response.encoding = response.apparent_encoding or response.encoding
+            soup = BeautifulSoup(response.text, "html.parser")
+            for tag in soup(["script", "style", "noscript", "svg"]):
+                tag.decompose()
+            fetched.append({"name": name, "url": url, "text": soup.get_text(" ", strip=True)})
+            source_status.append({"name": name, "ok": True})
+        except Exception as exc:
+            print(f"[WARN] weather source failed: {url}: {exc}", file=sys.stderr)
+            source_status.append({"name": name, "ok": False})
+
+    if fetched:
+        return classify_weather_sources(fetched), source_status
+
+    if TYPHOON_PATH.exists():
+        previous = json.loads(TYPHOON_PATH.read_text(encoding="utf-8"))
+        previous["stale"] = True
+        previous["note"] = "本轮官方气象源读取失败，暂时保留上一轮结果；请直接核对气象部门最新信息。"
+        return previous, source_status
+    return classify_weather_sources([]), source_status
+
+
 def collect_candidates() -> tuple[list[dict], list[dict]]:
     seen_urls: set[str] = set()
     candidates: list[dict] = []
@@ -519,6 +649,7 @@ def main() -> None:
     candidates, sources = collect_candidates()
     merged = merge_store(existing, candidates)
     visible = visible_notices(merged)
+    weather, weather_sources = collect_weather()
 
     summary = {
         "new": sum(1 for x in visible if x.get("is_new_today")),
@@ -537,11 +668,13 @@ def main() -> None:
         "summary": summary,
         "message": message,
         "notices": visible,
-        "sources": sources,
+        "typhoon": weather,
+        "sources": sources + weather_sources,
     }
 
     save_json(STORE_PATH, merged)
     save_json(LATEST_PATH, report)
+    save_json(TYPHOON_PATH, weather)
     save_json(HISTORY_DIR / f"{TODAY.isoformat()}.json", report)
     print(json.dumps(summary, ensure_ascii=False))
 
