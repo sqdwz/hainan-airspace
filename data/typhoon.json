@@ -1,22 +1,27 @@
 {
-  "updated_at":"2026-09-11 08:00",
-  "status":"watch",
-  "impact_level":"watch",
-  "affects_hainan":true,
-  "stage":"disturbance",
-  "system_type":"热带扰动",
-  "name":null,
-  "named":false,
-  "headline":"南海热带扰动正在影响海南，未来三天需关注强降雨和海上大风",
-  "source_time":"2026-09-11 08:00",
-  "forecast_period":"2026-09-11 至 2026-09-13",
-  "summary":"中央气象台9月11日08时提示，未来三天南海有热带扰动活动，将给海南岛带来大到暴雨；12日至13日海南岛东部和南部局地可能出现暴雨或大暴雨，南海北部、北部湾等海域有6至7级风、阵风8级。该系统尚未获得台风编号，但已构成需要关注的海南天气影响。",
-  "hazards":["大到暴雨","海上大风","雷暴"],
-  "source_url":"https://www.nmc.cn/publish/weatherperday/index.htm",
-  "sources":[
-    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm"},
-    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm"}
+  "updated_at": "2026-09-11 17:31",
+  "status": "watch",
+  "impact_level": "watch",
+  "affects_hainan": true,
+  "stage": "disturbance",
+  "system_type": "热带扰动",
+  "name": null,
+  "named": false,
+  "headline": "南海热带扰动正在影响海南，未来数日需重点关注强降雨和海上大风",
+  "source_time": "2026-09-11 15:04",
+  "forecast_period": "2026-09-11 至 2026-09-14",
+  "summary": "中央气象台9月11日08时明确提示南海有热带扰动活动，未来三天将给海南岛带来大到暴雨；海南省气象台11日下午进一步预计，该热带扰动可能于12日白天加强为热带低压，12日至14日海南省将出现明显风雨过程，海南岛大部分地区有暴雨到大暴雨，部分市县局地累计雨量可达400毫米以上，海南大部分海区雷雨时阵风9至10级。当前系统尚未命名、尚未编号，但已明确影响海南，因此维持天气关注状态。",
+  "hazards": ["大到暴雨","暴雨到大暴雨","局地极端强降雨","短时强降水","海上大风","雷雨时阵风9至10级","雷暴大风"],
+  "source_url": "https://m.nmc.cn/publish/weatherperday/index.htm?sid_for_share=80113_2",
+  "sources": [
+    {"name":"中央气象台每日天气提示","url":"https://m.nmc.cn/publish/weatherperday/index.htm?sid_for_share=80113_2","source_time":"2026-09-11 08:00","ok":true},
+    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/f/p-336","source_time":"2026-09-11 08:00","ok":true},
+    {"name":"中央气象台海洋天气公报","url":"https://www.nmc.cn/publish/taifenghaiyang/haiyangtianqiyubao/index.html","source_time":"2026-09-11 06:00","ok":true},
+    {"name":"海南省气象台预报（中国天气网海南站）","url":"https://hainan.weather.com.cn/zyqxxx/09/4788990.shtml","source_time":"2026-09-11 11:01","ok":true},
+    {"name":"三沙市气象台雷雨大风黄色预警（中央气象台预警平台）","url":"https://www.nmc.cn/publish/alarm/46030041600000_20260911144001.html","source_time":"2026-09-11 14:40","ok":true}
   ],
-  "publisher":"中央气象台",
-  "note":"尚未编号不等于没有风险；天气影响不等同于空域管制，飞行安全仍应以 UOM、NOTAM、空管审批及属地临时管制为准。"
+  "publisher": "中央气象台 / 海南省气象台 / 三沙市气象台",
+  "stale": false,
+  "failed_sources": [],
+  "note": "采用“影响优先、命名分开”规则：尚未编号不等于无影响。当前热带扰动已被官方明确判定正在或预计影响海南，因此 status=watch、affects_hainan=true。天气风险不等同于空域管制；实际飞行仍应同时核对 UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合现场风雨、能见度和设备抗风能力判断是否适航。"
 }
