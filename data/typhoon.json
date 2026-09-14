@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13 12:00",
+  "updated_at": "2026-09-14 10:58",
   "status": "active",
   "impact_level": "active",
   "affects_hainan": true,
@@ -7,20 +7,20 @@
   "system_type": "热带低压",
   "name": null,
   "named": false,
-  "headline": "南海热带低压持续影响海南，强降雨和沿海大风风险仍高",
-  "source_time": "2026-09-13 10:30",
-  "forecast_period": "2026-09-13 至 2026-09-15",
-  "summary": "南海热带低压持续影响海南。中央气象台9月13日10时预报显示，热带低压中心位于三亚西偏南方向约225公里海面，预计13日下午至夜间在越南中部沿海登陆并逐渐减弱；受其与冷空气共同影响，海南岛仍有大到暴雨，中部和南部有大暴雨。海南省气象部门当日上午继续提示强降雨风险，部分地区可能出现大暴雨到特大暴雨。当前系统尚未命名、未编号，但已达到热带低压阶段，因此状态升级为active。",
-  "hazards": ["大到暴雨", "大暴雨", "局地特大暴雨", "持续强降雨", "山洪和地质灾害风险", "沿海大风", "海上6至7级风", "阵风8至9级"],
-  "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
+  "headline": "南海热带低压影响仍未完全结束，海南强降雨和次生灾害风险持续",
+  "source_time": "2026-09-14 08:00",
+  "forecast_period": "2026-09-14 至 2026-09-15",
+  "summary": "9月13日中央气象台和中国天气网已明确南海热带低压及冷空气将在13日至15日继续影响海南。9月14日08时中央气象台天气公报仍指出海南岛累计雨量大、致灾风险高；9月14日06时海洋天气公报显示北部湾仍有6至7级、阵风8级风。虽然热带低压已于13日下午至夜间在越南中部沿海登陆并趋于减弱，但其相关风雨影响尚未完全结束，因此继续按active跟踪，不因系统离开海南近海而提前降级为none。",
+  "hazards": ["暴雨到大暴雨", "局地特大暴雨风险", "持续强降雨", "山洪和地质灾害风险", "北部湾6至7级风", "阵风8级"],
+  "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
   "sources": [
-    {"name": "中央气象台台风公报", "url": "https://www.nmc.cn/publish/typhoon/warning.html", "source_time": "2026-09-13 10:00", "ok": true},
-    {"name": "中央气象台天气公报", "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm", "source_time": "2026-09-13", "ok": true},
-    {"name": "中央气象台海洋天气公报", "url": "https://www.nmc.cn/publish/marine/forecast.htm", "source_time": "2026-09-13 06:00", "ok": true},
-    {"name": "中国天气网海南气象服务", "url": "https://m.weather.com.cn/news/2026/09/4791045.shtml", "source_time": "2026-09-13 07:40", "ok": true}
+    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-14","ok":true},
+    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-14 08:00","ok":true},
+    {"name":"中央气象台海洋天气公报","url":"https://www.nmc.cn/publish/marine/forecast.htm","source_time":"2026-09-14 06:00","ok":true},
+    {"name":"中国天气网海南气象服务","url":"https://m.weather.com.cn/news/2026/09/4791045.shtml","source_time":"2026-09-13 09:14","ok":true}
   ],
   "publisher": "中央气象台 / 中国天气网海南气象服务",
   "stale": false,
   "failed_sources": [],
-  "note": "采用‘影响优先、命名分开’规则：系统已达到热带低压阶段，故status=active；未命名、未编号不影响对海南天气风险的判断。天气风险不等同于空域管制；实际飞行仍应同时核对 UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合现场风雨、能见度和设备抗风能力判断是否适航。"
+  "note": "采用‘影响优先、命名分开’规则：尽管热带低压已登陆越南并逐渐减弱，但官方预报明确其相关风雨影响覆盖至9月15日，因此继续保持status=active。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合现场风雨、能见度和设备抗风能力判断是否适航。"
 }
