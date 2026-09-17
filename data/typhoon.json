@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-15 12:00",
+  "updated_at": "2026-09-16 12:00",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,21 +7,22 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "南海热带低压直接影响结束，海南降雨明显减弱",
-  "source_time": "2026-09-15 08:00",
-  "forecast_period": "2026-09-15 至 2026-09-17",
-  "summary": "中央气象台9月15日08时每日天气提示明确海南持续多日的强降雨将告一段落，15日起降雨明显减弱，未来三天以小到中雨为主；台风公报显示此前南海热带低压已于9月13日20时停止编报。9月15日天气公报将登陆后热带低压及残余云系的主要影响区指向越南、老挝、泰国等地，未再明确其正在或预计影响海南。因此按‘影响优先、命名分开’规则将热带天气系统状态降为none。海南前期累计雨量大，地质灾害等滞后风险仍需关注。",
+  "headline": "未发现当前影响海南的热带天气系统，海南前期强降雨次生风险仍需关注",
+  "source_time": "2026-09-16 10:00",
+  "forecast_period": "2026-09-16 至 2026-09-25",
+  "summary": "中央气象台9月16日最新中期天气预报显示，未来10天南海及西北太平洋预计有1至2个台风生成，但未来登陆我国可能性不大，未明确有热带扰动、热带低压或台风正在或预计影响海南；每日天气提示也未提示新的热带系统影响海南。海南前期累计降雨显著偏多，仍需关注地质灾害等滞后风险。由于本轮未能可靠获取海南省气象部门对应时次的独立官方页面，按失败保护规则保留上一轮none状态并标记stale，不将来源缺失解释为无影响证据。",
   "hazards": ["前期累计雨量大", "地质灾害滞后风险", "局地短时强降水"],
   "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
   "sources": [
-    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-15 08:00","ok":true},
-    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-15 08:00","ok":true},
-    {"name":"中央气象台台风公报","url":"https://www.nmc.cn/publish/typhoon/warning.html","source_time":"2026-09-13 20:00","ok":true},
-    {"name":"中央气象台海洋天气公报","url":"https://www.nmc.cn/publish/marine/forecast.htm","source_time":"2026-09-15 06:00","ok":true},
-    {"name":"中国天气网海南气象服务","url":"https://m.weather.com.cn/news/2026/09/4791045.shtml","source_time":"2026-09-13 09:14","ok":true}
+    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-16","ok":true},
+    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-16","ok":true},
+    {"name":"中央气象台中期天气预报","url":"https://www.nmc.cn/publish/bulletin/mid-range.htm","source_time":"2026-09-16 10:00","ok":true},
+    {"name":"中央气象台海洋天气/沿岸海区预报","url":"https://www.nmc.cn/publish/marine/newcoastal.html","source_time":"2026-09-16","ok":true},
+    {"name":"海南省气象部门官方信息","url":null,"source_time":null,"ok":false,"error":"本轮检索未能可靠获取对应时次的独立官方页面"}
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务",
-  "stale": false,
-  "failed_sources": [],
-  "note": "采用‘影响优先、命名分开’规则。本轮关键气象源均可正常读取；官方最新信息不再明确此前热带低压正在或预计影响海南，因此由active降为none。前期强降雨造成的次生灾害风险仍可能滞后存在。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合现场降雨、雷电、能见度和设备抗风能力判断是否适航。"
+  "stale": true,
+  "stale_reason": "海南省气象部门关键来源本轮未能可靠获取；保留上一轮none状态，不据此执行状态降级。",
+  "failed_sources": ["海南省气象部门官方信息"],
+  "note": "采用‘影响优先、命名分开’规则。中央气象台现有官方信息未提示当前有热带天气系统影响海南，但因海南省气象部门关键来源本轮未可靠获取，状态标记stale。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时降雨、雷电、能见度和设备抗风能力判断。"
 }
