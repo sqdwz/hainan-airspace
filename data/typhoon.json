@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-16 12:00",
+  "updated_at": "2026-09-17 12:00",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,22 +7,22 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "未发现当前影响海南的热带天气系统，海南前期强降雨次生风险仍需关注",
-  "source_time": "2026-09-16 10:00",
-  "forecast_period": "2026-09-16 至 2026-09-25",
-  "summary": "中央气象台9月16日最新中期天气预报显示，未来10天南海及西北太平洋预计有1至2个台风生成，但未来登陆我国可能性不大，未明确有热带扰动、热带低压或台风正在或预计影响海南；每日天气提示也未提示新的热带系统影响海南。海南前期累计降雨显著偏多，仍需关注地质灾害等滞后风险。由于本轮未能可靠获取海南省气象部门对应时次的独立官方页面，按失败保护规则保留上一轮none状态并标记stale，不将来源缺失解释为无影响证据。",
-  "hazards": ["前期累计雨量大", "地质灾害滞后风险", "局地短时强降水"],
+  "headline": "未发现当前影响海南的热带天气系统；海南省气象关键来源本轮仍未可靠获取",
+  "source_time": "2026-09-17 10:00",
+  "forecast_period": "2026-09-17 至 2026-09-20",
+  "summary": "中央气象台9月17日官方信息显示，第25号台风“杜鹃”位于西北太平洋远海，当前未提示其影响海南；9月17日06时海洋天气公报显示我国近海总体为4至6级风，南海东北部有5至6级、阵风7级东北风，未提示海南附近存在热带低压或热带扰动影响。因本轮仍未能可靠获取海南省气象部门对应时次独立官方页面，按失败保护规则保留上一轮none状态并标记stale。",
+  "hazards": ["局地雷阵雨", "南海东北部5至6级风、阵风7级"],
   "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
   "sources": [
-    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-16","ok":true},
-    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-16","ok":true},
-    {"name":"中央气象台中期天气预报","url":"https://www.nmc.cn/publish/bulletin/mid-range.htm","source_time":"2026-09-16 10:00","ok":true},
-    {"name":"中央气象台海洋天气/沿岸海区预报","url":"https://www.nmc.cn/publish/marine/newcoastal.html","source_time":"2026-09-16","ok":true},
+    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-17","ok":true},
+    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-17","ok":true},
+    {"name":"中央气象台台风公报","url":"https://www.nmc.cn/publish/typhoon/warning.html","source_time":"2026-09-17","ok":true},
+    {"name":"中央气象台海洋天气公报","url":"https://www.nmc.cn/f/p-452","source_time":"2026-09-17 06:00","ok":true},
     {"name":"海南省气象部门官方信息","url":null,"source_time":null,"ok":false,"error":"本轮检索未能可靠获取对应时次的独立官方页面"}
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务",
   "stale": true,
   "stale_reason": "海南省气象部门关键来源本轮未能可靠获取；保留上一轮none状态，不据此执行状态降级。",
   "failed_sources": ["海南省气象部门官方信息"],
-  "note": "采用‘影响优先、命名分开’规则。中央气象台现有官方信息未提示当前有热带天气系统影响海南，但因海南省气象部门关键来源本轮未可靠获取，状态标记stale。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时降雨、雷电、能见度和设备抗风能力判断。"
+  "note": "采用‘影响优先、命名分开’规则。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时降雨、雷电、能见度和设备抗风能力判断。"
 }
