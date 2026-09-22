@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-21 12:02",
+  "updated_at": "2026-09-22 12:01",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -8,21 +8,21 @@
   "name": null,
   "named": false,
   "headline": "中央气象台未提示当前有热带天气系统影响海南；海南省气象部门关键来源仍未完整核验",
-  "source_time": "2026-09-21 10:00",
-  "forecast_period": "2026-09-21 至 2026-09-24",
-  "summary": "中央气象台9月21日08时天气公报未提示热带扰动、热带低压或台风正在或预计影响海南；10时台风公报显示第25号台风‘杜鹃’趋向日本以南洋面，并明确未来对我国近海无影响。21日06时强对流预报的主要落区也不包括海南。因海南省气象部门对应时次独立官方页面未能完整可靠核验，按失败保护规则保留上一轮none状态并标记stale。",
-  "hazards": ["局地阵雨或雷阵雨的常规天气风险"],
+  "source_time": "2026-09-22 10:00",
+  "forecast_period": "2026-09-22 至 2026-09-25",
+  "summary": "中央气象台9月22日08时天气公报未提示热带扰动、热带低压或台风正在或预计影响海南；10时台风公报显示第25号台风‘杜鹃’位于日本以东洋面并将逐渐变性为温带气旋，明确未来对我国近海无影响。22日06时强对流预报提示海南岛西南部有短时强降水，但未与热带气旋关联。因海南省气象部门对应时次独立官方页面未能完整可靠核验，按失败保护规则保留上一轮none状态并标记stale。",
+  "hazards": ["海南岛西南部局地短时强降水，小时雨量20～40毫米、局地50毫米以上"],
   "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
   "sources": [
-    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-21","ok":true},
-    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-21 08:00","ok":true},
-    {"name":"中央气象台台风公报","url":"https://www.nmc.cn/publish/typhoon/warning.html","source_time":"2026-09-21 10:00","ok":true},
-    {"name":"中央气象台强对流天气预报","url":"https://www.nmc.cn/publish/bulletin/swpc.html","source_time":"2026-09-21 06:00","ok":true},
-    {"name":"海南省气象部门官方信息","url":null,"source_time":null,"ok":false,"error":"本轮未能可靠获取2026-09-21对应时次可核验的独立官方页面"}
+    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-22","ok":true},
+    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-22 08:00","ok":true},
+    {"name":"中央气象台台风公报","url":"https://www.nmc.cn/publish/typhoon/warning.html","source_time":"2026-09-22 10:00","ok":true},
+    {"name":"中央气象台强对流天气预报","url":"https://www.nmc.cn/publish/bulletin/swpc.html","source_time":"2026-09-22 06:00","ok":true},
+    {"name":"海南省气象部门官方信息","url":null,"source_time":null,"ok":false,"error":"本轮未能可靠获取2026-09-22对应时次可核验的独立官方页面"}
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务",
   "stale": true,
-  "stale_reason": "海南省气象部门对应9月21日时次独立官方页面未能完整可靠核验；保留上一轮none状态，不据此执行状态变化。",
+  "stale_reason": "海南省气象部门对应9月22日时次独立官方页面未能完整可靠核验；保留上一轮none状态，不据此执行状态变化。",
   "failed_sources": ["海南省气象部门官方信息"],
-  "note": "采用‘影响优先、命名分开’规则。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时降雨、雷电、能见度和设备抗风能力判断。"
+  "note": "采用‘影响优先、命名分开’规则。海南岛西南部短时强降水属于强对流风险，目前无官方证据表明由影响海南的热带气旋导致，因此不升级为watch/active。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时降雨、雷电、能见度和设备抗风能力判断。"
 }
