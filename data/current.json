@@ -1,28 +1,4 @@
 {
-  "updated_at": "2026-09-23 12:00",
-  "notices": [
-    {
-      "id": "wenchang-20260918-001",
-      "title": "文昌市人民政府关于在9月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
-      "publisher": "文昌市人民政府",
-      "origin_publisher": "文昌市人民政府",
-      "publish_date": "2026-09-18",
-      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
-      "start_time": "2026-09-20T12:00:00+08:00",
-      "end_time": "2026-09-23T24:00:00+08:00",
-      "time_text": "2026-09-20 12:00 — 2026-09-23 24:00",
-      "status": "active",
-      "is_new_today": false,
-      "is_new_scan": false,
-      "summary": "9月20日12时至9月23日24时，文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区，禁止轻型和超轻型飞机、轻型直升机、滑翔机、三角翼、动力三角翼、滑翔伞、动力伞、热气球、飞艇、无人机、航空模型及各类空飘物起降、施放和飞行；文昌市其他区域禁止施放可能影响飞行安全的空飘物。应急作业须取得相关军民航管制单位审核同意并向属地公安机关报备。",
-      "brief": "文昌龙楼/东郊/文教三镇自9月20日12时至23日24时实施核心禁飞",
-      "url": "https://www.hndnews.com/p/759498.html",
-      "primary_url": "https://www.hndnews.com/p/759498.html",
-      "links": [{"name":"海拔新闻（转载文昌市人民政府网）","url":"https://www.hndnews.com/p/759498.html","type":"media_repost","rank":2,"reposts_official":true}],
-      "source_type": "media_repost",
-      "source_label": "权威转载",
-      "verification_note": "权威媒体页面明确标注来源为文昌市人民政府网并完整转载文昌市人民政府2026年9月18日通告；本轮未检索到可直接抓取的文昌市政府原文URL。",
-      "first_seen": "2026-09-20"
-    }
-  ]
+  "updated_at": "2026-09-24 12:00",
+  "notices": []
 }
