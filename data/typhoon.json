@@ -1,28 +1,56 @@
 {
-  "updated_at":"2026-09-24 12:00",
-  "status":"none",
-  "impact_level":"none",
-  "affects_hainan":false,
-  "stage":"ended",
-  "system_type":null,
-  "name":null,
-  "named":false,
-  "headline":"已核验来源未提示热带天气系统影响海南，但中央气象台每日天气提示本轮未可靠取得，沿用上一轮none并标记stale",
-  "source_time":"2026-09-24 10:00",
-  "forecast_period":"2026-09-24 至 2026-09-27",
-  "summary":"中央气象台9月24日08时天气公报未提示热带扰动、热带低压或台风正在或预计影响海南；10时中期预报亦未提示海南受热带气旋影响。海南省气象台24日07时沿海海洋天气预报显示海南岛各沿海及琼州海峡多云有雷阵雨、阵风7级，属于普通雷雨天气风险。由于本轮未能可靠取得中央气象台9月24日每日天气提示对应正文，按失败保护规则保留上一轮none状态，不据此确认完整‘无影响’，并标记stale。",
-  "hazards":["海南岛各沿海及琼州海峡多云有雷阵雨，阵风7级","雷雨时局地通航及无人机作业气象条件可能变差"],
-  "source_url":"https://www.nmc.cn/publish/weather-bulletin/index.htm",
-  "sources":[
-    {"name":"中央气象台每日天气提示","url":"https://www.nmc.cn/publish/weatherperday/index.htm","source_time":"2026-09-24","ok":false,"status":"source_unavailable"},
-    {"name":"中央气象台天气公报","url":"https://www.nmc.cn/publish/weather-bulletin/index.htm","source_time":"2026-09-24 08:00","ok":true},
-    {"name":"中央气象台海洋天气/近海海区预报","url":"https://www.nmc.cn/publish/marine/offshore.html","source_time":"2026-09-24 08:00","ok":true},
-    {"name":"中央气象台中期天气预报","url":"https://www.nmc.cn/publish/bulletin/mid-range.htm","source_time":"2026-09-24 10:00","ok":true},
-    {"name":"海南省气象台沿海海洋天气预报","url":"https://hainan.weather.com.cn/hytq/","source_time":"2026-09-24 07:00","ok":true}
+  "updated_at": "2026-09-25 12:00",
+  "status": "none",
+  "impact_level": "none",
+  "affects_hainan": false,
+  "stage": "none",
+  "system_type": null,
+  "name": null,
+  "named": false,
+  "headline": "关键气象源均已核验，未发现热带天气系统正在或预计影响海南",
+  "source_time": "2026-09-25 08:00",
+  "forecast_period": "2026-09-25 至 2026-09-28",
+  "summary": "中央气象台9月25日08时每日天气提示、08时天气公报均未提示热带扰动、热带低压或台风正在或预计影响海南；06时台风公报显示第26号台风“舒力基”位于西北太平洋并趋向日本以南洋面。海南省气象台25日07时海洋天气预报显示本岛部分沿海及琼州海峡有雷阵雨、阵风6级，属于普通雷雨天气风险。",
+  "hazards": [
+    "海南岛部分沿海及琼州海峡有雷阵雨",
+    "海南沿海多为5级、阵风6级，雷雨时局地飞行气象条件可能变差"
   ],
-  "publisher":"中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
-  "stale":true,
-  "stale_reason":"中央气象台每日天气提示9月24日对应正文未能可靠取得；按关键气象源失败保护规则沿用上一轮有效状态，不将来源失败视为确认无影响。",
-  "failed_sources":["中央气象台每日天气提示"],
-  "note":"采用‘影响优先、命名分开’规则。本轮已核验官方来源未提示热带天气系统影响海南，但因一个关键气象源未可靠取得而保留stale。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时雷雨、能见度和设备抗风能力判断。"
+  "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+  "sources": [
+    {
+      "name": "中央气象台每日天气提示",
+      "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+      "source_time": "2026-09-25 08:00",
+      "ok": true
+    },
+    {
+      "name": "中央气象台天气公报",
+      "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+      "source_time": "2026-09-25 08:00",
+      "ok": true
+    },
+    {
+      "name": "中央气象台台风公报",
+      "url": "https://www.nmc.cn/f/p-429",
+      "source_time": "2026-09-25 06:00",
+      "ok": true
+    },
+    {
+      "name": "中央气象台沿岸海区预报",
+      "url": "https://www.nmc.cn/publish/marine/newcoastal.html",
+      "source_time": "2026-09-25",
+      "ok": true
+    },
+    {
+      "name": "海南省气象台沿海海洋天气预报",
+      "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
+      "source_time": "2026-09-25 07:00",
+      "ok": true
+    }
+  ],
+  "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
+  "stale": false,
+  "stale_reason": null,
+  "failed_sources": [],
+  "note": "采用“影响优先、命名分开”规则。第26号台风“舒力基”当前位于西北太平洋，官方预报未显示其影响海南。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时雷雨、能见度和设备抗风能力判断。"
 }
