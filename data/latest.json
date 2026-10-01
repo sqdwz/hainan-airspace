@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-09-26 12:00",
-  "date": "2026-09-26",
+  "generated_at": "2026-10-01 12:00",
+  "date": "2026-10-01",
   "summary": {
     "new": 0,
     "active": 0,
     "upcoming": 0,
     "ended": 5
   },
-  "message": "本次海南19市县逐一巡检未发现新的公开禁飞或临时空域管制公告，当前公开有效管制记录为0。关键气象源均已核验，未提示热带天气系统正在或预计影响海南；第26号台风“舒力基”位于西北太平洋并趋向日本以南洋面。海南岛部分地区有短时强降水风险，天气风险不等同于空域管制。",
+  "message": "本次海南19市县逐一巡检未发现新的公开禁飞或临时空域管制公告，当前公开有效管制记录为0。第27号台风“彩云”已生成，但中央气象台明确未来对我国海域无影响；因部分关键气象源未能完整核验，天气状态按失败保护沿用none并标记stale。天气风险不等同于空域管制。",
   "notices": [],
   "ended_recent": [
     {
@@ -87,7 +87,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-09-26 12:00",
+    "updated_at": "2026-10-01 12:00",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -95,52 +95,57 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "关键气象源已核验，未发现热带天气系统正在或预计影响海南",
-    "source_time": "2026-09-26 10:00",
-    "forecast_period": "2026-09-26 至 2026-09-28",
-    "summary": "中央气象台9月26日每日天气提示、08时天气公报及10时台风公报均未提示热带扰动、热带低压或台风正在或预计影响海南；第26号台风“舒力基”位于琉球群岛那霸市偏南的西北太平洋，预计转向东北并趋向日本以南洋面。海南省气象台26日07时发布本地预报，海南岛部分地区今日有对流性降水风险；中央气象台强对流预报提示海南岛部分地区26日下午至27日早晨可能有短时强降水。",
+    "headline": "部分关键气象源未能可靠核验，沿用上一轮无影响状态并标记数据可能过期",
+    "source_time": "2026-10-01 10:00",
+    "forecast_period": "2026-10-01 至 2026-10-03",
+    "summary": "中央气象台10月1日10时台风公报已核验：第27号台风“彩云”已于10月1日凌晨在西北太平洋生成，中央气象台明确未来对我国海域无影响。海南城市预报10月1日07:30已更新。因中央气象台每日天气提示对应10月1日正文及海南省气象部门独立天气/台风正文未能全部可靠核验，按失败保护沿用上一轮none状态并标记stale。",
     "hazards": [
-      "海南岛部分地区可能出现短时强降水，小时雨量20-50毫米、局地60毫米以上",
-      "雷雨时局地低空飞行及无人机作业气象条件可能快速恶化"
+      "三亚今日风力4-5级转小于3级，三沙晴转小雨；局地天气仍可能影响低空及无人机作业",
+      "持续关注新生成第27号台风“彩云”后续路径；当前中央气象台明确未来对我国海域无影响"
     ],
-    "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+    "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-        "source_time": "2026-09-26",
-        "ok": true
+        "source_time": "2026-10-01",
+        "ok": false,
+        "status": "source_unavailable"
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "source_time": "2026-09-26 08:00",
+        "source_time": "2026-10-01",
         "ok": true
       },
       {
         "name": "中央气象台台风公报/快讯",
         "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-        "source_time": "2026-09-26 10:00",
+        "source_time": "2026-10-01 10:00",
         "ok": true
       },
       {
-        "name": "中央气象台强对流天气预报",
-        "url": "https://www.nmc.cn/publish/bulletin/swpc.html",
-        "source_time": "2026-09-26",
+        "name": "海南省气象部门城市预报",
+        "url": "https://hainan.weather.com.cn/indexOnline.shtml",
+        "source_time": "2026-10-01 07:30",
         "ok": true
       },
       {
-        "name": "海南省气象台",
+        "name": "海南省气象部门独立天气/台风正文",
         "url": "https://hainan.weather.com.cn/",
-        "source_time": "2026-09-26 07:00",
-        "ok": true
+        "source_time": "2026-10-01",
+        "ok": false,
+        "status": "source_unavailable"
       }
     ],
-    "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
-    "stale": false,
-    "stale_reason": null,
-    "failed_sources": [],
-    "note": "采用“影响优先、命名分开”规则。第26号台风“舒力基”当前位于西北太平洋，官方预报路径趋向日本以南洋面，未显示其影响海南。天气风险不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时雷雨、能见度和设备抗风能力判断。"
+    "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象部门",
+    "stale": true,
+    "stale_reason": "中央气象台每日天气提示10月1日对应正文及海南省气象部门10月1日独立天气/台风正文未能全部可靠核验；按失败保护不得将缺失来源视为确认无影响。",
+    "failed_sources": [
+      "中央气象台每日天气提示（2026-10-01对应正文未可靠取得）",
+      "海南省气象部门独立天气/台风正文（2026-10-01对应时次未可靠取得）"
+    ],
+    "note": "采用“影响优先、命名分开”规则。第27号台风“彩云”已生成，但中央气象台明确未来对我国海域无影响；因部分关键气象源未能可靠核验，本轮沿用上一轮none状态并标记stale。天气影响不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制。"
   },
   "sources": [
     {
@@ -160,16 +165,22 @@
       "ok": true
     },
     {
-      "name": "海南日报 / 南海网 / 海南广电 / 中国新闻网 / 民航行业媒体等补充",
+      "name": "中央气象台天气公报 / 台风公报",
       "ok": true
     },
     {
-      "name": "中央气象台每日天气提示 / 天气公报 / 台风公报 / 强对流天气预报",
+      "name": "中央气象台每日天气提示",
+      "ok": false,
+      "status": "source_unavailable"
+    },
+    {
+      "name": "海南省气象部门城市预报",
       "ok": true
     },
     {
-      "name": "海南省气象台公开预报",
-      "ok": true
+      "name": "海南省气象部门独立天气/台风正文",
+      "ok": false,
+      "status": "source_unavailable"
     }
   ],
   "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
