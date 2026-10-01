@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-29 12:00",
+  "updated_at": "2026-10-01 12:00",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -8,60 +8,54 @@
   "name": null,
   "named": false,
   "headline": "部分关键气象源未能可靠核验，沿用上一轮无影响状态并标记数据可能过期",
-  "source_time": "2026-09-29 10:00",
-  "forecast_period": "2026-09-29 至 2026-10-01",
-  "summary": "中央气象台9月29日08时天气公报、10时台风公报及06时海洋天气公报均已核验；第26号台风“舒力基”位于琉球群岛那霸市东北方向的西北太平洋，向东北移动并即将变性为温带气旋，现有可靠官方资料未显示其影响海南。中央气象台每日天气提示与海南省气象部门9月29日对应时次独立官方正文未能可靠核验，故按失败保护沿用上一轮none状态并标记stale。9月28日至29日早晨海南岛部分地区出现短时强降水，天气风险不等同于空域管制。",
+  "source_time": "2026-10-01 10:00",
+  "forecast_period": "2026-10-01 至 2026-10-03",
+  "summary": "中央气象台10月1日10时台风公报已核验：第27号台风“彩云”已于10月1日凌晨在西北太平洋生成，中央气象台明确未来对我国海域无影响。海南城市预报10月1日07:30已更新。因中央气象台每日天气提示对应10月1日正文及海南省气象部门独立天气/台风正文未能全部可靠核验，按失败保护沿用上一轮none状态并标记stale。",
   "hazards": [
-    "9月28日至29日早晨海南岛部分地区出现短时强降水，小时雨量20-40毫米、局地60毫米以上",
-    "局地雷雨和短时强降水可能造成低空飞行及无人机作业气象条件快速变化"
+    "三亚今日风力4-5级转小于3级，三沙晴转小雨；局地天气仍可能影响低空及无人机作业",
+    "持续关注新生成第27号台风“彩云”后续路径；当前中央气象台明确未来对我国海域无影响"
   ],
-  "source_url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+  "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-09-29",
+      "source_time": "2026-10-01",
       "ok": false,
       "status": "source_unavailable"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-09-29 08:00",
+      "source_time": "2026-10-01",
       "ok": true
     },
     {
       "name": "中央气象台台风公报/快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-09-29 10:00",
+      "source_time": "2026-10-01 10:00",
       "ok": true
     },
     {
-      "name": "中央气象台海洋天气公报",
-      "url": "https://www.nmc.cn/f/p-452",
-      "source_time": "2026-09-29 06:00",
+      "name": "海南省气象部门城市预报",
+      "url": "https://hainan.weather.com.cn/indexOnline.shtml",
+      "source_time": "2026-10-01 07:30",
       "ok": true
     },
     {
-      "name": "中央气象台强对流天气预报",
-      "url": "https://www.nmc.cn/publish/stweather/tqgb/index.html",
-      "source_time": "2026-09-29 06:00",
-      "ok": true
-    },
-    {
-      "name": "海南省气象部门",
+      "name": "海南省气象部门独立天气/台风正文",
       "url": "https://hainan.weather.com.cn/",
-      "source_time": "2026-09-29",
+      "source_time": "2026-10-01",
       "ok": false,
       "status": "source_unavailable"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象部门",
   "stale": true,
-  "stale_reason": "中央气象台每日天气提示及海南省气象部门9月29日对应时次独立官方正文未能可靠核验；按失败保护不得将缺失来源视为确认无影响。",
+  "stale_reason": "中央气象台每日天气提示10月1日对应正文及海南省气象部门10月1日独立天气/台风正文未能全部可靠核验；按失败保护不得将缺失来源视为确认无影响。",
   "failed_sources": [
-    "中央气象台每日天气提示（2026-09-29对应正文未可靠取得）",
-    "海南省气象部门（2026-09-29对应时次独立官方正文未可靠取得）"
+    "中央气象台每日天气提示（2026-10-01对应正文未可靠取得）",
+    "海南省气象部门独立天气/台风正文（2026-10-01对应时次未可靠取得）"
   ],
-  "note": "采用“影响优先、命名分开”规则。第26号台风“舒力基”现位于西北太平洋并向东北移动，可靠官方预报未显示其影响海南；因部分关键气象源未能可靠核验，本轮沿用上一轮none状态并标记stale。天气影响不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制，并结合实时雷雨、能见度和设备抗风能力判断。"
+  "note": "采用“影响优先、命名分开”规则。第27号台风“彩云”已生成，但中央气象台明确未来对我国海域无影响；因部分关键气象源未能可靠核验，本轮沿用上一轮none状态并标记stale。天气影响不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制。"
 }
