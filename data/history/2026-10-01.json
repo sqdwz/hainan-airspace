@@ -1,0 +1,187 @@
+{
+  "generated_at": "2026-10-01 12:00",
+  "date": "2026-10-01",
+  "summary": {
+    "new": 0,
+    "active": 0,
+    "upcoming": 0,
+    "ended": 5
+  },
+  "message": "本次海南19市县逐一巡检未发现新的公开禁飞或临时空域管制公告，当前公开有效管制记录为0。第27号台风“彩云”已生成，但中央气象台明确未来对我国海域无影响；因部分关键气象源未能完整核验，天气状态按失败保护沿用none并标记stale。天气风险不等同于空域管制。",
+  "notices": [],
+  "ended_recent": [
+    {
+      "id": "wenchang-20260918-001",
+      "title": "文昌市人民政府关于在9月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-09-18",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-09-20T12:00:00+08:00",
+      "end_time": "2026-09-23T24:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌龙楼/东郊/文教三镇核心禁飞已于9月23日24时结束",
+      "primary_url": "https://www.hndnews.com/p/759498.html",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-09-20"
+    },
+    {
+      "id": "wenchang-20260901-001",
+      "title": "文昌市人民政府关于在9月特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-09-01",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-09-09T00:00:00+08:00",
+      "end_time": "2026-09-12T08:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌龙楼/东郊/文教三镇临时禁飞已于9月12日08:00结束",
+      "primary_url": "https://www.hndnews.com/p/757872.html",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "id": "wanning-20260811-balloon-001",
+      "title": "万宁市气象局关于2026年海南省第七届运动会期间停止开展升放气球审批活动的通告",
+      "publisher": "万宁市气象局",
+      "publish_date": "2026-08-11",
+      "area": "万宁市行政区域内涉及升放气球审批事项",
+      "start_time": "2026-08-16T00:00:00+08:00",
+      "end_time": "2026-08-26T23:59:59+08:00",
+      "status": "ended",
+      "brief": "万宁市省运会期间升放气球审批暂停措施已于8月26日结束",
+      "primary_url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
+      "source_type": "official",
+      "source_label": "官方发布",
+      "first_seen": "2026-08-25"
+    },
+    {
+      "id": "wenchang-20260817-001",
+      "title": "关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-08-17",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区域；文昌市其他区域限制可能影响飞行安全的空飘物",
+      "start_time": "2026-08-19T07:00:00+08:00",
+      "end_time": "2026-08-24T12:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌市龙楼/东郊/文教三镇核心禁飞已于8月24日12时结束",
+      "primary_url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
+      "source_type": "official",
+      "source_label": "官方发布",
+      "first_seen": "2026-08-21"
+    },
+    {
+      "id": "baoting-20260816-001",
+      "title": "关于对无人机等“低慢小”航空器进行临时飞行管制的通告",
+      "publisher": "保亭黎族苗族自治县人民政府",
+      "publish_date": "2026-08-16",
+      "area": "保亭县保城镇县城区域",
+      "start_time": "2026-08-17T00:00:00+08:00",
+      "end_time": "2026-08-22T23:59:59+08:00",
+      "status": "ended",
+      "brief": "保亭县保城镇县城区域低慢小航空器临时管制已于8月22日结束",
+      "primary_url": "https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-08-22"
+    }
+  ],
+  "typhoon": {
+    "updated_at": "2026-10-01 12:00",
+    "status": "none",
+    "impact_level": "none",
+    "affects_hainan": false,
+    "stage": "none",
+    "system_type": null,
+    "name": null,
+    "named": false,
+    "headline": "部分关键气象源未能可靠核验，沿用上一轮无影响状态并标记数据可能过期",
+    "source_time": "2026-10-01 10:00",
+    "forecast_period": "2026-10-01 至 2026-10-03",
+    "summary": "中央气象台10月1日10时台风公报已核验：第27号台风“彩云”已于10月1日凌晨在西北太平洋生成，中央气象台明确未来对我国海域无影响。海南城市预报10月1日07:30已更新。因中央气象台每日天气提示对应10月1日正文及海南省气象部门独立天气/台风正文未能全部可靠核验，按失败保护沿用上一轮none状态并标记stale。",
+    "hazards": [
+      "三亚今日风力4-5级转小于3级，三沙晴转小雨；局地天气仍可能影响低空及无人机作业",
+      "持续关注新生成第27号台风“彩云”后续路径；当前中央气象台明确未来对我国海域无影响"
+    ],
+    "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
+    "sources": [
+      {
+        "name": "中央气象台每日天气提示",
+        "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+        "source_time": "2026-10-01",
+        "ok": false,
+        "status": "source_unavailable"
+      },
+      {
+        "name": "中央气象台天气公报",
+        "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+        "source_time": "2026-10-01",
+        "ok": true
+      },
+      {
+        "name": "中央气象台台风公报/快讯",
+        "url": "https://www.nmc.cn/publish/typhoon/warning.html",
+        "source_time": "2026-10-01 10:00",
+        "ok": true
+      },
+      {
+        "name": "海南省气象部门城市预报",
+        "url": "https://hainan.weather.com.cn/indexOnline.shtml",
+        "source_time": "2026-10-01 07:30",
+        "ok": true
+      },
+      {
+        "name": "海南省气象部门独立天气/台风正文",
+        "url": "https://hainan.weather.com.cn/",
+        "source_time": "2026-10-01",
+        "ok": false,
+        "status": "source_unavailable"
+      }
+    ],
+    "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象部门",
+    "stale": true,
+    "stale_reason": "中央气象台每日天气提示10月1日对应正文及海南省气象部门10月1日独立天气/台风正文未能全部可靠核验；按失败保护不得将缺失来源视为确认无影响。",
+    "failed_sources": [
+      "中央气象台每日天气提示（2026-10-01对应正文未可靠取得）",
+      "海南省气象部门独立天气/台风正文（2026-10-01对应时次未可靠取得）"
+    ],
+    "note": "采用“影响优先、命名分开”规则。第27号台风“彩云”已生成，但中央气象台明确未来对我国海域无影响；因部分关键气象源未能可靠核验，本轮沿用上一轮none状态并标记stale。天气影响不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制。"
+  },
+  "sources": [
+    {
+      "name": "中国民航局（CAAC）/ 民航海南监管公开信息",
+      "ok": true
+    },
+    {
+      "name": "海南省人民政府 / 公安 / 应急公开信息",
+      "ok": true
+    },
+    {
+      "name": "海南19个市县逐一巡检（海口、三亚、三沙、儋州、五指山、琼海、文昌、万宁、东方、定安、屯昌、澄迈、临高、白沙、昌江、乐东、陵水、保亭、琼中）",
+      "ok": true
+    },
+    {
+      "name": "美兰 / 凤凰 / 博鳌及海南机场公开信息",
+      "ok": true
+    },
+    {
+      "name": "中央气象台天气公报 / 台风公报",
+      "ok": true
+    },
+    {
+      "name": "中央气象台每日天气提示",
+      "ok": false,
+      "status": "source_unavailable"
+    },
+    {
+      "name": "海南省气象部门城市预报",
+      "ok": true
+    },
+    {
+      "name": "海南省气象部门独立天气/台风正文",
+      "ok": false,
+      "status": "source_unavailable"
+    }
+  ],
+  "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
+}
