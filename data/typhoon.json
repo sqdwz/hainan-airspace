@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10 18:02",
+  "updated_at": "2026-10-13 12:14",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,50 +7,50 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "关键气象源已正常核验，未发现热带天气系统正在或预计影响海南",
-  "source_time": "2026-10-10 14:13",
-  "forecast_period": "2026-10-10 至 2026-10-12",
-  "summary": "中央气象台10月10日08时每日天气提示和天气公报均显示海南前期强降雨自10日起明显减弱；10时台风公报显示第28号台风“诺洛”和第29号台风“小熊”未来均对我国海域无影响。中央气象台海洋天气公报及海南省气象台10月10日城市、海洋天气信息均已正常核验，未发现热带扰动、热带低压或台风正在或预计影响海南。",
+  "headline": "10月13日关键气象源已核验，未发现影响海南的热带系统",
+  "source_time": "2026-10-13 10:00",
+  "forecast_period": "2026-10-13 至 2026-10-16",
+  "summary": "中央气象台10月13日08时每日天气提示和天气公报、10时台风公报、06时海洋天气公报及海南省气象台07时预报均已取得。台风“小熊”在日本以东洋面向东北移动并逐渐减弱，未来对我国海域无影响。未发现影响海南的热带系统。",
   "hazards": [
-    "海南前期强降雨已明显减弱，局地仍可能出现雷阵雨",
-    "海南岛东部、南部近海东北风6级阵风7级；西沙、中沙等部分海域有雷阵雨"
+    "海南岛东部、南部、西部近海部分海域6级、阵风7级",
+    "琼州海峡6级、阵风7级；南海部分海域有雷阵雨"
   ],
   "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-10-10 08:00",
+      "source_time": "2026-10-13 08:00",
       "ok": true
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-10-10 08:00",
+      "source_time": "2026-10-13 08:00",
       "ok": true
     },
     {
-      "name": "中央气象台台风公报/快讯",
+      "name": "中央气象台台风公报",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-10-10 14:13",
+      "source_time": "2026-10-13 10:00",
       "ok": true
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-10-10 06:00",
+      "source_time": "2026-10-13 06:00",
       "ok": true
     },
     {
       "name": "海南省气象台城市预报",
       "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-      "source_time": "2026-10-10 13:00",
+      "source_time": "2026-10-13 07:00",
       "ok": true
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-      "source_time": "2026-10-10 07:00",
+      "source_time": "2026-10-13 07:00",
       "ok": true
     }
   ],
@@ -58,5 +58,5 @@
   "stale": false,
   "stale_reason": null,
   "failed_sources": [],
-  "note": "采用“影响优先、命名分开”规则。本轮关键气象源均正常核验，未发现热带天气系统正在或预计影响海南，因此状态为none。普通降雨、雷阵雨及海上大风属于飞行气象风险，不等同于空域管制；实际飞行仍需核对UOM、NOTAM、空管审批、机场净空及属地临时管制。"
+  "note": "热带系统影响判定与天气风险分开：本轮官方气象源正常核验，未发现影响海南的热带系统。海上大风和雷阵雨不等于空域管制。"
 }
