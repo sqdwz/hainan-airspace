@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-10 18:02",
+  "updated_at": "2026-10-17 12:08:38",
   "notices": [
     {
       "id": "baoting-20260816-001",
@@ -197,6 +197,68 @@
       "source_label": "权威转载",
       "verification_note": "南海网转载海南日报客户端消息，正文明确称文昌市人民政府发布通告并完整列明管制时间、区域和措施；本轮未检索到可直接抓取的文昌市政府原文URL。原通告落款日期未在转载正文展示，publish_date暂按权威转载公开日期2026-10-02记录。",
       "first_seen": "2026-10-10"
+    },
+    {
+      "id": "hainan-20260313-boao-001",
+      "title": "海南省人民政府关于在博鳌亚洲论坛2026年年会期间禁止小型航空器具和空飘物飞行活动的通告",
+      "publisher": "海南省人民政府",
+      "origin_publisher": "海南省人民政府",
+      "publish_date": "2026-03-13",
+      "area": "琼海市行政区域空域",
+      "start_time": "2026-03-22T08:00:00+08:00",
+      "end_time": "2026-03-28T00:00:00+08:00",
+      "time_text": "2026-03-22 08:00 — 2026-03-27 24:00",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "琼府函〔2026〕59号：博鳌亚洲论坛2026年年会期间，2026年3月22日8时至3月27日24时，琼海市行政区域空域划为临时空中限制区，禁止无人机、轻型和超轻型飞机、轻型直升机、滑翔机、动力伞、飞艇、航模及气球、风筝、孔明灯等空飘物起降、施放和飞行；应急作业须按规定履行审批手续。该管制已结束。",
+      "brief": "博鳌论坛琼海全域3月22日至27日临时禁飞已结束（历史补发现）",
+      "url": "https://www.hnntv.cn/info/article/546/546644.html",
+      "primary_url": "https://www.hnntv.cn/info/article/546/546644.html",
+      "links": [
+        {
+          "name": "海南广播电视总台（转载海南省人民政府网）",
+          "url": "https://www.hnntv.cn/info/article/546/546644.html",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "海南广播电视总台页面明确标注来源为海南省人民政府网，完整转载琼府函〔2026〕59号，含签署日期、区域、时段、对象及措施；本轮未找到可直接访问的省政府原文URL。2026-10-17首次补发现，非当天发布、非近期结束。",
+      "first_seen": "2026-10-17"
+    },
+    {
+      "id": "qionghai-20260318-balloon-001",
+      "title": "琼海市气象局关于在博鳌亚洲论坛2026年年会期间停止升放气球活动审批的公告",
+      "publisher": "琼海市气象局",
+      "origin_publisher": "琼海市气象局",
+      "publish_date": "2026-03-18",
+      "area": "琼海市全市范围",
+      "start_time": "2026-03-23T08:00:00+08:00",
+      "end_time": "2026-03-28T00:00:00+08:00",
+      "time_text": "2026-03-23 08:00 — 2026-03-27 24:00",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "琼海市气象局依琼府函〔2026〕59号，在博鳌亚洲论坛年会期间自3月23日08时至3月27日24时暂停升放气球作业活动审批，并禁止任何单位、组织和个人在琼海市全市范围内升放气球；现已结束。",
+      "brief": "琼海市3月23日至27日升放气球审批暂停及禁放已结束（历史补发现）",
+      "url": "https://hndnews.com/p/741482.html",
+      "primary_url": "https://hndnews.com/p/741482.html",
+      "links": [
+        {
+          "name": "琼海融媒/海拔新闻（转载琼海市气象局公告）",
+          "url": "https://hndnews.com/p/741482.html",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "琼海融媒2026-03-18完整转载琼海市气象局公告，保留原机构、落款和管控时间；本轮未找到可直接访问的气象局官方原文URL。此公告为独立的气球审批暂停措施，与省政府空域禁飞通告同属博鳌论坛活动但不是同一公告。2026-10-17首次补发现，非近期结束。",
+      "first_seen": "2026-10-17"
     }
   ]
 }

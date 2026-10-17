@@ -1,0 +1,374 @@
+{
+  "generated_at": "2026-10-17 12:08:38",
+  "date": "2026-10-17",
+  "summary": {
+    "new": 2,
+    "active": 0,
+    "upcoming": 0,
+    "ended": 6
+  },
+  "message": "海南19市县逐一完成公开信息检索，本轮未发现新发布且仍有效的空域管制公告；补发现2条2026年3月已结束的博鳌论坛相关独立公告，已归档（不计入近期结束）。当前有效0、即将生效0、近期结束6。部分市县政府、公安及机场公告栏目未逐页核验。中央气象台与海南省气象台关键气象源已核验，台风“蔷琵”远离海南，海南热带天气系统状态none、stale=false。",
+  "notices": [],
+  "ended_recent": [
+    {
+      "id": "wenchang-20261002-001",
+      "title": "文昌市人民政府关于在特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-10-02",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-10-07T07:00:00+08:00",
+      "end_time": "2026-10-10T07:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌龙楼/东郊/文教三镇10月7日07时至10月10日07时核心禁飞已结束",
+      "primary_url": "https://m.hinews.cn/page?m=1&n=2844472&s=1044",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-10-10"
+    },
+    {
+      "id": "wenchang-20260918-001",
+      "title": "文昌市人民政府关于在9月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-09-18",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-09-20T12:00:00+08:00",
+      "end_time": "2026-09-23T24:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌龙楼/东郊/文教三镇核心禁飞已于9月23日24时结束",
+      "primary_url": "https://www.hndnews.com/p/759498.html",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-09-20"
+    },
+    {
+      "id": "wenchang-20260901-001",
+      "title": "文昌市人民政府关于在9月特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-09-01",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-09-09T00:00:00+08:00",
+      "end_time": "2026-09-12T08:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌龙楼/东郊/文教三镇临时禁飞已于9月12日08:00结束",
+      "primary_url": "https://www.hndnews.com/p/757872.html",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-09-08"
+    },
+    {
+      "id": "wanning-20260811-balloon-001",
+      "title": "万宁市气象局关于2026年海南省第七届运动会期间停止开展升放气球审批活动的通告",
+      "publisher": "万宁市气象局",
+      "publish_date": "2026-08-11",
+      "area": "万宁市行政区域内涉及升放气球审批事项",
+      "start_time": "2026-08-16T00:00:00+08:00",
+      "end_time": "2026-08-26T23:59:59+08:00",
+      "status": "ended",
+      "brief": "万宁市省运会期间升放气球审批暂停措施已于8月26日结束",
+      "primary_url": "https://wanning.hainan.gov.cn/zfxxgk/sgbmgk/zfb/zfb/202608/t20260811_4125927.html",
+      "source_type": "official",
+      "source_label": "官方发布",
+      "first_seen": "2026-08-25"
+    },
+    {
+      "id": "wenchang-20260817-001",
+      "title": "关于在8月下旬特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "publish_date": "2026-08-17",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区域；文昌市其他区域限制可能影响飞行安全的空飘物",
+      "start_time": "2026-08-19T07:00:00+08:00",
+      "end_time": "2026-08-24T12:00:00+08:00",
+      "status": "ended",
+      "brief": "文昌市龙楼/东郊/文教三镇核心禁飞已于8月24日12时结束",
+      "primary_url": "https://wenchang.hainan.gov.cn/wenchang/0503/202608/943d85b79ac04458ad0fbbaa7fddbae9.shtml",
+      "source_type": "official",
+      "source_label": "官方发布",
+      "first_seen": "2026-08-21"
+    },
+    {
+      "id": "baoting-20260816-001",
+      "title": "关于对无人机等“低慢小”航空器进行临时飞行管制的通告",
+      "publisher": "保亭黎族苗族自治县人民政府",
+      "publish_date": "2026-08-16",
+      "area": "保亭县保城镇县城区域",
+      "start_time": "2026-08-17T00:00:00+08:00",
+      "end_time": "2026-08-22T23:59:59+08:00",
+      "status": "ended",
+      "brief": "保亭县保城镇县城区域低慢小航空器临时管制已于8月22日结束",
+      "primary_url": "https://www.hi.chinanews.com.cn/hnnew/2026-08-17/744548.html",
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "first_seen": "2026-08-22"
+    }
+  ],
+  "typhoon": {
+    "updated_at": "2026-10-17 12:08:38",
+    "status": "none",
+    "impact_level": "none",
+    "affects_hainan": false,
+    "stage": "none",
+    "system_type": null,
+    "name": null,
+    "named": false,
+    "headline": "10月17日官方关键气象源均已核验，暂未发现热带天气系统正在或预计影响海南",
+    "source_time": "2026-10-17 10:00",
+    "forecast_period": "2026-10-17 至 2026-10-20",
+    "summary": "中央气象台10月17日08时每日天气提示、天气公报、10时台风公报、06时海洋天气公报，以及海南省气象台07时海洋天气和城市预报均已核验。第30号台风“蔷琵”在关岛塞班东南方向西北太平洋洋面活动，中央气象台相关信息及其权威转载指出未来五天对我国无影响；各关键气象源未提示热带扰动、低压或热带气旋正在或预计影响海南。",
+    "hazards": [
+      "海南岛东部、南部和西部近海5级风、阵风6级",
+      "北部湾北部及南沙部分海域有雷阵雨；海上雷雨时局地风力可能增强"
+    ],
+    "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+    "sources": [
+      {
+        "name": "中央气象台每日天气提示",
+        "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+        "source_time": "2026-10-17 08:00",
+        "ok": true
+      },
+      {
+        "name": "中央气象台天气公报",
+        "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+        "source_time": "2026-10-17 08:00",
+        "ok": true
+      },
+      {
+        "name": "中央气象台台风公报/台风快讯",
+        "url": "https://www.nmc.cn/publish/typhoon/warning.html",
+        "source_time": "2026-10-17 10:00",
+        "ok": true
+      },
+      {
+        "name": "中央气象台海洋天气公报",
+        "url": "https://www.nmc.cn/publish/marine/forecast.htm",
+        "source_time": "2026-10-17 06:00",
+        "ok": true
+      },
+      {
+        "name": "海南省气象台城市预报",
+        "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
+        "source_time": "2026-10-17 07:00",
+        "ok": true
+      },
+      {
+        "name": "海南省气象台海洋天气",
+        "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
+        "source_time": "2026-10-17 07:00",
+        "ok": true
+      }
+    ],
+    "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
+    "stale": false,
+    "stale_reason": null,
+    "failed_sources": [],
+    "note": "按“影响优先、命名分开”规则核验，台风“蔷琵”存在但未发现官方明确其正在或预计影响海南；故海南热带系统状态none不代表全球无台风。局地雷阵雨和海上阵风属于飞行气象风险，不等同于空域管制。实际飞行仍需核对UOM、NOTAM、空管批复、机场净空及属地临时管制。"
+  },
+  "sources": [
+    {
+      "name": "中国民航局/民航海南监管局公开信息",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "海南省政府/公安/应急公开信息",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "海口",
+      "city": "海口",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "三亚",
+      "city": "三亚",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "三沙",
+      "city": "三沙",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "儋州",
+      "city": "儋州",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "五指山",
+      "city": "五指山",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "琼海",
+      "city": "琼海",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "文昌",
+      "city": "文昌",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "万宁",
+      "city": "万宁",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "东方",
+      "city": "东方",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "定安",
+      "city": "定安",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "屯昌",
+      "city": "屯昌",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "澄迈",
+      "city": "澄迈",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "临高",
+      "city": "临高",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "白沙",
+      "city": "白沙",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "昌江",
+      "city": "昌江",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "乐东",
+      "city": "乐东",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "陵水",
+      "city": "陵水",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "保亭",
+      "city": "保亭",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "琼中",
+      "city": "琼中",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "海南机场/海口美兰/三亚凤凰/琼海博鳌机场公开信息",
+      "ok": true,
+      "coverage_status": "public_search_completed",
+      "official_full_verification": false
+    },
+    {
+      "name": "海南广播电视总台（历史补发现省政府禁飞通告）",
+      "url": "https://www.hnntv.cn/info/article/546/546644.html",
+      "ok": true,
+      "source_type": "media_repost"
+    },
+    {
+      "name": "琼海融媒（历史补发现升放气球公告）",
+      "url": "https://hndnews.com/p/741482.html",
+      "ok": true,
+      "source_type": "media_repost"
+    },
+    {
+      "name": "中央气象台每日天气提示",
+      "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+      "source_time": "2026-10-17 08:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    },
+    {
+      "name": "中央气象台天气公报",
+      "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+      "source_time": "2026-10-17 08:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    },
+    {
+      "name": "中央气象台台风公报/台风快讯",
+      "url": "https://www.nmc.cn/publish/typhoon/warning.html",
+      "source_time": "2026-10-17 10:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    },
+    {
+      "name": "中央气象台海洋天气公报",
+      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
+      "source_time": "2026-10-17 06:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    },
+    {
+      "name": "海南省气象台城市预报",
+      "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
+      "source_time": "2026-10-17 07:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    },
+    {
+      "name": "海南省气象台海洋天气",
+      "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
+      "source_time": "2026-10-17 07:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    }
+  ],
+  "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
+}
