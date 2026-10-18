@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17 12:08:38",
+  "updated_at": "2026-10-18 12:11:35",
   "notices": [
     {
       "id": "baoting-20260816-001",
@@ -259,6 +259,161 @@
       "source_label": "权威转载",
       "verification_note": "琼海融媒2026-03-18完整转载琼海市气象局公告，保留原机构、落款和管控时间；本轮未找到可直接访问的气象局官方原文URL。此公告为独立的气球审批暂停措施，与省政府空域禁飞通告同属博鳌论坛活动但不是同一公告。2026-10-17首次补发现，非近期结束。",
       "first_seen": "2026-10-17"
+    },
+    {
+      "id": "haikou-20260227-lantern-001",
+      "title": "海口市人民政府关于大型群众性活动期间禁止“无人机”等飞行器在相关区域飞行的通告（2026年元宵节）",
+      "publisher": "海口市人民政府",
+      "origin_publisher": "海口市人民政府",
+      "publish_date": "2026-02-27",
+      "area": "海口市万绿园上空：玉兰路以东、滨海大道以北、甸昆路以西、红棉东路以南合围区域",
+      "start_time": "2026-03-01T18:00:00+08:00",
+      "end_time": "2026-03-04T23:00:00+08:00",
+      "time_text": "2026-03-01至03-04，每日18:00—23:00（分时段）",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "元宵节大型群众性活动期间，万绿园指定区域每日18时至23时禁止未经批准的无人机、轻型航空器、航模、飞艇、气球等低慢小航空器飞行；特殊任务按规定审批。",
+      "brief": "海口万绿园元宵节3月1—4日夜间禁飞已结束（历史补录）",
+      "url": "https://hainan.ifeng.com/c/8r6kmWDeHXH",
+      "primary_url": "https://hainan.ifeng.com/c/8r6kmWDeHXH",
+      "links": [
+        {
+          "name": "凤凰网海南（转载海口市人民政府通告）",
+          "url": "https://hainan.ifeng.com/c/8r6kmWDeHXH",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "凤凰网海南全文转载，页面注明来源为海口市人民政府并保留2026年2月27日落款；未找到可直接访问的官方原文URL。",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "id": "haikou-20260402-cice-001",
+      "title": "海口市人民政府关于2026年第六届中国国际消费品博览会期间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "海口市人民政府",
+      "origin_publisher": "海口市人民政府",
+      "publish_date": "2026-04-02",
+      "area": "海口市秀英区东起长滨路、西至长滨五路、南至长滨东三街、北至近海三海里海域的临时空中限制区",
+      "start_time": "2026-04-12T12:00:00+08:00",
+      "end_time": "2026-04-19T00:00:00+08:00",
+      "time_text": "2026-04-12 12:00 — 2026-04-18 24:00",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "第六届消博会期间在海南国际会展中心周边及近海划定临时空中限制区，禁止未经批准的轻型航空器、无人机、航模和各类空飘物起降或飞行；应急作业须履行审批。",
+      "brief": "海口第六届消博会4月12—18日临时空中限制区已结束（历史补录）",
+      "url": "https://finance.sina.cn/2026-04-08/detail-inhtucsa2822582.d.html",
+      "primary_url": "https://finance.sina.cn/2026-04-08/detail-inhtucsa2822582.d.html",
+      "links": [
+        {
+          "name": "新浪财经（转自海口发布，署名海口市人民政府）",
+          "url": "https://finance.sina.cn/2026-04-08/detail-inhtucsa2822582.d.html",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "新浪财经转载海口发布/海口市政府网站完整通告，包含政府落款、日期及管制措施；未找到可直接访问的官方原文URL。",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "id": "sanya-20260406-beachgames-001",
+      "title": "三亚市人民政府关于加强第六届亚洲沙滩运动会期间“低慢小”航空器和空飘物管理工作的通告",
+      "publisher": "三亚市人民政府",
+      "origin_publisher": "三亚市人民政府",
+      "publish_date": "2026-04-06",
+      "area": "三亚市吉阳区与天涯区行政辖区",
+      "start_time": "2026-04-15T08:00:00+08:00",
+      "end_time": "2026-05-01T00:00:00+08:00",
+      "time_text": "2026-04-15 08:00 — 2026-04-30 24:00",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "三府函〔2026〕226号：亚沙会期间吉阳区和天涯区禁止未经批准的无人机、穿越机等低慢小航空器飞行及空飘物违法升空；特殊飞行需空管及主管部门审批并向亚沙会安保指挥中心报备。",
+      "brief": "三亚亚沙会4月15—30日吉阳、天涯低慢小临时管制已结束（历史补录）",
+      "url": "https://m.thepaper.cn/newsDetail_forward_32939529",
+      "primary_url": "https://m.thepaper.cn/newsDetail_forward_32939529",
+      "links": [
+        {
+          "name": "澎湃新闻·三亚发布政务账号（全文转载）",
+          "url": "https://m.thepaper.cn/newsDetail_forward_32939529",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "澎湃号由三亚发布（中共三亚市委宣传部）发布，全文载明三府函〔2026〕226号及市政府落款；未找到可直接访问的政府原文URL。",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "id": "haikou-20260618-event-001",
+      "title": "海口市人民政府关于大型群众性活动期间禁止“无人机”等航空器在相关区域飞行的通告（云洞图书馆）",
+      "publisher": "海口市人民政府",
+      "origin_publisher": "海口市人民政府",
+      "publish_date": "2026-06-18",
+      "area": "海口市云洞图书馆西侧水域至自在湾沿岸、万绿园龙珠桥至华彩海口湾沿岸",
+      "start_time": "2026-06-19T08:00:00+08:00",
+      "end_time": "2026-06-20T19:00:00+08:00",
+      "time_text": "2026-06-19 08:00 — 2026-06-20 19:00",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "海口云洞图书馆附近大型群众性活动期间，禁止未经批准的无人机及其他低慢小航空器在指定海湾沿岸区域飞行；特殊活动须依法办理审批。",
+      "brief": "海口云洞图书馆周边6月19—20日禁飞已结束（历史补录）",
+      "url": "https://www.hndnews.com/p/750029.html",
+      "primary_url": "https://www.hndnews.com/p/750029.html",
+      "links": [
+        {
+          "name": "海拔新闻（转载海口市人民政府微信公众号）",
+          "url": "https://www.hndnews.com/p/750029.html",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "海拔新闻完整转载海口市人民政府通告，保留2026年6月18日落款并提供官方微信公众号原文入口，但该微信链接本轮无法打开；故保留可核验的权威转载URL。",
+      "first_seen": "2026-10-18"
+    },
+    {
+      "id": "haikou-20260716-changying-001",
+      "title": "海口市人民政府关于大型群众性活动期间禁止“无人机”等航空器在相关区域飞行的通告（长影奇幻乐园）",
+      "publisher": "海口市人民政府",
+      "origin_publisher": "海口市人民政府",
+      "publish_date": "2026-07-16",
+      "area": "海口市海南长影奇幻乐园周边：长影路以东、海大道以北、南海大道以南、长影西路合围区域（依通告原文）",
+      "start_time": "2026-07-17T17:00:00+08:00",
+      "end_time": "2026-08-03T00:00:00+08:00",
+      "time_text": "2026-07-17 17:00 — 2026-08-02 24:00",
+      "status": "ended",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "海口长影奇幻乐园大型群众性活动期间，指定合围区域禁止未经批准的无人机、航模及其他低慢小航空器飞行；特殊活动依法审批。",
+      "brief": "海口长影奇幻乐园7月17日至8月2日禁飞已结束（历史补录）",
+      "url": "https://hainan.ifeng.com/c/8usgzboNu5n",
+      "primary_url": "https://hainan.ifeng.com/c/8usgzboNu5n",
+      "links": [
+        {
+          "name": "凤凰网海南（转载海口旅游政务公众号）",
+          "url": "https://hainan.ifeng.com/c/8usgzboNu5n",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "凤凰网海南完整转载海口旅游微信公众号发布的市政府通告，含2026年7月16日政府落款；本轮未找到可直接访问的市政府原文URL。",
+      "first_seen": "2026-10-18"
     }
   ]
 }

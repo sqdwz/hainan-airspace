@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17 12:08:38",
+  "updated_at": "2026-10-18 12:11:35",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,50 +7,51 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "10月17日官方关键气象源均已核验，暂未发现热带天气系统正在或预计影响海南",
-  "source_time": "2026-10-17 10:00",
-  "forecast_period": "2026-10-17 至 2026-10-20",
-  "summary": "中央气象台10月17日08时每日天气提示、天气公报、10时台风公报、06时海洋天气公报，以及海南省气象台07时海洋天气和城市预报均已核验。第30号台风“蔷琵”在关岛塞班东南方向西北太平洋洋面活动，中央气象台相关信息及其权威转载指出未来五天对我国无影响；各关键气象源未提示热带扰动、低压或热带气旋正在或预计影响海南。",
+  "headline": "10月18日关键气象源已核验：超强台风“蔷琵”趋向台湾以东洋面，暂无官方资料提示热带系统正在或预计影响海南",
+  "source_time": "2026-10-18 10:00",
+  "forecast_period": "2026-10-18 至 2026-10-21",
+  "summary": "中央气象台10月18日08时每日天气提示和天气公报、10时台风公报、06时海洋天气公报及海南省气象台07时海洋天气、11时30分城市预报均已核验。第30号台风“蔷琵”为超强台风级，中央气象台预计其继续向西偏北移动、逐渐靠近台湾以东洋面；本轮官方资料没有明确其正在或预计影响海南，故不把远海台风直接标记为海南受影响。应持续跟踪后续路径变化。",
   "hazards": [
-    "海南岛东部、南部和西部近海5级风、阵风6级",
-    "北部湾北部及南沙部分海域有雷阵雨；海上雷雨时局地风力可能增强"
+    "海南岛四周近海5级风、阵风6级",
+    "西沙海域6级风、阵风7级，中沙海域6级风、阵风8级",
+    "北部湾南部局地雷阵雨，临海无人机作业需关注阵风"
   ],
   "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-10-17 08:00",
+      "source_time": "2026-10-18 08:00",
       "ok": true
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-10-17 08:00",
+      "source_time": "2026-10-18 08:00",
       "ok": true
     },
     {
       "name": "中央气象台台风公报/台风快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-10-17 10:00",
+      "source_time": "2026-10-18 10:00",
       "ok": true
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-10-17 06:00",
+      "source_time": "2026-10-18 06:00",
       "ok": true
     },
     {
       "name": "海南省气象台城市预报",
       "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-      "source_time": "2026-10-17 07:00",
+      "source_time": "2026-10-18 11:30",
       "ok": true
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-      "source_time": "2026-10-17 07:00",
+      "source_time": "2026-10-18 07:00",
       "ok": true
     }
   ],
@@ -58,5 +59,5 @@
   "stale": false,
   "stale_reason": null,
   "failed_sources": [],
-  "note": "按“影响优先、命名分开”规则核验，台风“蔷琵”存在但未发现官方明确其正在或预计影响海南；故海南热带系统状态none不代表全球无台风。局地雷阵雨和海上阵风属于飞行气象风险，不等同于空域管制。实际飞行仍需核对UOM、NOTAM、空管批复、机场净空及属地临时管制。"
+  "note": "采用“影响优先、命名分开”规则。台风“蔷琵”已命名并为超强台风，但当前官方预报未明确其正在或预计影响海南，故海南热带系统status=none；应持续跟踪西行路径，不可解读为全球无台风或未来永不影响。海上大风和局地雷阵雨是飞行气象风险，不等同于空域管制。实际飞行须核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制。"
 }
