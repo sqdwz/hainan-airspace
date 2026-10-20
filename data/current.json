@@ -1,4 +1,43 @@
 {
-  "updated_at": "2026-10-18 12:11:35",
-  "notices": []
+  "updated_at": "2026-10-20 12:12",
+  "notices": [
+    {
+      "id": "wenchang-20261016-001",
+      "title": "文昌市人民政府关于在10月特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "origin_publisher": "文昌市人民政府",
+      "publish_date": "2026-10-16",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-10-19T07:00:00+08:00",
+      "end_time": "2026-10-22T12:00:00+08:00",
+      "time_text": "2026-10-19 07:00 — 2026-10-22 12:00",
+      "status": "active",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "2026年10月19日07时至10月22日12时，文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区，禁止轻型和超轻型飞机、轻型直升机、滑翔机、三角翼、动力三角翼、滑翔伞、动力伞、热气球、飞艇、无人机、航空模型、空飘气球、系留气球、风筝、孔明灯等低慢小航空器和空飘物起降、施放和飞行；其他区域禁止施放可能影响飞行安全的空飘物。应急作业须向海南通航飞行服务站提出申请，取得相关军民航空管单位审核同意并向属地公安机关报备，按批准的飞行计划实施。",
+      "brief": "文昌龙楼/东郊/文教三镇10月19日07时至22日12时实施核心禁飞（当前生效）",
+      "url": "https://www.hnntv.cn/info/article/574/574403.html",
+      "primary_url": "https://www.hnntv.cn/info/article/574/574403.html",
+      "links": [
+        {
+          "name": "海南网络广播电视台（转载文昌市人民政府网）",
+          "url": "https://www.hnntv.cn/info/article/574/574403.html",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        },
+        {
+          "name": "凤凰网海南（转载官方通告）",
+          "url": "https://hainan.ifeng.com/c/8xIolCjW3xQ",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "海南网络广播电视台于2026-10-16完整转载，明确标注来源为文昌市人民政府网，通告落款2026-10-16。2026-10-20仍未取得可直接访问的文昌市政府原文URL，故暂用权威完整转载作为primary_url；该通告曾于2026-10-19巡检发现但因GitHub同步失败未入库。",
+      "first_seen": "2026-10-19"
+    }
+  ]
 }
