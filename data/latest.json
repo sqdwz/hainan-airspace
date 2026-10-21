@@ -1,14 +1,53 @@
 {
-  "generated_at": "2026-10-18 12:11:35",
-  "date": "2026-10-18",
+  "generated_at": "2026-10-21 12:11",
+  "date": "2026-10-21",
   "summary": {
-    "new": 5,
-    "active": 0,
+    "new": 0,
+    "active": 1,
     "upcoming": 0,
     "ended": 6
   },
-  "message": "海南19市县逐一完成公开信息检索，本轮未发现新发布且仍有效的空域管制公告；补发现5条2026年2月至8月已结束的独立管制通告，已补入年度归档（不计入近期结束）。当前有效0、即将生效0、近期结束6。部分官方公告栏目未逐页核验。文昌10月22日前后疑似航天发射及海事航行警告仅为待核查线索，非已核验航空禁飞通告。关键气象源已核验：超强台风“蔷琵”预计趋向台湾以东洋面，暂无官方明确其影响海南，海南天气状态none、stale=false。",
-  "notices": [],
+  "message": "海南19市县已分别开展公开信息检索，本轮未发现符合入库标准的新禁飞通告。文昌市龙楼、东郊、文教三镇10月19日07时至22日12时核心禁飞仍在生效，今日新增0、当前有效1、即将生效0、近期结束6。文昌政府原文URL尚未直接取得，保留权威媒体完整转载；部分市县及机场官方公告栏目未完成逐页核验。10月22日至23日文昌附近火箭发射海事航行警告仅作线索，不等同于航空NOTAM。关键气象源已核验，“蔷琵”主要趋向台湾以东洋面，暂无官方明确热带系统影响海南，天气状态none。海南近海阵风及局地雷阵雨需关注，天气风险不等同空域管制。",
+  "notices": [
+    {
+      "id": "wenchang-20261016-001",
+      "title": "文昌市人民政府关于在10月特定时间禁止小型航空器和空飘物飞行活动的通告",
+      "publisher": "文昌市人民政府",
+      "origin_publisher": "文昌市人民政府",
+      "publish_date": "2026-10-16",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区；文昌市其他区域禁止施放可能影响飞行安全的空飘物",
+      "start_time": "2026-10-19T07:00:00+08:00",
+      "end_time": "2026-10-22T12:00:00+08:00",
+      "time_text": "2026-10-19 07:00 — 2026-10-22 12:00",
+      "status": "active",
+      "is_new_today": false,
+      "is_new_scan": false,
+      "summary": "2026年10月19日07时至10月22日12时，文昌市龙楼镇、东郊镇、文教镇全域为核心禁飞区，禁止轻型和超轻型飞机、轻型直升机、滑翔机、三角翼、动力三角翼、滑翔伞、动力伞、热气球、飞艇、无人机、航空模型、空飘气球、系留气球、风筝、孔明灯等低慢小航空器和空飘物起降、施放和飞行；其他区域禁止施放可能影响飞行安全的空飘物。应急作业须向海南通航飞行服务站提出申请，取得相关军民航空管单位审核同意并向属地公安机关报备，按批准的飞行计划实施。",
+      "brief": "文昌龙楼/东郊/文教三镇10月19日07时至22日12时实施核心禁飞（当前生效）",
+      "url": "https://www.hnntv.cn/info/article/574/574403.html",
+      "primary_url": "https://www.hnntv.cn/info/article/574/574403.html",
+      "links": [
+        {
+          "name": "海南网络广播电视台（转载文昌市人民政府网）",
+          "url": "https://www.hnntv.cn/info/article/574/574403.html",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        },
+        {
+          "name": "凤凰网海南（转载官方通告）",
+          "url": "https://hainan.ifeng.com/c/8xIolCjW3xQ",
+          "type": "media_repost",
+          "rank": 2,
+          "reposts_official": true
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "海南网络广播电视台于2026-10-16完整转载，明确标注来源为文昌市人民政府网，通告落款2026-10-16。2026-10-20仍未取得可直接访问的文昌市政府原文URL，故暂用权威完整转载作为primary_url；该通告曾于2026-10-19巡检发现但因GitHub同步失败未入库。",
+      "first_seen": "2026-10-19"
+    }
+  ],
   "ended_recent": [
     {
       "id": "wenchang-20261002-001",
@@ -102,7 +141,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-10-18 12:11:35",
+    "updated_at": "2026-10-21 12:11",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -110,51 +149,58 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "10月18日关键气象源已核验：超强台风“蔷琵”趋向台湾以东洋面，暂无官方资料提示热带系统正在或预计影响海南",
-    "source_time": "2026-10-18 10:00",
-    "forecast_period": "2026-10-18 至 2026-10-21",
-    "summary": "中央气象台10月18日08时每日天气提示和天气公报、10时台风公报、06时海洋天气公报及海南省气象台07时海洋天气、11时30分城市预报均已核验。第30号台风“蔷琵”为超强台风级，中央气象台预计其继续向西偏北移动、逐渐靠近台湾以东洋面；本轮官方资料没有明确其正在或预计影响海南，故不把远海台风直接标记为海南受影响。应持续跟踪后续路径变化。",
+    "headline": "10月21日中央及海南气象源已核验：超强台风“蔷琵”向台湾以东海域移动，暂无官方明确影响海南的热带系统",
+    "source_time": "2026-10-21 10:00",
+    "forecast_period": "2026-10-21 至 2026-10-24",
+    "summary": "中央气象台10月21日08时每日天气提示和天气公报、10时台风公报、06时海洋天气公报，以及海南省气象台07时海洋天气、11:30城市预报和05时琼州海峡预报已核验。“蔷琵”预计24日前后在台湾东北部附近转向东北，影响海域主要为台湾以东、台湾海峡、巴士海峡及南海东北部和中东部，官方未明确热带系统正在或预计影响海南。10月20日海南文昌、海口局地大暴雨为历史实况，未被官方归因为影响海南的热带系统。",
     "hazards": [
-      "海南岛四周近海5级风、阵风6级",
-      "西沙海域6级风、阵风7级，中沙海域6级风、阵风8级",
-      "北部湾南部局地雷阵雨，临海无人机作业需关注阵风"
+      "10月20日文昌、海口局地大暴雨（历史实况）",
+      "海南岛近海及琼州海峡5级风、阵风6级，南部和西部近海局地雷阵雨",
+      "西沙、中沙阵风7级；琼州海峡雷雨时阵风7至8级",
+      "台风“蔷琵”主要影响台湾及南海东北部、中东部海域，继续关注路径"
     ],
     "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-        "source_time": "2026-10-18 08:00",
+        "source_time": "2026-10-21 08:00",
         "ok": true
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "source_time": "2026-10-18 08:00",
+        "source_time": "2026-10-21 08:00",
         "ok": true
       },
       {
-        "name": "中央气象台台风公报/台风快讯",
+        "name": "中央气象台台风公报/快讯",
         "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-        "source_time": "2026-10-18 10:00",
+        "source_time": "2026-10-21 10:00",
         "ok": true
       },
       {
         "name": "中央气象台海洋天气公报",
         "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-        "source_time": "2026-10-18 06:00",
+        "source_time": "2026-10-21 06:00",
         "ok": true
       },
       {
         "name": "海南省气象台城市预报",
         "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-        "source_time": "2026-10-18 11:30",
+        "source_time": "2026-10-21 11:30",
         "ok": true
       },
       {
         "name": "海南省气象台海洋天气",
         "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-        "source_time": "2026-10-18 07:00",
+        "source_time": "2026-10-21 07:00",
+        "ok": true
+      },
+      {
+        "name": "海南省气象台琼州海峡预报",
+        "url": "https://hainan.weather.com.cn/hytq/",
+        "source_time": "2026-10-21 05:00",
         "ok": true
       }
     ],
@@ -162,7 +208,7 @@
     "stale": false,
     "stale_reason": null,
     "failed_sources": [],
-    "note": "采用“影响优先、命名分开”规则。台风“蔷琵”已命名并为超强台风，但当前官方预报未明确其正在或预计影响海南，故海南热带系统status=none；应持续跟踪西行路径，不可解读为全球无台风或未来永不影响。海上大风和局地雷阵雨是飞行气象风险，不等同于空域管制。实际飞行须核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制。"
+    "note": "采用影响优先、命名分开规则。已命名超强台风“蔷琵”仍在西北太平洋活动，但官方未明确其正在或预计影响海南，因此海南热带系统状态none不代表全球无台风。雷雨、海上大风属于气象风险，不等同于空域管制。实际飞行仍需核对UOM、NOTAM、军民航空管批复、机场净空和属地临时管制。"
   },
   "sources": [
     {
@@ -224,7 +270,8 @@
       "city": "文昌",
       "ok": true,
       "coverage_status": "public_search_completed",
-      "official_full_verification": false
+      "official_full_verification": false,
+      "note": "文昌10月16日通告权威完整转载已核验，政府原文URL尚未直接取得"
     },
     {
       "name": "万宁",
@@ -317,87 +364,74 @@
       "official_full_verification": false
     },
     {
-      "name": "海口市人民政府历史公告：2026-02-27",
-      "url": "https://hainan.ifeng.com/c/8r6kmWDeHXH",
+      "name": "文昌市人民政府2026-10-16禁飞通告（海南网络广播电视台完整转载）",
+      "url": "https://www.hnntv.cn/info/article/574/574403.html",
       "ok": true,
       "source_type": "media_repost",
-      "coverage_status": "verified_authoritative_repost"
+      "source_label": "权威转载",
+      "coverage_status": "verified_authoritative_repost",
+      "official_original_available": false
     },
     {
-      "name": "海口市人民政府历史公告：2026-04-02",
-      "url": "https://finance.sina.cn/2026-04-08/detail-inhtucsa2822582.d.html",
-      "ok": true,
-      "source_type": "media_repost",
-      "coverage_status": "verified_authoritative_repost"
+      "name": "文昌市政府通告原文链接",
+      "ok": false,
+      "coverage_status": "official_original_unavailable",
+      "source_unavailable": true,
+      "note": "未找到可直接访问的政府原文URL；已有明确署名官方的权威媒体完整转载"
     },
     {
-      "name": "三亚市人民政府历史公告：2026-04-06",
-      "url": "https://m.thepaper.cn/newsDetail_forward_32939529",
-      "ok": true,
-      "source_type": "media_repost",
-      "coverage_status": "verified_authoritative_repost"
-    },
-    {
-      "name": "海口市人民政府历史公告：2026-06-18",
-      "url": "https://www.hndnews.com/p/750029.html",
-      "ok": true,
-      "source_type": "media_repost",
-      "coverage_status": "verified_authoritative_repost"
-    },
-    {
-      "name": "海口市人民政府历史公告：2026-07-16",
-      "url": "https://hainan.ifeng.com/c/8usgzboNu5n",
-      "ok": true,
-      "source_type": "media_repost",
-      "coverage_status": "verified_authoritative_repost"
-    },
-    {
-      "name": "文昌10月22日前后疑似火箭发射窗口与琼航警200/26（仅航行警告线索，非航空禁飞通告）",
+      "name": "琼航警200/26海上火箭发射线索（非航空禁飞通告）",
       "url": "https://www.sealagom.com/coastal/China%20Coastal/Hainan/",
       "ok": false,
-      "coverage_status": "unverified_lead",
-      "official_full_verification": false,
-      "note": "非官方汇总源；需交叉核对中国海事局官方航警、航空NOTAM与文昌市政府临时禁飞公告；不得当作已核验空域管制。"
+      "coverage_status": "maritime_only_unverified_aviation",
+      "note": "海事航行警告非航空NOTAM，未作为禁飞公告入库"
     },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-10-18 08:00",
+      "source_time": "2026-10-21 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-10-18 08:00",
+      "source_time": "2026-10-21 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
-      "name": "中央气象台台风公报/台风快讯",
+      "name": "中央气象台台风公报/快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-10-18 10:00",
+      "source_time": "2026-10-21 10:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-10-18 06:00",
+      "source_time": "2026-10-21 06:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台城市预报",
       "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-      "source_time": "2026-10-18 11:30",
+      "source_time": "2026-10-21 11:30",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-      "source_time": "2026-10-18 07:00",
+      "source_time": "2026-10-21 07:00",
+      "ok": true,
+      "coverage_status": "official_source_verified"
+    },
+    {
+      "name": "海南省气象台琼州海峡预报",
+      "url": "https://hainan.weather.com.cn/hytq/",
+      "source_time": "2026-10-21 05:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     }
