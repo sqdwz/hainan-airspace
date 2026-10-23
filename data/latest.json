@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-22 12:13",
-  "date": "2026-10-22",
+  "generated_at": "2026-10-23 12:12",
+  "date": "2026-10-23",
   "summary": {
-    "new": 1,
+    "new": 0,
     "active": 1,
     "upcoming": 0,
     "ended": 7
   },
-  "message": "海南19市县已逐一开展公开检索。本轮首次发现屯昌县2026—2028年全县禁止燃放孔明灯的长期空飘物管理通告（历史发布、今日首次发现，非无人机禁飞）。文昌市10月19日07时至22日12时临时禁飞已按公告时间结束并转入年度归档。今日首次发现1条、当前有效1条（仅孔明灯）、即将生效0条、近期结束7条。部分官方公告栏目未完成逐页核验；文昌原文链接尚未取得，屯昌官方页面直连403但搜索索引可核验。中央与海南关键气象源已核验，“蔷琵”主要影响台湾及华东沿海，未提示热带系统影响海南，海南热带状态none；海南近海雷阵雨和阵风6级需关注，天气风险不等同空域管制。",
+  "message": "海南19市县分别开展公开检索，10月23日未发现符合入库标准的新空域管制公告。当前有效1条：屯昌县2026—2028年全县孔明灯禁放（非无人机禁飞）；即将生效0条，近期结束7条，pending/review 0条。文昌10月19—22日临时禁飞已结束，10月22—23日火箭发射海事航行警告未取得航空NOTAM，不直接作为航空禁飞入库。部分官方栏目未完成逐页核验。中央气象台每日提示、天气公报、台风及海洋天气和海南省气象资料已核验，“蔷琵”趋向台湾东北和东海，未提示热带系统影响海南，天气状态none；海南海洋专项公开页面最新仍为10月21日预报但有效期覆盖巡检时点，需关注局地雷雨及阵风。天气风险不等同空域管制。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -20,8 +20,8 @@
       "end_time": "2028-12-31T23:59:59+08:00",
       "time_text": "2026—2028年全年（原文另注明自发布之日起施行）",
       "status": "active",
-      "is_new_today": true,
-      "is_new_scan": true,
+      "is_new_today": false,
+      "is_new_scan": false,
       "summary": "屯昌县人民政府办公室2025年12月31日印发的2026—2028年通告规定，屯昌县全县域全年禁止燃放孔明灯。该条属于长期空飘物禁放管理及消防安全措施，不等同于无人机禁飞或航空临时空域管制；烟花爆竹禁放另有区域规定。",
       "brief": "屯昌县2026—2028年全县域禁止燃放孔明灯（长期空飘物管理，非无人机禁飞）",
       "url": "https://tunchang.hainan.gov.cn/xxgkzl/xgbmxxgk/xfgw_81480/zfxxgkml2/202601/t20260103_4004219.html",
@@ -148,7 +148,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-10-22 12:13",
+    "updated_at": "2026-10-23 12:12",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -156,45 +156,45 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "10月22日中央及海南气象源核验：超强台风“蔷琵”趋向台湾东北及东海，未提示热带系统影响海南",
-    "source_time": "2026-10-22 10:00",
-    "forecast_period": "2026-10-22 至 2026-10-25",
-    "summary": "中央气象台10月22日08时每日天气提示和天气公报、10时台风公报、06时海洋天气公报均已核验。第30号超强台风“蔷琵”预计23日夜间进入东海南部，24日在浙江东部近海转东北，风雨重点为台湾及华东沿海、南海东北部。海南省气象台10月22日05:30城市预报和10月21日19时有效海洋天气预报未提示热带扰动、低压或台风正在或预计影响海南。海南岛近海及琼州海峡阵风6级，部分海域有雷阵雨。",
+    "headline": "10月23日官方核验：强台风“蔷琵”趋向台湾东北及东海，未提示热带系统影响海南",
+    "source_time": "2026-10-23 10:00",
+    "forecast_period": "2026-10-23 至 2026-10-26",
+    "summary": "中央气象台10月23日08时每日天气提示和天气公报、10时台风公报及06时海洋天气公报已读取。第30号强台风“蔷琵”位于台湾东南海面，预计24日上午进入东海南部，25日前后沿浙江东部近海北上；风雨影响重点为台湾、华东沿海及南海东北部。海南省气象台10月23日11:30城市预报未提示热带低压或热带扰动影响海南；海南海洋天气公开页面最新仍为10月21日19时发布的48小时预报，琼州海峡预报有效期至24日20时，均未提示热带系统影响海南。海南局地仍需关注雷阵雨及海上阵风。",
     "hazards": [
-      "海南岛东部、西部近海及琼州海峡局地雷阵雨",
-      "海南岛近海、北部湾及琼州海峡部分海域5级风、阵风6级",
-      "南海东北部受“蔷琵”与冷空气共同影响有6至8级大风、阵风9至10级（非海南岛近海）"
+      "中沙海域10月23日城市预报提示雷阵雨、约5级风",
+      "琼州海峡10月21日17时发布、有效期至24日20时的预报提示5级风、阵风6级",
+      "海南岛近海局地雷阵雨；南海东北部受“蔷琵”与冷空气影响大风（非海南岛近海）"
     ],
     "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-        "source_time": "2026-10-22 08:00",
+        "source_time": "2026-10-23 08:00",
         "ok": true
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "source_time": "2026-10-22 08:00",
+        "source_time": "2026-10-23 08:00",
         "ok": true
       },
       {
         "name": "中央气象台台风公报/快讯",
         "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-        "source_time": "2026-10-22 10:00",
+        "source_time": "2026-10-23 10:00",
         "ok": true
       },
       {
         "name": "中央气象台海洋天气公报",
         "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-        "source_time": "2026-10-22 06:00",
+        "source_time": "2026-10-23 06:00",
         "ok": true
       },
       {
         "name": "海南省气象台城市预报",
         "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-        "source_time": "2026-10-22 05:30",
+        "source_time": "2026-10-23 11:30",
         "ok": true
       },
       {
@@ -202,21 +202,21 @@
         "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
         "source_time": "2026-10-21 19:00",
         "ok": true,
-        "note": "最新可读取的有效预报，非当日新发布时间"
+        "note": "最新可读取版本仍为10月21日19时，48小时预报覆盖巡检时点，非10月23日新报"
       },
       {
         "name": "海南省气象台琼州海峡预报",
         "url": "https://hainan.weather.com.cn/hytq/",
         "source_time": "2026-10-21 17:00",
         "ok": true,
-        "note": "预报有效期覆盖10月22日至24日"
+        "note": "预报有效期至10月24日20时，属于有效期内旧发布资料"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
     "stale": false,
     "stale_reason": null,
     "failed_sources": [],
-    "note": "采用影响优先、命名分开规则。“蔷琵”虽为已命名超强台风，但官方当前预报未提示其正在或预计影响海南，因此海南热带系统状态none；不代表西北太平洋无台风。局地雷阵雨和海上大风是气象风险，不等同空域管制。飞行前仍需核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制。"
+    "note": "按影响优先、命名分开规则核验。“蔷琵”为已命名强台风，但官方未提示正在或预计影响海南，海南状态none并不代表西北太平洋无台风。海南海洋专项公开页面最新版本较旧但预报有效期覆盖巡检时点。天气风险不等同空域管制；飞行前仍需核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制。"
   },
   "sources": [
     {
@@ -279,7 +279,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "10月19—22日临时禁飞于22日12:00按公告到期；政府原文链接仍待补齐"
+      "note": "10月19—22日禁飞已结束；10月23日未发现可核验新禁飞通告，海事警告不等于NOTAM"
     },
     {
       "name": "万宁",
@@ -308,7 +308,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "2026—2028年孔明灯全县禁放政府通告；直连403，搜索索引全文可核验"
+      "note": "2026—2028年孔明灯长期禁放仍有效，非无人机禁飞"
     },
     {
       "name": "澄迈",
@@ -370,77 +370,78 @@
       "name": "海南机场/海口美兰/三亚凤凰/琼海博鳌机场公开信息",
       "ok": true,
       "coverage_status": "public_search_completed",
-      "official_full_verification": false
+      "official_full_verification": false,
+      "note": "未逐页核验全部机场官方通告"
     },
     {
-      "name": "文昌市人民政府10月16日临时禁飞通告（权威转载）",
+      "name": "文昌市10月16日禁飞通告（权威转载）",
       "url": "https://www.hnntv.cn/info/article/574/574403.html",
       "ok": true,
       "source_type": "media_repost",
       "source_label": "权威转载",
-      "coverage_status": "verified_authoritative_repost"
+      "coverage_status": "verified_authoritative_repost",
+      "note": "管制期已于10月22日12:00结束"
     },
     {
-      "name": "文昌市政府通告原文链接",
+      "name": "文昌市政府禁飞通告原文",
       "ok": false,
       "coverage_status": "official_original_unavailable",
       "source_unavailable": true,
-      "note": "仍未取得可直接访问的文昌政府原文"
+      "note": "尚未取得可直接核验的官方原文URL"
     },
     {
       "name": "屯昌县政府2026—2028年孔明灯禁放通告",
       "url": "https://tunchang.hainan.gov.cn/xxgkzl/xgbmxxgk/xfgw_81480/zfxxgkml2/202601/t20260103_4004219.html",
       "ok": true,
-      "source_type": "official",
       "coverage_status": "official_search_index_verified",
-      "note": "搜索索引可获取完整原文；直连403"
+      "note": "官方搜索索引可核验，历史直连返回403"
     },
     {
       "name": "屯昌县政府原文直连",
       "url": "https://tunchang.hainan.gov.cn/xxgkzl/xgbmxxgk/xfgw_81480/zfxxgkml2/202601/t20260103_4004219.html",
       "ok": false,
-      "coverage_status": "source_error",
-      "source_error": true,
-      "note": "HTTP 403，保留直连异常"
+      "coverage_status": "source_unavailable",
+      "source_unavailable": true,
+      "note": "历史记录显示直连403，本轮未确认恢复"
     },
     {
-      "name": "琼航警200/26文昌海事航行警告（非航空NOTAM）",
+      "name": "清澜海事局10月22—23日火箭发射航行警告（海事线索）",
       "ok": false,
       "coverage_status": "maritime_only_unverified_aviation",
-      "note": "仅作线索，不等同航空禁飞公告"
+      "note": "权威资讯引述每日10—12时火箭发射海事航行警告，未核验航空NOTAM，不作为无人机禁飞公告"
     },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-10-22 08:00",
+      "source_time": "2026-10-23 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-10-22 08:00",
+      "source_time": "2026-10-23 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台台风公报/快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-10-22 10:00",
+      "source_time": "2026-10-23 10:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-10-22 06:00",
+      "source_time": "2026-10-23 06:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台城市预报",
       "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-      "source_time": "2026-10-22 05:30",
+      "source_time": "2026-10-23 11:30",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
@@ -449,7 +450,7 @@
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
       "source_time": "2026-10-21 19:00",
       "ok": true,
-      "note": "最新可读取的有效预报，非当日新发布时间",
+      "note": "最新可读取版本仍为10月21日19时，48小时预报覆盖巡检时点，非10月23日新报",
       "coverage_status": "official_source_verified"
     },
     {
@@ -457,7 +458,7 @@
       "url": "https://hainan.weather.com.cn/hytq/",
       "source_time": "2026-10-21 17:00",
       "ok": true,
-      "note": "预报有效期覆盖10月22日至24日",
+      "note": "预报有效期至10月24日20时，属于有效期内旧发布资料",
       "coverage_status": "official_source_verified"
     }
   ],
