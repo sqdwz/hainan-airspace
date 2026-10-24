@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-23 12:12",
-  "date": "2026-10-23",
+  "generated_at": "2026-10-24 12:10",
+  "date": "2026-10-24",
   "summary": {
     "new": 0,
     "active": 1,
     "upcoming": 0,
     "ended": 7
   },
-  "message": "海南19市县分别开展公开检索，10月23日未发现符合入库标准的新空域管制公告。当前有效1条：屯昌县2026—2028年全县孔明灯禁放（非无人机禁飞）；即将生效0条，近期结束7条，pending/review 0条。文昌10月19—22日临时禁飞已结束，10月22—23日火箭发射海事航行警告未取得航空NOTAM，不直接作为航空禁飞入库。部分官方栏目未完成逐页核验。中央气象台每日提示、天气公报、台风及海洋天气和海南省气象资料已核验，“蔷琵”趋向台湾东北和东海，未提示热带系统影响海南，天气状态none；海南海洋专项公开页面最新仍为10月21日预报但有效期覆盖巡检时点，需关注局地雷雨及阵风。天气风险不等同空域管制。",
+  "message": "海南19市县逐一公开检索，10月24日未发现符合入库标准的新禁飞公告。当前有效1条屯昌县2026—2028年全县孔明灯禁放（非无人机禁飞）；即将生效0条、近期结束7条、公告pending/review 0条。文昌10月19—22日临时禁飞已结束，10月25日疑似航天发射仅有非官方线索，未取得航空NOTAM或官方禁飞通告。中央气象台10月24日确认台风“蔷琵”进入东海、第31号“烟花”位于远海，未提示影响海南；海南省气象台11:30城市预报西沙有雷阵雨。海南海洋天气专项页面显示晚于巡检的13:00发布时间，当前时次无法确认，天气保留上轮none并标记stale=true。天气风险不等同空域管制。部分政府、公安和机场官方栏目未完成逐页核验。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -148,7 +148,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-10-23 12:12",
+    "updated_at": "2026-10-24 12:10",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -156,67 +156,64 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "10月23日官方核验：强台风“蔷琵”趋向台湾东北及东海，未提示热带系统影响海南",
-    "source_time": "2026-10-23 10:00",
-    "forecast_period": "2026-10-23 至 2026-10-26",
-    "summary": "中央气象台10月23日08时每日天气提示和天气公报、10时台风公报及06时海洋天气公报已读取。第30号强台风“蔷琵”位于台湾东南海面，预计24日上午进入东海南部，25日前后沿浙江东部近海北上；风雨影响重点为台湾、华东沿海及南海东北部。海南省气象台10月23日11:30城市预报未提示热带低压或热带扰动影响海南；海南海洋天气公开页面最新仍为10月21日19时发布的48小时预报，琼州海峡预报有效期至24日20时，均未提示热带系统影响海南。海南局地仍需关注雷阵雨及海上阵风。",
+    "headline": "10月24日：蔷琵进入东海、烟花位于西北太平洋远海，尚未发现官方热带系统影响海南提示（海南海洋专项来源待复核）",
+    "source_time": "2026-10-24 11:30",
+    "forecast_period": "2026-10-24 至 2026-10-27",
+    "summary": "中央气象台10月24日08时每日天气提示、08时天气公报、10时台风公报和06时海洋天气公报可核验：第30号台风“蔷琵”进入东海南部海域并北上；第31号台风“烟花”位于关岛塞班以东远洋，中央气象台称未来对我国海区无影响。以上来源均未明确提示热带系统影响海南。海南省气象台10月24日11:30城市预报可读取，西沙有雷阵雨风险。海南海洋天气专项网页展示13:00发布，晚于本轮12时巡检，不能作为当前有效新报；上轮可核验的10月21日19时专项预报已超出48小时有效期。保留上一轮none状态并标记stale=true，待复核海洋专项。",
     "hazards": [
-      "中沙海域10月23日城市预报提示雷阵雨、约5级风",
-      "琼州海峡10月21日17时发布、有效期至24日20时的预报提示5级风、阵风6级",
-      "海南岛近海局地雷阵雨；南海东北部受“蔷琵”与冷空气影响大风（非海南岛近海）"
+      "海南省气象台10月24日11:30城市预报：西沙多云有雷阵雨，需关注局地对流",
+      "中央气象台10月24日06时海洋天气公报：南海东北部23日14时至24日02时出现7—8级风、阵风9级（非海南岛近海）",
+      "海南近海专项风力当日有效时次未能确认，飞行前须核对最新预报"
     ],
-    "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
+    "source_url": "https://m.nmc.cn/publish/weatherperday/index.htm",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
-        "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-        "source_time": "2026-10-23 08:00",
-        "ok": true
+        "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
+        "source_time": "2026-10-24 08:00",
+        "ok": true,
+        "note": "桌面站直接读取超时，使用官方移动版成功核验"
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "source_time": "2026-10-23 08:00",
+        "source_time": "2026-10-24 08:00",
         "ok": true
       },
       {
         "name": "中央气象台台风公报/快讯",
         "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-        "source_time": "2026-10-23 10:00",
+        "source_time": "2026-10-24 10:00",
         "ok": true
       },
       {
         "name": "中央气象台海洋天气公报",
         "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-        "source_time": "2026-10-23 06:00",
+        "source_time": "2026-10-24 06:00",
         "ok": true
       },
       {
         "name": "海南省气象台城市预报",
         "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-        "source_time": "2026-10-23 11:30",
+        "source_time": "2026-10-24 11:30",
         "ok": true
       },
       {
         "name": "海南省气象台海洋天气",
         "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-        "source_time": "2026-10-21 19:00",
-        "ok": true,
-        "note": "最新可读取版本仍为10月21日19时，48小时预报覆盖巡检时点，非10月23日新报"
-      },
-      {
-        "name": "海南省气象台琼州海峡预报",
-        "url": "https://hainan.weather.com.cn/hytq/",
-        "source_time": "2026-10-21 17:00",
-        "ok": true,
-        "note": "预报有效期至10月24日20时，属于有效期内旧发布资料"
+        "source_time": "2026-10-24 13:00",
+        "ok": false,
+        "source_error": true,
+        "note": "页面展示的发布时间晚于12时巡检，不能作为当时有效资料；旧版预报已过有效期"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
-    "stale": false,
-    "stale_reason": null,
-    "failed_sources": [],
-    "note": "按影响优先、命名分开规则核验。“蔷琵”为已命名强台风，但官方未提示正在或预计影响海南，海南状态none并不代表西北太平洋无台风。海南海洋专项公开页面最新版本较旧但预报有效期覆盖巡检时点。天气风险不等同空域管制；飞行前仍需核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制。"
+    "stale": true,
+    "stale_reason": "海南省气象台海洋天气专项网页显示未来13:00发布，12时巡检无法核验当日有效时次；上版预报已过有效期。其他关键来源正常，保留上一轮none状态并标记待复核。",
+    "failed_sources": [
+      "海南省气象台海洋天气专项（当日有效时次无法确认）"
+    ],
+    "note": "按影响优先、命名分开规则核验。第30号“蔷琵”和第31号“烟花”均已命名，但现有官方信息未明确提示影响海南；因海洋专项时次异常，保留上一轮none状态并标记stale=true，不将来源异常视作无影响。天气风险不等同空域管制，实际飞行仍需核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制。"
   },
   "sources": [
     {
@@ -279,7 +276,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "10月19—22日禁飞已结束；10月23日未发现可核验新禁飞通告，海事警告不等于NOTAM"
+      "note": "10月19—22日禁飞已结束；10月25日非官方航天发射日程线索，未取得航空禁飞通告或NOTAM"
     },
     {
       "name": "万宁",
@@ -308,7 +305,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "2026—2028年孔明灯长期禁放仍有效，非无人机禁飞"
+      "note": "2026—2028年孔明灯禁放仍有效，非无人机禁飞"
     },
     {
       "name": "澄迈",
@@ -405,61 +402,56 @@
       "note": "历史记录显示直连403，本轮未确认恢复"
     },
     {
-      "name": "清澜海事局10月22—23日火箭发射航行警告（海事线索）",
+      "name": "文昌10月25日疑似航天发射窗口（非官方线索）",
       "ok": false,
-      "coverage_status": "maritime_only_unverified_aviation",
-      "note": "权威资讯引述每日10—12时火箭发射海事航行警告，未核验航空NOTAM，不作为无人机禁飞公告"
+      "coverage_status": "pending_official_confirmation",
+      "note": "非官方发射日程及商业观礼页面提及10月25日窗口，尚未取得官方禁飞公告或航空NOTAM；不作为已核验公告。"
     },
     {
       "name": "中央气象台每日天气提示",
-      "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-10-23 08:00",
+      "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
+      "source_time": "2026-10-24 08:00",
       "ok": true,
-      "coverage_status": "official_source_verified"
+      "coverage_status": "official_source_verified",
+      "note": "桌面站直接读取超时，使用官方移动版成功核验"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-10-23 08:00",
+      "source_time": "2026-10-24 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台台风公报/快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-10-23 10:00",
+      "source_time": "2026-10-24 10:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-10-23 06:00",
+      "source_time": "2026-10-24 06:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台城市预报",
       "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-      "source_time": "2026-10-23 11:30",
+      "source_time": "2026-10-24 11:30",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-      "source_time": "2026-10-21 19:00",
-      "ok": true,
-      "note": "最新可读取版本仍为10月21日19时，48小时预报覆盖巡检时点，非10月23日新报",
-      "coverage_status": "official_source_verified"
-    },
-    {
-      "name": "海南省气象台琼州海峡预报",
-      "url": "https://hainan.weather.com.cn/hytq/",
-      "source_time": "2026-10-21 17:00",
-      "ok": true,
-      "note": "预报有效期至10月24日20时，属于有效期内旧发布资料",
-      "coverage_status": "official_source_verified"
+      "source_time": "2026-10-24 13:00",
+      "ok": false,
+      "coverage_status": "source_error",
+      "source_error": true,
+      "source_unavailable": true,
+      "note": "页面展示的发布时间晚于12时巡检，不能作为当时有效资料；旧版预报已过有效期"
     }
   ],
   "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
