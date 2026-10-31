@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-10-30 12:07:31",
-  "date": "2026-10-30",
+  "generated_at": "2026-10-31 12:13:03",
+  "date": "2026-10-31",
   "summary": {
     "new": 0,
     "active": 1,
     "upcoming": 0,
     "ended": 7
   },
-  "message": "海南19市县分别执行禁飞、低慢小、空飘物、机场净空和临时空域管制公开检索，10月30日未发现符合新增入库标准的海南航空禁飞公告。当前有效1条屯昌县2026—2028年孔明灯长期禁放（非无人机禁飞），即将生效0条、近期结束7条、正式公告pending/review 0条。中央气象台30日10时公报显示第31号超强台风“烟花”在关岛塞班东北侧远洋，预计未来对我国近海无影响；29日海南中东部局地大暴雨，30日海南部分地区小到中雨，琼州海峡雷雨时阵风8级。海南海洋天气专项30日13时版晚于中午巡检，沿用上一轮有效热带系统状态并标记stale=true。天气风险不等同空域管制；部分官方栏目未逐页核验。",
+  "message": "海南19市县分别执行禁飞、低慢小、空飘物、机场净空及临时空域管制公开检索，10月31日未发现符合新增入库标准的海南航空禁飞公告。当前有效1条屯昌县2026—2028年孔明灯长期禁放（非无人机禁飞），即将生效0条、近期结束7条、正式公告pending/review 0条。中央气象台31日10时公报显示第31号超强台风“烟花”向北偏东移动，未来对我国近海无影响；海南30日西部局地暴雨，31日05时琼州海峡预报偏东风5级、阵风6—7级。海南海洋天气专项31日13时版晚于12:13巡检，沿用上一轮热带系统状态并标记stale=true。天气风险不等同空域管制；部分官方栏目未逐页穷尽核验。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -148,7 +148,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-10-30 12:07:31",
+    "updated_at": "2026-10-31 12:13:03",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -156,85 +156,84 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "10月30日：超强台风“烟花”位于关岛塞班东北侧远洋，中央气象台预计未来对我国近海无影响；海南29日中东部局地大暴雨，30日海南岛部分地区小到中雨，琼州海峡雷雨时阵风8级；海南海洋专项13时版时次异常，沿用上一轮热带系统状态并标记stale",
-    "source_time": "2026-10-30 10:00",
-    "forecast_period": "2026-10-30 至 2026-11-02",
-    "summary": "中央气象台10月30日08时每日天气提示和天气公报、10时台风公报、08时27分台风快讯、06时海洋天气公报已核验。第31号超强台风“烟花”30日08时位于北纬17.7度、东经147.9度，中心最大风力17级（58米/秒），预计以30—35公里/小时向西偏北移动；中央气象台明确未来对我国近海无影响。中央气象台30日08时天气公报记录29日海南中东部大到暴雨、局地大暴雨，预计30日08时至31日08时海南岛部分地区小到中雨。海南省气象台30日05时琼州海峡预报：30日05时至11月1日08时多云有雷阵雨、偏东风5级、阵风6—7级，雷雨时阵风8级；07时岛礁、港口和渔场预报可核验。海南海洋天气专项网页展示30日13时版，晚于中午巡检时刻，按关键来源失败保护规则保留上一轮有效热带系统状态并标记stale=true。天气风险不等同空域管制。",
+    "headline": "10月31日：超强台风“烟花”转向北偏东、远离我国近海；海南昨日西部局地中到大雨、局地暴雨，琼州海峡31日05时预报偏东风5级阵风6—7级；海南海洋专项13时版晚于巡检，沿用上一轮热带系统状态并标记stale",
+    "source_time": "2026-10-31 10:00",
+    "forecast_period": "2026-10-31 至 2026-11-03",
+    "summary": "中央气象台10月31日08时每日天气提示、08时天气公报、10时台风公报、31日08时16分台风快讯及06时海洋天气公报已核验。第31号超强台风“烟花”31日08时位于北纬21.3度、东经142.9度，日本东京南偏东约1630公里，中心最大风力16级（55米/秒），预计以每小时约15公里向北偏东方向移动；中央气象台明确未来对我国近海无影响。31日08时天气公报记录30日海南西部部分地区中到大雨、局地暴雨。海南省气象台31日05时琼州海峡预报31日05时至11月3日08时多云间晴、偏东风5级、阵风6—7级、浪高0.8—1.5米；07时岛礁、港口及渔场预报可核验。海南省气象台海洋天气专项页面显示31日13时发布，晚于本轮12:13巡检，故保留上一轮有效热带系统状态并标记stale=true。天气风险不等同于空域管制。",
     "hazards": [
-      "10月29日海南中东部大到暴雨、局地大暴雨（30日08时中央气象台天气公报实况）",
-      "10月30日08时至31日08时海南岛部分地区小到中雨（中央气象台）",
-      "10月30日05时至11月1日08时琼州海峡有雷阵雨，偏东风5级、阵风6—7级，雷雨时阵风8级（海南省气象台）",
-      "10月30日07时海南省气象台：琼海潭门港多云有中雨转多云；海南岛东部近海偏东风5级、阵风6级（早间有效版）",
-      "海南海洋天气专项13时版发布时间晚于巡检，需复核最新气象资料"
+      "10月30日海南西部部分地区中到大雨、局地暴雨（中央气象台31日08时天气公报实况）",
+      "10月31日05时至11月3日08时琼州海峡偏东风5级、阵风6—7级、浪高0.8—1.5米（海南省气象台05时预报）",
+      "10月31日08时至11月1日08时南海东北部部分海域7—8级风、阵风9—10级（中央气象台；不可直接等同海南岛近海）",
+      "海南海洋天气专项13时版晚于本轮巡检，不能作为当时已发布资料"
     ],
     "source_url": "https://m.nmc.cn/publish/weatherperday/index.htm",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-        "source_time": "2026-10-30 08:00",
+        "source_time": "2026-10-31 08:00",
         "ok": true
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "source_time": "2026-10-30 08:00",
+        "source_time": "2026-10-31 08:00",
         "ok": true
       },
       {
         "name": "中央气象台台风公报",
         "url": "https://m.nmc.cn/publish/typhoon/warning.html",
-        "source_time": "2026-10-30 10:00",
+        "source_time": "2026-10-31 10:00",
         "ok": true
       },
       {
         "name": "中央气象台台风快讯",
         "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-        "source_time": "2026-10-30 08:27",
-        "ok": true
+        "source_time": "2026-10-31 08:16",
+        "ok": true,
+        "note": "官方31日08时快讯可核验；桌面页面有时显示缓存旧时次，使用当天搜索索引核验"
       },
       {
         "name": "中央气象台海洋天气公报",
         "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-        "source_time": "2026-10-30 06:00",
+        "source_time": "2026-10-31 06:00",
         "ok": true
       },
       {
-        "name": "海南省气象台城市预报（上一有效时次）",
+        "name": "海南省气象台城市预报",
         "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-        "source_time": "2026-10-29 11:30",
-        "ok": true,
-        "note": "页面尚未显示10月30日城市新时次，不能冒充今日新报"
+        "source_time": "2026-10-31 07:30",
+        "ok": true
       },
       {
         "name": "海南省气象台琼州海峡通航预报",
         "url": "https://hainan.weather.com.cn/hytq/",
-        "source_time": "2026-10-30 05:00",
+        "source_time": "2026-10-31 05:00",
         "ok": true
       },
       {
         "name": "海南省气象台岛礁、港口及渔场早间预报",
         "url": "https://hainan.weather.com.cn/hytq/",
-        "source_time": "2026-10-30 07:00",
+        "source_time": "2026-10-31 07:00",
         "ok": true
       },
       {
         "name": "海南省气象台海洋天气专项13时版",
         "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-        "source_time": "2026-10-30 13:00",
+        "source_time": "2026-10-31 13:00",
         "ok": false,
         "source_error": true,
         "source_unavailable": true,
-        "note": "页面标示13:00发布，晚于本轮中午巡检，不得作为已发布资料"
+        "note": "网页显示31日13时发布，晚于本轮12:13巡检，不能作为已发布有效资料"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
     "stale": true,
-    "stale_reason": "海南省气象台海洋天气专项页面展示2026-10-30 13:00发布，晚于本轮中午巡检时间；虽已取得30日05时琼州海峡和07时岛礁、港口有效预报，仍按关键来源异常保护规则保留上一轮热带系统状态，未将其降级或当作全部关键源均已确认无影响。",
+    "stale_reason": "海南省气象台海洋天气专项网页展示2026-10-31 13:00发布，晚于本轮12:13巡检时刻；虽然31日05时琼州海峡、07时岛礁港口和07:30城市预报可核验，仍按关键来源时次异常保护保留上一轮有效热带系统状态，不能以未完整核验断言无影响。",
     "failed_sources": [
-      "海南省气象台海洋天气专项（2026-10-30 13:00发布时间晚于中午巡检）"
+      "海南省气象台海洋天气专项（2026-10-31 13:00发布时间晚于12:13巡检）"
     ],
-    "note": "影响优先、命名分开。中央气象台明确远洋台风“烟花”未来对我国近海无影响，已读取的海南早间预报未提示其他热带系统影响海南；海洋专项13时版时次异常，故沿用上一轮none状态并标记stale=true，不能将其理解为全部关键来源均确认无影响。天气风险不等同空域管制；实际飞行前仍须核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
+    "note": "影响优先、命名分开。中央气象台31日10时确认远洋超强台风“烟花”未来对我国近海无影响；已核验的海南早间气象预报未提示其他热带扰动或低压系统正在或预计影响海南。因海南海洋天气专项时次异常，沿用上一轮none/affects_hainan=false状态并标记stale=true，不将来源缺失视为全面确认无影响。天气风险不等同空域管制；实际飞行前仍须核对UOM、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
   },
   "sources": [
     {
@@ -242,14 +241,14 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "禁飞、临时空域管制、低慢小等公开检索，官方栏目未穷尽逐页核验"
+      "note": "检索航空禁飞、机场净空、临时管制、低慢小；官方栏目未逐页穷尽"
     },
     {
       "name": "海南省政府/公安/应急公开信息",
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "省级临时禁飞、重大活动安保及空域限制公开检索，官方栏目未穷尽逐页核验"
+      "note": "检索临时空域管制、重大活动安保、低慢小及空飘物；未逐页穷尽"
     },
     {
       "name": "海口",
@@ -299,7 +298,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "重点检索近期航天发射与禁飞，未发现新的可核验航空禁飞公告；海事航警不等于航空NOTAM"
+      "note": "重点核查航天活动、10月末禁飞公告；未找到可核验新航空禁飞，海事航警不直接当作航空NOTAM"
     },
     {
       "name": "万宁",
@@ -328,7 +327,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "2026—2028年全域孔明灯禁放继续有效，非无人机禁飞"
+      "note": "2026—2028全域孔明灯禁放继续有效，非无人机禁飞"
     },
     {
       "name": "澄迈",
@@ -391,7 +390,7 @@
       "ok": true,
       "coverage_status": "public_search_completed",
       "official_full_verification": false,
-      "note": "机场净空、临时管制公开检索，未穷尽所有官方栏目"
+      "note": "机场净空及临时管制公开检索，未逐页穷尽"
     },
     {
       "name": "文昌市10月16日禁飞通告（历史权威转载）",
@@ -400,87 +399,87 @@
       "source_type": "media_repost",
       "source_label": "权威转载",
       "coverage_status": "previously_verified",
-      "note": "10月22日12时已结束，不重复入库"
+      "note": "10月22日12时结束，不重复入库"
     },
     {
       "name": "文昌市10月16日禁飞通告政府原文",
       "ok": false,
       "coverage_status": "official_original_unavailable",
       "source_unavailable": true,
-      "note": "本轮未取得可核验政府原文URL，保留既有权威转载"
+      "note": "仍未找到可核验政府原文URL，保留权威转载"
     },
     {
       "name": "屯昌县2026—2028年孔明灯禁放通告",
       "url": "https://tunchang.hainan.gov.cn/xxgkzl/xgbmxxgk/xfgw_81480/zfxxgkml2/202601/t20260103_4004219.html",
       "ok": true,
       "coverage_status": "previously_verified",
-      "note": "政府原文此前通过搜索索引核验，历史直连403，未重新确认恢复"
+      "note": "政府原文历史搜索索引核验，直连曾403；本轮未重新确认可直连"
     },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-10-30 08:00",
+      "source_time": "2026-10-31 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-10-30 08:00",
+      "source_time": "2026-10-31 08:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台台风公报",
       "url": "https://m.nmc.cn/publish/typhoon/warning.html",
-      "source_time": "2026-10-30 10:00",
+      "source_time": "2026-10-31 10:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台台风快讯",
       "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "source_time": "2026-10-30 08:27",
+      "source_time": "2026-10-31 08:16",
       "ok": true,
+      "note": "官方31日08时快讯可核验；桌面页面有时显示缓存旧时次，使用当天搜索索引核验",
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-10-30 06:00",
+      "source_time": "2026-10-31 06:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
-      "name": "海南省气象台城市预报（上一有效时次）",
+      "name": "海南省气象台城市预报",
       "url": "https://hainan.weather.com.cn/hnnew/forecast.shtml",
-      "source_time": "2026-10-29 11:30",
+      "source_time": "2026-10-31 07:30",
       "ok": true,
-      "note": "页面尚未显示10月30日城市新时次，不能冒充今日新报",
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台琼州海峡通航预报",
       "url": "https://hainan.weather.com.cn/hytq/",
-      "source_time": "2026-10-30 05:00",
+      "source_time": "2026-10-31 05:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台岛礁、港口及渔场早间预报",
       "url": "https://hainan.weather.com.cn/hytq/",
-      "source_time": "2026-10-30 07:00",
+      "source_time": "2026-10-31 07:00",
       "ok": true,
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台海洋天气专项13时版",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-      "source_time": "2026-10-30 13:00",
+      "source_time": "2026-10-31 13:00",
       "ok": false,
       "source_error": true,
       "source_unavailable": true,
-      "note": "页面标示13:00发布，晚于本轮中午巡检，不得作为已发布资料",
+      "note": "网页显示31日13时发布，晚于本轮12:13巡检，不能作为已发布有效资料",
       "coverage_status": "source_error"
     }
   ],
