@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-04 12:09:00",
-  "date": "2026-11-04",
+  "generated_at": "2026-11-05 12:13:35",
+  "date": "2026-11-05",
   "summary": {
     "new": 0,
     "active": 2,
     "upcoming": 0,
     "ended": 7
   },
-  "message": "11月4日公开检索覆盖海南19市县关键词组合，未发现可独立核验的新航空禁飞通告（不代表官方栏目穷尽核验）。文昌龙楼、东郊、文教三镇11月3日07时至6日08时临时禁飞正在生效；屯昌长期孔明灯禁放仍有效，非无人机禁飞。近期结束7条，另有文昌10月历史更正线索待核。台风“烟花”位于日本以南远洋；海南中东部短时强降水、琼州海峡雷雨大风需关注。11月4日中央气象台每日天气提示和天气公报当日版本未可靠确认，保留上轮天气状态并标记stale=true。",
+  "message": "11月5日公开信息分组检索未发现可独立核验的新航空禁飞公告，但19市县未逐一完成官方站点核验，不能视为全面无新增。文昌龙楼、东郊、文教三镇11月3日07时至6日08时禁飞仍生效；屯昌长期孔明灯禁放仍有效（非无人机禁飞）。近期结束7条，文昌10月历史更正线索待核。中央气象台当日每日提示、天气公报、台风快讯、海洋公报及海南省气象台当日07时海洋天气均已核验，未提示热带系统影响海南，解除stale；琼州海峡雷雨时阵风可达8级。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -179,7 +179,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-11-04 12:09:00",
+    "updated_at": "2026-11-05 12:13:35",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -187,78 +187,65 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "11月4日：台风“烟花”位于日本以南远洋；海南岛中东部短时强降水及琼州海峡雷雨大风需关注。关键天气提示及天气公报当日版本未确认，沿用上一轮热带系统状态并标记stale。",
-    "source_time": "2026-11-04 07:00",
-    "forecast_period": "2026-11-04 至 2026-11-07",
-    "summary": "11月4日05:43中央气象台台风快讯确认第31号台风“烟花”位于北纬24.0度、东经138.6度，日本东京以南约1300公里，12级33米/秒，向偏北移动；尚无可靠官方信息表明该台风影响海南。海南省气象台07时预报琼州海峡多云转雷阵雨，东南风5级阵风6级；11月3日17时预报3日至6日雷雨时阵风8级。中央气象台3日18时强对流预报预计海南中东部4日20时前局地短时强降水。由于11月4日每日天气提示及天气公报未可靠取得，不能排除未编号热带系统，保留前轮none状态并设置stale=true。天气风险不等同空域管制。",
+    "headline": "11月5日关键官方气象源当日版已核验，未发现正在或预计影响海南的热带系统；烟花位于日本以南远洋，琼州海峡仍需关注雷雨大风。",
+    "source_time": "2026-11-05 08:15",
+    "forecast_period": "2026-11-05 至 2026-11-08",
+    "summary": "中央气象台11月5日08时每日天气提示和天气公报未提示热带系统影响海南；08:15台风快讯显示第31号烟花在北纬28.0、东经139.6，向东北快速移动。海南省气象台11月5日07时海洋预报提示琼州海峡雷阵雨、阵风6级，4日17时海峡通航预报提示至7日雷雨时阵风8级。天气风险不等同空域管制。",
     "hazards": [
-      "11月3日20时至4日20时海南中东部短时强降水，小时雨量20—30毫米、局地40毫米以上（中央气象台3日18时）",
-      "11月4日07时海南省气象台：琼州海峡多云转雷阵雨，东南风5级阵风6级",
-      "11月3日17时海南省气象台：琼州海峡至6日20时雷雨时阵风8级"
+      "琼州海峡雷阵雨，11月5日07时预报阵风6级",
+      "琼州海峡11月4日17时预报至7日20时雷雨时阵风8级",
+      "海南岛东部海域11月5日07时预报阵风6级"
     ],
-    "source_url": "https://www.nmc.cn/f/p-430",
+    "source_url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-        "source_time": "2026-11-02 08:00",
-        "ok": false,
-        "source_error": true,
-        "source_unavailable": true,
-        "note": "本轮仅获取到11月2日版本，无法确认11月4日每日提示"
+        "source_time": "2026-11-05 08:00",
+        "ok": true,
+        "note": "当日版已核验，未提示热带系统影响海南"
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "source_time": "2026-11-03 18:00",
-        "ok": false,
-        "source_error": true,
-        "source_unavailable": true,
-        "note": "检索只确认11月3日18时版本，未可靠读取11月4日当天公报"
+        "source_time": "2026-11-05 08:00",
+        "ok": true,
+        "note": "当日版已核验，未提示热带系统影响海南"
       },
       {
         "name": "中央气象台台风快讯",
-        "url": "https://www.nmc.cn/f/p-430",
-        "source_time": "2026-11-04 05:43",
+        "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
+        "source_time": "2026-11-05 08:15",
         "ok": true,
-        "note": "第31号烟花台风级，北纬24.0东经138.6，位于日本东京以南约1300公里，向偏北移动"
+        "note": "烟花位于北纬28.0东经139.6，日本东京以南约860公里，向东北快速移动"
       },
       {
         "name": "中央气象台海洋天气公报",
         "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-        "source_time": "2026-11-04 06:00",
-        "ok": true
+        "source_time": "2026-11-05 06:00",
+        "ok": true,
+        "note": "南海东北部6日至8日部分海域6至7级风"
       },
       {
-        "name": "海南省气象台海洋及岛礁预报",
-        "url": "https://hainan.weather.com.cn/hytq/",
-        "source_time": "2026-11-04 07:00",
+        "name": "海南省气象台海洋天气",
+        "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
+        "source_time": "2026-11-05 07:00",
         "ok": true,
-        "note": "琼州海峡多云转雷阵雨，东南风5级阵风6级"
+        "note": "琼州海峡雷阵雨、阵风6级；本岛东部阵风6级"
       },
       {
         "name": "海南省气象台琼州海峡通航预报",
-        "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
-        "source_time": "2026-11-03 17:00",
+        "url": "https://hainan.weather.com.cn/hytq/",
+        "source_time": "2026-11-04 17:00",
         "ok": true,
-        "note": "3日至6日雷雨时阵风8级"
-      },
-      {
-        "name": "中央气象台强对流天气公报",
-        "url": "https://nmc.cn/publish/stweather/tqgb/index.html",
-        "source_time": "2026-11-03 18:00",
-        "ok": true,
-        "note": "3日20时至4日20时海南中东部短时强降水，小时20—30毫米，局地40毫米以上"
+        "note": "4日17时至7日20时雷雨时阵风8级"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
-    "stale": true,
-    "stale_reason": "关键官方天气来源当日版本未全部可靠取得，无法确认有无未编号热带扰动或低压影响海南；按保护规则沿用前轮热带系统状态，不得将none解释为今日全面确认无影响。",
-    "failed_sources": [
-      "中央气象台每日天气提示（未确认11月4日版本）",
-      "中央气象台天气公报（未确认11月4日版本）"
-    ],
-    "note": "影响优先、命名分开。烟花位于日本以南远洋，当前取得的快讯未提示影响海南；每日天气提示和天气公报当日版本缺失，保留上一轮status=none及affects_hainan=false并标记stale=true。天气风险不等同空域管制，飞行前须核对UOM、NOTAM、空管批复和属地要求。"
+    "stale": false,
+    "stale_reason": "",
+    "failed_sources": [],
+    "note": "影响优先、命名分开。已核验当日中央气象台每日天气提示、天气公报、台风快讯、海洋天气公报及海南省气象台07时海洋天气，未发现官方明确提示热带系统影响海南。普通雷雨大风不等同热带系统或空域管制；实际飞行前核对UOM、NOTAM、空管批复和属地要求。"
   },
   "sources": [
     {
@@ -331,212 +318,201 @@
     {
       "name": "海口",
       "city": "海口",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "三亚",
       "city": "三亚",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "三沙",
       "city": "三沙",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "儋州",
       "city": "儋州",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "五指山",
       "city": "五指山",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "琼海",
       "city": "琼海",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "文昌",
       "city": "文昌",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "沿用11月3日至6日临时禁飞通告，已生效；政府原文链接待核"
+      "note": "延续11月3日至6日已核验临时禁飞；本轮公开关键词搜索未发现新的可靠通告，官方栏目未逐站穷尽"
     },
     {
       "name": "万宁",
       "city": "万宁",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "东方",
       "city": "东方",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "定安",
       "city": "定安",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "屯昌",
       "city": "屯昌",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "澄迈",
       "city": "澄迈",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "临高",
       "city": "临高",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "白沙",
       "city": "白沙",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "昌江",
       "city": "昌江",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "乐东",
       "city": "乐东",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "陵水",
       "city": "陵水",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "保亭",
       "city": "保亭",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "琼中",
       "city": "琼中",
-      "ok": true,
+      "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "已纳入本轮分地区公开关键词组合检索，未检出可核验新增公告；未逐站核验，不能宣称官方穷尽覆盖"
+      "note": "本轮纳入全省和分组关键词公开检索，未独立逐站完成官方栏目核验；不可视为该市县无新公告"
     },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-11-02 08:00",
-      "ok": false,
-      "source_error": true,
-      "source_unavailable": true,
-      "note": "本轮仅获取到11月2日版本，无法确认11月4日每日提示",
-      "coverage_status": "source_error"
+      "source_time": "2026-11-05 08:00",
+      "ok": true,
+      "note": "当日版已核验，未提示热带系统影响海南",
+      "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-11-03 18:00",
-      "ok": false,
-      "source_error": true,
-      "source_unavailable": true,
-      "note": "检索只确认11月3日18时版本，未可靠读取11月4日当天公报",
-      "coverage_status": "source_error"
+      "source_time": "2026-11-05 08:00",
+      "ok": true,
+      "note": "当日版已核验，未提示热带系统影响海南",
+      "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台台风快讯",
-      "url": "https://www.nmc.cn/f/p-430",
-      "source_time": "2026-11-04 05:43",
+      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
+      "source_time": "2026-11-05 08:15",
       "ok": true,
-      "note": "第31号烟花台风级，北纬24.0东经138.6，位于日本东京以南约1300公里，向偏北移动",
+      "note": "烟花位于北纬28.0东经139.6，日本东京以南约860公里，向东北快速移动",
       "coverage_status": "official_source_verified"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-11-04 06:00",
+      "source_time": "2026-11-05 06:00",
       "ok": true,
+      "note": "南海东北部6日至8日部分海域6至7级风",
       "coverage_status": "official_source_verified"
     },
     {
-      "name": "海南省气象台海洋及岛礁预报",
-      "url": "https://hainan.weather.com.cn/hytq/",
-      "source_time": "2026-11-04 07:00",
+      "name": "海南省气象台海洋天气",
+      "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
+      "source_time": "2026-11-05 07:00",
       "ok": true,
-      "note": "琼州海峡多云转雷阵雨，东南风5级阵风6级",
+      "note": "琼州海峡雷阵雨、阵风6级；本岛东部阵风6级",
       "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台琼州海峡通航预报",
-      "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
-      "source_time": "2026-11-03 17:00",
+      "url": "https://hainan.weather.com.cn/hytq/",
+      "source_time": "2026-11-04 17:00",
       "ok": true,
-      "note": "3日至6日雷雨时阵风8级",
-      "coverage_status": "official_source_verified"
-    },
-    {
-      "name": "中央气象台强对流天气公报",
-      "url": "https://nmc.cn/publish/stweather/tqgb/index.html",
-      "source_time": "2026-11-03 18:00",
-      "ok": true,
-      "note": "3日20时至4日20时海南中东部短时强降水，小时20—30毫米，局地40毫米以上",
+      "note": "4日17时至7日20时雷雨时阵风8级",
       "coverage_status": "official_source_verified"
     }
   ],
