@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05 12:13:35",
+  "updated_at": "2026-11-06 12:12:12",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,63 +7,59 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "11月5日关键官方气象源当日版已核验，未发现正在或预计影响海南的热带系统；烟花位于日本以南远洋，琼州海峡仍需关注雷雨大风。",
-  "source_time": "2026-11-05 08:15",
-  "forecast_period": "2026-11-05 至 2026-11-08",
-  "summary": "中央气象台11月5日08时每日天气提示和天气公报未提示热带系统影响海南；08:15台风快讯显示第31号烟花在北纬28.0、东经139.6，向东北快速移动。海南省气象台11月5日07时海洋预报提示琼州海峡雷阵雨、阵风6级，4日17时海峡通航预报提示至7日雷雨时阵风8级。天气风险不等同空域管制。",
+  "headline": "热带系统沿用上轮none，stale=true，11月6日不能确认全面无影响",
+  "source_time": "2026-11-05 14:14",
+  "forecast_period": "2026-11-06至2026-11-09（待核验）",
+  "summary": "烟花11月5日变性为温带气旋；11月6日关键气象源未全部核验，按失败保护保留上一轮天气状态。",
   "hazards": [
-    "琼州海峡雷阵雨，11月5日07时预报阵风6级",
-    "琼州海峡11月4日17时预报至7日20时雷雨时阵风8级",
-    "海南岛东部海域11月5日07时预报阵风6级"
+    "琼州海峡雷雨大风风险，需核对最新有效预报"
   ],
   "source_url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
   "sources": [
     {
+      "name": "中央气象台台风快讯",
+      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
+      "source_time": "2026-11-05 14:14",
+      "ok": true,
+      "note": "烟花11月5日变性温带气旋，停止编号；非11月6日全面核验"
+    },
+    {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "source_time": "2026-11-05 08:00",
-      "ok": true,
-      "note": "当日版已核验，未提示热带系统影响海南"
+      "ok": false,
+      "source_error": true,
+      "note": "当日正文无法确认"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "source_time": "2026-11-05 08:00",
-      "ok": true,
-      "note": "当日版已核验，未提示热带系统影响海南"
-    },
-    {
-      "name": "中央气象台台风快讯",
-      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "source_time": "2026-11-05 08:15",
-      "ok": true,
-      "note": "烟花位于北纬28.0东经139.6，日本东京以南约860公里，向东北快速移动"
+      "ok": false,
+      "source_error": true,
+      "note": "当日正文无法确认"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "source_time": "2026-11-05 06:00",
-      "ok": true,
-      "note": "南海东北部6日至8日部分海域6至7级风"
+      "ok": false,
+      "source_error": true,
+      "note": "当日正文无法确认"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
-      "source_time": "2026-11-05 07:00",
-      "ok": true,
-      "note": "琼州海峡雷阵雨、阵风6级；本岛东部阵风6级"
-    },
-    {
-      "name": "海南省气象台琼州海峡通航预报",
-      "url": "https://hainan.weather.com.cn/hytq/",
-      "source_time": "2026-11-04 17:00",
-      "ok": true,
-      "note": "4日17时至7日20时雷雨时阵风8级"
+      "ok": false,
+      "source_error": true,
+      "note": "页面显示13:00未来时次，晚于12:12"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
-  "stale": false,
-  "stale_reason": "",
-  "failed_sources": [],
-  "note": "影响优先、命名分开。已核验当日中央气象台每日天气提示、天气公报、台风快讯、海洋天气公报及海南省气象台07时海洋天气，未发现官方明确提示热带系统影响海南。普通雷雨大风不等同热带系统或空域管制；实际飞行前核对UOM、NOTAM、空管批复和属地要求。"
+  "stale": true,
+  "stale_reason": "11月6日关键气象源部分当日正文不可解析，海南海洋天气页面出现13:00未来时次；沿用11月5日有效状态，不将失败当作无影响",
+  "failed_sources": [
+    "中央气象台每日天气提示",
+    "中央气象台天气公报",
+    "中央气象台海洋天气公报",
+    "海南省气象台海洋天气"
+  ],
+  "note": "影响优先、命名分开。天气来源未完全核验，保留上一轮状态并标记stale；天气风险不等同空域管制。"
 }
