@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-06 12:12:12",
+  "updated_at": "2026-11-07 12:10:00",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,59 +7,65 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "热带系统沿用上轮none，stale=true，11月6日不能确认全面无影响",
+  "headline": "沿用上一轮热带系统none，关键源未全部核验，stale=true",
   "source_time": "2026-11-05 14:14",
-  "forecast_period": "2026-11-06至2026-11-09（待核验）",
-  "summary": "烟花11月5日变性为温带气旋；11月6日关键气象源未全部核验，按失败保护保留上一轮天气状态。",
+  "forecast_period": "2026-11-07至2026-11-10（部分来源已核验）",
+  "summary": "中央气象台11月7日06时海洋公报提示琼州海峡、北部湾后续风力增强；热带系统关键来源未全部核验，保留上一轮状态，不视为确认无影响。",
   "hazards": [
-    "琼州海峡雷雨大风风险，需核对最新有效预报"
+    "11月8日至9日琼州海峡5—6级、阵风7级",
+    "11月9日至10日琼州海峡6—7级、阵风8级",
+    "北部湾11月8日至10日部分时段7—8级、阵风9级"
   ],
   "source_url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
   "sources": [
-    {
-      "name": "中央气象台台风快讯",
-      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "source_time": "2026-11-05 14:14",
-      "ok": true,
-      "note": "烟花11月5日变性温带气旋，停止编号；非11月6日全面核验"
-    },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
       "ok": false,
       "source_error": true,
-      "note": "当日正文无法确认"
+      "source_unavailable": true,
+      "note": "页面可打开但11月7日正文未可靠解析"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
       "ok": false,
       "source_error": true,
-      "note": "当日正文无法确认"
+      "source_unavailable": true,
+      "note": "页面可打开但当日公报时次未可靠确认"
+    },
+    {
+      "name": "中央气象台台风快讯",
+      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
+      "ok": false,
+      "source_error": true,
+      "source_unavailable": true,
+      "note": "当日有效台风快讯正文未可靠确认"
     },
     {
       "name": "中央气象台海洋天气公报",
-      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "ok": false,
-      "source_error": true,
-      "note": "当日正文无法确认"
+      "url": "https://www.nmc.cn/f/p-452",
+      "ok": true,
+      "source_time": "2026-11-07 06:00",
+      "note": "11月8-10日琼州海峡及北部湾风力增强"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
       "ok": false,
       "source_error": true,
-      "note": "页面显示13:00未来时次，晚于12:12"
+      "source_unavailable": true,
+      "note": "页面为11月6日13时版本，非当日最新"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
   "stale": true,
-  "stale_reason": "11月6日关键气象源部分当日正文不可解析，海南海洋天气页面出现13:00未来时次；沿用11月5日有效状态，不将失败当作无影响",
+  "stale_reason": "11月7日每日天气提示、天气公报、台风快讯及海南省气象台当日海洋天气未全部取得可确认正文，沿用上一轮有效热带系统状态",
   "failed_sources": [
     "中央气象台每日天气提示",
     "中央气象台天气公报",
-    "中央气象台海洋天气公报",
+    "中央气象台台风快讯",
     "海南省气象台海洋天气"
   ],
-  "note": "影响优先、命名分开。天气来源未完全核验，保留上一轮状态并标记stale；天气风险不等同空域管制。"
+  "note": "影响优先、命名分开；因关键源不完整保留上轮none，不代表确认无影响。天气风险不等同空域管制。"
 }
