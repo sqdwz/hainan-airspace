@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-06 12:12:12",
-  "date": "2026-11-06",
+  "generated_at": "2026-11-07 12:10:00",
+  "date": "2026-11-07",
   "summary": {
-    "new": 0,
-    "active": 1,
+    "new": 1,
+    "active": 2,
     "upcoming": 0,
     "ended": 8
   },
-  "message": "文昌三镇临时禁飞11月6日08:00按公告结束，已转入年度归档。屯昌长期孔明灯禁放仍有效。分组公开检索未发现新增可核验海南禁飞公告，但19市县未逐站穷尽核验。气象关键源当日内容不完整，保留上轮none且stale=true。",
+  "message": "重要补漏：文昌市11月5日发布延期通告，禁飞自11月6日08时延长至11月9日07时，当前仍有效。此前11月6日按期结束判断已被新证据纠正。其他18市县及文昌其余栏目公开检索有限，未确认新公告。天气关键源未完整核验，保留stale=true。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -38,6 +38,37 @@
       "source_label": "官方发布",
       "verification_note": "2026-10-22通过屯昌县政府网站搜索索引获取官方全文，含屯府办规〔2025〕3号、2025-12-31成文及2026—2028年全年禁止燃放孔明灯规定；直接打开原文返回HTTP 403。时间字段按2026—2028年全年转换，原文注明自发布之日起施行。仅为孔明灯禁放，不代表无人机禁飞。",
       "first_seen": "2026-10-22"
+    },
+    {
+      "id": "wenchang-20261105-extension-001",
+      "title": "文昌市人民政府关于延长禁止小型航空器和空飘物飞行活动时间的通告",
+      "publisher": "文昌市人民政府",
+      "origin_publisher": "文昌市人民政府",
+      "publish_date": "2026-11-05",
+      "area": "文昌市龙楼镇、东郊镇、文教镇全域核心禁飞区；其他区域禁止施放影响飞行安全的空飘物",
+      "start_time": "2026-11-06T08:00:00+08:00",
+      "end_time": "2026-11-09T07:00:00+08:00",
+      "time_text": "2026年11月6日08时至11月9日07时（延长原文府函〔2026〕557号）",
+      "status": "active",
+      "is_new_today": true,
+      "is_new_scan": true,
+      "summary": "文昌市人民政府11月5日发布延期通告，将原定11月6日08时结束的临时禁飞延长至11月9日07时，原10月30日通告其他事项不变。龙楼、东郊、文教三镇核心禁飞，无人机、航模等禁止起降、施放及飞行；其他区域空飘物限制继续。",
+      "brief": "文昌三镇临时禁飞延期至11月9日07时",
+      "url": "https://www.hndnews.com/p/763778.html",
+      "primary_url": "https://www.hndnews.com/p/763778.html",
+      "links": [
+        {
+          "name": "海南日报客户端转载文昌市政府网通告",
+          "url": "https://www.hndnews.com/p/763778.html",
+          "type": "media_repost",
+          "rank": 1
+        }
+      ],
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "verification_note": "海南日报客户端2026-11-06刊载，明确来源文昌市人民政府网，全文落款2026-11-05。官方原文直达URL未取得；属原通告延期文件，独立ID并关联原公告，避免将原已归档时段误改。",
+      "related_notice_id": "wenchang-20261030-001",
+      "first_seen": "2026-11-07"
     }
   ],
   "ended_recent": [
@@ -163,7 +194,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-11-06 12:12:12",
+    "updated_at": "2026-11-07 12:10:00",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -171,61 +202,67 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "热带系统沿用上轮none，stale=true，11月6日不能确认全面无影响",
+    "headline": "沿用上一轮热带系统none，关键源未全部核验，stale=true",
     "source_time": "2026-11-05 14:14",
-    "forecast_period": "2026-11-06至2026-11-09（待核验）",
-    "summary": "烟花11月5日变性为温带气旋；11月6日关键气象源未全部核验，按失败保护保留上一轮天气状态。",
+    "forecast_period": "2026-11-07至2026-11-10（部分来源已核验）",
+    "summary": "中央气象台11月7日06时海洋公报提示琼州海峡、北部湾后续风力增强；热带系统关键来源未全部核验，保留上一轮状态，不视为确认无影响。",
     "hazards": [
-      "琼州海峡雷雨大风风险，需核对最新有效预报"
+      "11月8日至9日琼州海峡5—6级、阵风7级",
+      "11月9日至10日琼州海峡6—7级、阵风8级",
+      "北部湾11月8日至10日部分时段7—8级、阵风9级"
     ],
     "source_url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
     "sources": [
-      {
-        "name": "中央气象台台风快讯",
-        "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-        "source_time": "2026-11-05 14:14",
-        "ok": true,
-        "note": "烟花11月5日变性温带气旋，停止编号；非11月6日全面核验"
-      },
       {
         "name": "中央气象台每日天气提示",
         "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
         "ok": false,
         "source_error": true,
-        "note": "当日正文无法确认"
+        "source_unavailable": true,
+        "note": "页面可打开但11月7日正文未可靠解析"
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
         "ok": false,
         "source_error": true,
-        "note": "当日正文无法确认"
+        "source_unavailable": true,
+        "note": "页面可打开但当日公报时次未可靠确认"
+      },
+      {
+        "name": "中央气象台台风快讯",
+        "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
+        "ok": false,
+        "source_error": true,
+        "source_unavailable": true,
+        "note": "当日有效台风快讯正文未可靠确认"
       },
       {
         "name": "中央气象台海洋天气公报",
-        "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-        "ok": false,
-        "source_error": true,
-        "note": "当日正文无法确认"
+        "url": "https://www.nmc.cn/f/p-452",
+        "ok": true,
+        "source_time": "2026-11-07 06:00",
+        "note": "11月8-10日琼州海峡及北部湾风力增强"
       },
       {
         "name": "海南省气象台海洋天气",
         "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
         "ok": false,
         "source_error": true,
-        "note": "页面显示13:00未来时次，晚于12:12"
+        "source_unavailable": true,
+        "note": "页面为11月6日13时版本，非当日最新"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
     "stale": true,
-    "stale_reason": "11月6日关键气象源部分当日正文不可解析，海南海洋天气页面出现13:00未来时次；沿用11月5日有效状态，不将失败当作无影响",
+    "stale_reason": "11月7日每日天气提示、天气公报、台风快讯及海南省气象台当日海洋天气未全部取得可确认正文，沿用上一轮有效热带系统状态",
     "failed_sources": [
       "中央气象台每日天气提示",
       "中央气象台天气公报",
-      "中央气象台海洋天气公报",
+      "中央气象台台风快讯",
       "海南省气象台海洋天气"
     ],
-    "note": "影响优先、命名分开。天气来源未完全核验，保留上一轮状态并标记stale；天气风险不等同空域管制。"
+    "note": "影响优先、命名分开；因关键源不完整保留上轮none，不代表确认无影响。天气风险不等同空域管制。"
   },
   "sources": [
     {
@@ -296,12 +333,21 @@
       "note": "10月30日发布、11月1日首次发现；11月3日07时至6日08时文昌龙楼/东郊/文教三镇核心禁飞，当前upcoming，政府原文URL待补"
     },
     {
+      "name": "文昌市11月5日禁飞延期通告",
+      "url": "https://www.hndnews.com/p/763778.html",
+      "ok": true,
+      "source_type": "media_repost",
+      "source_label": "权威转载",
+      "coverage_status": "verified_media_repost",
+      "note": "政府通告原文由海南日报客户端完整转载，官方直达URL待补；延至11月9日07时"
+    },
+    {
       "name": "海口",
       "city": "海口",
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "三亚",
@@ -309,7 +355,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "三沙",
@@ -317,7 +363,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "儋州",
@@ -325,7 +371,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "五指山",
@@ -333,7 +379,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "琼海",
@@ -341,7 +387,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "文昌",
@@ -349,7 +395,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "已核验11月5日延期通告，其他栏目未逐页穷尽"
     },
     {
       "name": "万宁",
@@ -357,7 +403,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "东方",
@@ -365,7 +411,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "定安",
@@ -373,7 +419,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "屯昌",
@@ -381,7 +427,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "澄迈",
@@ -389,7 +435,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "临高",
@@ -397,7 +443,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "白沙",
@@ -405,7 +451,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "昌江",
@@ -413,7 +459,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "乐东",
@@ -421,7 +467,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "陵水",
@@ -429,7 +475,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "保亭",
@@ -437,7 +483,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "琼中",
@@ -445,52 +491,51 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "分组公开关键词检索覆盖，未完成独立官方站点逐页核验，不可推定无新公告"
-    },
-    {
-      "name": "中央气象台台风快讯",
-      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "source_time": "2026-11-05 14:14",
-      "ok": true,
-      "note": "烟花11月5日变性温带气旋，停止编号；非11月6日全面核验",
-      "coverage_status": "official_source_verified",
-      "source_unavailable": false
+      "note": "分组公开搜索覆盖，未完成独立官方站点逐页核验，不能认定无新公告"
     },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
       "ok": false,
       "source_error": true,
-      "note": "当日正文无法确认",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "source_unavailable": true,
+      "note": "页面可打开但11月7日正文未可靠解析",
+      "coverage_status": "source_unavailable"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
       "ok": false,
       "source_error": true,
-      "note": "当日正文无法确认",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "source_unavailable": true,
+      "note": "页面可打开但当日公报时次未可靠确认",
+      "coverage_status": "source_unavailable"
+    },
+    {
+      "name": "中央气象台台风快讯",
+      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
+      "ok": false,
+      "source_error": true,
+      "source_unavailable": true,
+      "note": "当日有效台风快讯正文未可靠确认",
+      "coverage_status": "source_unavailable"
     },
     {
       "name": "中央气象台海洋天气公报",
-      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "ok": false,
-      "source_error": true,
-      "note": "当日正文无法确认",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "url": "https://www.nmc.cn/f/p-452",
+      "ok": true,
+      "source_time": "2026-11-07 06:00",
+      "note": "11月8-10日琼州海峡及北部湾风力增强",
+      "coverage_status": "official_source_verified"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hnnew/weather-ocean.shtml",
       "ok": false,
       "source_error": true,
-      "note": "页面显示13:00未来时次，晚于12:12",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "source_unavailable": true,
+      "note": "页面为11月6日13时版本，非当日最新",
+      "coverage_status": "source_unavailable"
     }
   ],
   "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
