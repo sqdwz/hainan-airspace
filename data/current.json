@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-07 12:10:00",
+  "updated_at": "2026-11-08 12:06:17",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -42,8 +42,8 @@
       "end_time": "2026-11-09T07:00:00+08:00",
       "time_text": "2026年11月6日08时至11月9日07时（延长原文府函〔2026〕557号）",
       "status": "active",
-      "is_new_today": true,
-      "is_new_scan": true,
+      "is_new_today": false,
+      "is_new_scan": false,
       "summary": "文昌市人民政府11月5日发布延期通告，将原定11月6日08时结束的临时禁飞延长至11月9日07时，原10月30日通告其他事项不变。龙楼、东郊、文教三镇核心禁飞，无人机、航模等禁止起降、施放及飞行；其他区域空飘物限制继续。",
       "brief": "文昌三镇临时禁飞延期至11月9日07时",
       "url": "https://www.hndnews.com/p/763778.html",
