@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-08 12:06:17",
+  "updated_at": "2026-11-09 12:10:26",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -30,37 +30,6 @@
       "source_label": "官方发布",
       "verification_note": "2026-10-22通过屯昌县政府网站搜索索引获取官方全文，含屯府办规〔2025〕3号、2025-12-31成文及2026—2028年全年禁止燃放孔明灯规定；直接打开原文返回HTTP 403。时间字段按2026—2028年全年转换，原文注明自发布之日起施行。仅为孔明灯禁放，不代表无人机禁飞。",
       "first_seen": "2026-10-22"
-    },
-    {
-      "id": "wenchang-20261105-extension-001",
-      "title": "文昌市人民政府关于延长禁止小型航空器和空飘物飞行活动时间的通告",
-      "publisher": "文昌市人民政府",
-      "origin_publisher": "文昌市人民政府",
-      "publish_date": "2026-11-05",
-      "area": "文昌市龙楼镇、东郊镇、文教镇全域核心禁飞区；其他区域禁止施放影响飞行安全的空飘物",
-      "start_time": "2026-11-06T08:00:00+08:00",
-      "end_time": "2026-11-09T07:00:00+08:00",
-      "time_text": "2026年11月6日08时至11月9日07时（延长原文府函〔2026〕557号）",
-      "status": "active",
-      "is_new_today": false,
-      "is_new_scan": false,
-      "summary": "文昌市人民政府11月5日发布延期通告，将原定11月6日08时结束的临时禁飞延长至11月9日07时，原10月30日通告其他事项不变。龙楼、东郊、文教三镇核心禁飞，无人机、航模等禁止起降、施放及飞行；其他区域空飘物限制继续。",
-      "brief": "文昌三镇临时禁飞延期至11月9日07时",
-      "url": "https://www.hndnews.com/p/763778.html",
-      "primary_url": "https://www.hndnews.com/p/763778.html",
-      "links": [
-        {
-          "name": "海南日报客户端转载文昌市政府网通告",
-          "url": "https://www.hndnews.com/p/763778.html",
-          "type": "media_repost",
-          "rank": 1
-        }
-      ],
-      "source_type": "media_repost",
-      "source_label": "权威转载",
-      "verification_note": "海南日报客户端2026-11-06刊载，明确来源文昌市人民政府网，全文落款2026-11-05。官方原文直达URL未取得；属原通告延期文件，独立ID并关联原公告，避免将原已归档时段误改。",
-      "related_notice_id": "wenchang-20261030-001",
-      "first_seen": "2026-11-07"
     }
   ]
 }
