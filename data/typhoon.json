@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10 12:13:15",
+  "updated_at": "2026-11-11 12:12:00",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,57 +7,66 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "第32号强台风查帕卡向东偏北移动，中央气象台预计对我国海域无影响；海南岛沿海及北部湾受冷空气影响大风明显",
+  "headline": "海南沿海仍有阵风和后续雷雨风险；关键热带系统来源未完整核验，沿用上一轮状态并标记过期",
   "source_time": "2026-11-10 11:19",
-  "forecast_period": "2026-11-10至2026-11-13",
-  "summary": "11月10日08时每日天气提示及天气公报、10时台风公报、11时19分台风快讯、06时海洋天气公报和海南省气象台07时海洋预报均已读取。查帕卡远离我国海域；海南近海受冷空气影响有较强风浪。",
+  "forecast_period": "2026-11-11至2026-11-14",
+  "summary": "中央气象台11月11日06时海洋天气公报及海南省气象台07时海洋天气已核验。其他关键气象页面未取得可确认的11月11日正文，按失败保护保留上一轮none但标记stale=true；不能据此判断无热带系统影响。",
   "hazards": [
-    "11月10日08时至11日08时北部湾及南海北部、中部海域7—8级风、阵风9—10级（中央气象台）",
-    "海南岛东部及南部海域11月10日07时预报东北风8级、阵风10级（海南省气象台）",
-    "琼州海峡11月10日05时至20时东北风5—6级、阵风7—8级，浪高1.5—3.3米，通航气象条件较差（海南省气象台）"
+    "11月11日08时至12日08时南海东北部和中部6—7级风、阵风8级（中央气象台06时海洋天气公报）",
+    "海南岛东部、琼州海峡等沿海11月11日07时预报阵风6—7级（海南省气象台）",
+    "琼州海峡12日08时至14日08时雷雨时阵风8级，通航条件较差（海南省气象台05时预报）"
   ],
   "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "ok": true,
-      "source_time": "2026-11-10 08:00"
+      "ok": false,
+      "source_error": true,
+      "note": "11月11日正文不可确认"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "ok": true,
-      "source_time": "2026-11-10 08:00"
+      "ok": false,
+      "source_error": true,
+      "note": "11月11日正文不可确认"
     },
     {
       "name": "中央气象台台风公报",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "ok": true,
-      "source_time": "2026-11-10 10:00"
+      "ok": false,
+      "source_error": true,
+      "note": "11月11日时次不可确认"
     },
     {
       "name": "中央气象台台风快讯",
       "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "ok": true,
-      "source_time": "2026-11-10 11:19"
+      "ok": false,
+      "source_error": true,
+      "note": "11月11日时次不可确认"
     },
     {
       "name": "中央气象台海洋天气公报",
-      "url": "https://m.nmc.cn/publish/marine/forecast.htm",
+      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
       "ok": true,
-      "source_time": "2026-11-10 06:00"
+      "source_time": "2026-11-11 06:00"
     },
     {
       "name": "海南省气象台海洋天气",
-      "url": "https://hainan.weather.com.cn/hytq/",
+      "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
       "ok": true,
-      "source_time": "2026-11-10 07:00"
+      "source_time": "2026-11-11 07:00"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
-  "stale": false,
-  "stale_reason": "",
-  "failed_sources": [],
-  "note": "第32号查帕卡虽已命名且为强台风，但中央气象台11月10日10时明确其未来对我国海域无影响；关键气象来源未提示热带系统影响海南。海南近海大风主要受冷空气影响。天气影响不等同于空域管制。"
+  "stale": true,
+  "stale_reason": "中央气象台每日天气提示、天气公报、台风公报及快讯虽可访问页面，但11月11日有效正文/时次未能可靠解析；依失败保护沿用11月10日天气状态，不据此确认海南无热带系统影响。",
+  "failed_sources": [
+    "中央气象台每日天气提示（当日正文不可确认）",
+    "中央气象台天气公报（当日正文不可确认）",
+    "中央气象台台风公报（当日时次不可确认）",
+    "中央气象台台风快讯（当日时次不可确认）"
+  ],
+  "note": "关键气象源不完整，保留上一轮天气状态（none）并标记stale=true；并不意味着确认海南无热带系统影响。天气影响不等同空域管制。"
 }
