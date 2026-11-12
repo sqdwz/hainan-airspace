@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-11 12:12:00",
-  "date": "2026-11-11",
+  "generated_at": "2026-11-12 12:10:00",
+  "date": "2026-11-12",
   "summary": {
     "new": 0,
     "active": 1,
     "upcoming": 0,
     "ended": 9
   },
-  "message": "本轮19市县分组公开检索未发现可独立核验的新增海南航空禁飞公告；当前有效为屯昌县长期孔明灯禁放（非无人机禁飞）。官方栏目未逐站穷尽。海南沿海阵风风险仍在；中央气象台部分关键来源当日正文无法确认，天气状态沿用上一轮并标记stale=true。",
+  "message": "本轮分组公开检索未发现可独立核验的新增海南航空禁飞公告，19市县官方栏目未逐站穷尽；当前有效为屯昌县孔明灯长期禁放（非无人机禁飞）。中央气象台12日08时提示海南岛今明两天部分地区暴雨、局地大暴雨；天气公报当日正文未确认，热带系统状态保留并标记stale=true。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -178,7 +178,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-11-11 12:12:00",
+    "updated_at": "2026-11-12 12:10:00",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -186,68 +186,64 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "海南沿海仍有阵风和后续雷雨风险；关键热带系统来源未完整核验，沿用上一轮状态并标记过期",
-    "source_time": "2026-11-10 11:19",
-    "forecast_period": "2026-11-11至2026-11-14",
-    "summary": "中央气象台11月11日06时海洋天气公报及海南省气象台07时海洋天气已核验。其他关键气象页面未取得可确认的11月11日正文，按失败保护保留上一轮none但标记stale=true；不能据此判断无热带系统影响。",
+    "headline": "海南岛今明两天部分地区有暴雨、局地大暴雨；未核实到热带系统影响，关键天气公报当日正文未确认",
+    "source_time": "2026-11-12 08:00",
+    "forecast_period": "2026-11-12至2026-11-15",
+    "summary": "中央气象台11月12日08时每日天气提示明确海南岛等地部分地区今明两天有暴雨、局地大暴雨；11月12日06时海洋天气公报及海南省气象台07时海洋预报已核验。第32号台风查帕卡于11日20时停止编号。中央气象台天气公报当日正文尚未可靠确认，故保留上一轮热带系统状态none并标记stale=true，不据此确认海南无热带系统影响。",
     "hazards": [
-      "11月11日08时至12日08时南海东北部和中部6—7级风、阵风8级（中央气象台06时海洋天气公报）",
-      "海南岛东部、琼州海峡等沿海11月11日07时预报阵风6—7级（海南省气象台）",
-      "琼州海峡12日08时至14日08时雷雨时阵风8级，通航条件较差（海南省气象台05时预报）"
+      "11月12日至13日海南岛部分地区暴雨、局地大暴雨（中央气象台12日08时每日天气提示）",
+      "11月12日08时至13日08时南海北部和中部海域5—6级风、阵风7级（中央气象台12日06时海洋天气公报）",
+      "琼州海峡12日08时至14日20时雷雨时阵风8级（海南省气象台11日17时通航预报）"
     ],
     "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-        "ok": false,
-        "source_error": true,
-        "note": "11月11日正文不可确认"
+        "ok": true,
+        "source_time": "2026-11-12 08:00"
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
         "ok": false,
         "source_error": true,
-        "note": "11月11日正文不可确认"
+        "note": "当日有效正文/时次未可靠确认"
       },
       {
         "name": "中央气象台台风公报",
         "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-        "ok": false,
-        "source_error": true,
-        "note": "11月11日时次不可确认"
+        "ok": true,
+        "source_time": "2026-11-11 20:00",
+        "note": "查帕卡停止编号，暂无12日新公报"
       },
       {
         "name": "中央气象台台风快讯",
         "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-        "ok": false,
-        "source_error": true,
-        "note": "11月11日时次不可确认"
+        "ok": true,
+        "source_time": "2026-11-11 20:27",
+        "note": "查帕卡停止编号"
       },
       {
         "name": "中央气象台海洋天气公报",
-        "url": "https://www.nmc.cn/publish/marine/forecast.htm",
+        "url": "https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261112_4227622.html",
         "ok": true,
-        "source_time": "2026-11-11 06:00"
+        "source_time": "2026-11-12 06:00"
       },
       {
         "name": "海南省气象台海洋天气",
         "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
         "ok": true,
-        "source_time": "2026-11-11 07:00"
+        "source_time": "2026-11-12 07:00"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
     "stale": true,
-    "stale_reason": "中央气象台每日天气提示、天气公报、台风公报及快讯虽可访问页面，但11月11日有效正文/时次未能可靠解析；依失败保护沿用11月10日天气状态，不据此确认海南无热带系统影响。",
+    "stale_reason": "中央气象台11月12日天气公报当日正文未可靠确认；按失败保护保留此前热带系统状态。",
     "failed_sources": [
-      "中央气象台每日天气提示（当日正文不可确认）",
-      "中央气象台天气公报（当日正文不可确认）",
-      "中央气象台台风公报（当日时次不可确认）",
-      "中央气象台台风快讯（当日时次不可确认）"
+      "中央气象台天气公报（11月12日正文/时次不可确认）"
     ],
-    "note": "关键气象源不完整，保留上一轮天气状态（none）并标记stale=true；并不意味着确认海南无热带系统影响。天气影响不等同空域管制。"
+    "note": "暴雨风险需关注，但未证实由影响海南的热带系统导致；保留上一轮热带系统状态并标记stale=true。天气影响不等同空域管制。"
   },
   "sources": [
     {
@@ -339,7 +335,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "三亚",
@@ -347,7 +343,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "三沙",
@@ -355,7 +351,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "儋州",
@@ -363,7 +359,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "五指山",
@@ -371,7 +367,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "琼海",
@@ -379,7 +375,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "文昌",
@@ -387,7 +383,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "万宁",
@@ -395,7 +391,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "东方",
@@ -403,7 +399,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "定安",
@@ -411,7 +407,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "屯昌",
@@ -419,7 +415,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "澄迈",
@@ -427,7 +423,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "临高",
@@ -435,7 +431,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "白沙",
@@ -443,7 +439,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "昌江",
@@ -451,7 +447,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "乐东",
@@ -459,7 +455,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "陵水",
@@ -467,7 +463,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "保亭",
@@ -475,7 +471,7 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "琼中",
@@ -483,58 +479,57 @@
       "ok": false,
       "coverage_status": "public_search_limited",
       "official_full_verification": false,
-      "note": "2026-11-11分地区组合关键词公开检索；未逐一穷尽政府、公安、应急、机场官方栏目；未发现可独立核验新增通告不代表无实时限制"
+      "note": "2026-11-12分组公开关键词检索，未逐站穷尽政府、公安、应急和机场官方栏目；无可核验新增不代表无实时限制"
     },
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "ok": false,
-      "source_error": true,
-      "note": "11月11日正文不可确认",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "ok": true,
+      "source_time": "2026-11-12 08:00",
+      "coverage_status": "official_weather_verified",
+      "source_unavailable": false
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
       "ok": false,
       "source_error": true,
-      "note": "11月11日正文不可确认",
+      "note": "当日有效正文/时次未可靠确认",
       "coverage_status": "source_unavailable",
       "source_unavailable": true
     },
     {
       "name": "中央气象台台风公报",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "ok": false,
-      "source_error": true,
-      "note": "11月11日时次不可确认",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "ok": true,
+      "source_time": "2026-11-11 20:00",
+      "note": "查帕卡停止编号，暂无12日新公报",
+      "coverage_status": "official_weather_verified",
+      "source_unavailable": false
     },
     {
       "name": "中央气象台台风快讯",
       "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "ok": false,
-      "source_error": true,
-      "note": "11月11日时次不可确认",
-      "coverage_status": "source_unavailable",
-      "source_unavailable": true
+      "ok": true,
+      "source_time": "2026-11-11 20:27",
+      "note": "查帕卡停止编号",
+      "coverage_status": "official_weather_verified",
+      "source_unavailable": false
     },
     {
       "name": "中央气象台海洋天气公报",
-      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
+      "url": "https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261112_4227622.html",
       "ok": true,
-      "source_time": "2026-11-11 06:00",
-      "coverage_status": "official_source_verified",
+      "source_time": "2026-11-12 06:00",
+      "coverage_status": "official_weather_verified",
       "source_unavailable": false
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
       "ok": true,
-      "source_time": "2026-11-11 07:00",
-      "coverage_status": "official_source_verified",
+      "source_time": "2026-11-12 07:00",
+      "coverage_status": "official_weather_verified",
       "source_unavailable": false
     }
   ],
