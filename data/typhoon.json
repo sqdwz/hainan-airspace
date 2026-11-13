@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12 12:10:00",
+  "updated_at": "2026-11-13 12:10:53",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,62 +7,58 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "海南岛今明两天部分地区有暴雨、局地大暴雨；未核实到热带系统影响，关键天气公报当日正文未确认",
-  "source_time": "2026-11-12 08:00",
-  "forecast_period": "2026-11-12至2026-11-15",
-  "summary": "中央气象台11月12日08时每日天气提示明确海南岛等地部分地区今明两天有暴雨、局地大暴雨；11月12日06时海洋天气公报及海南省气象台07时海洋预报已核验。第32号台风查帕卡于11日20时停止编号。中央气象台天气公报当日正文尚未可靠确认，故保留上一轮热带系统状态none并标记stale=true，不据此确认海南无热带系统影响。",
+  "headline": "海南13日雷阵雨及局地较强降雨风险；热带系统状态沿用上一轮，关键气象源核验不完整",
+  "source_time": "2026-11-13 06:00",
+  "forecast_period": "2026-11-13至2026-11-16",
+  "summary": "中央气象台13日06时海洋天气公报、海南省气象台13日05时琼州海峡通航预报已核验。琼州海峡13日05时至14日20时雷阵雨，雷雨时阵风8级；中央气象台每日天气提示、天气公报及台风当日正文无法完整确认，故热带系统状态保留上一轮none并标记stale=true。",
   "hazards": [
-    "11月12日至13日海南岛部分地区暴雨、局地大暴雨（中央气象台12日08时每日天气提示）",
-    "11月12日08时至13日08时南海北部和中部海域5—6级风、阵风7级（中央气象台12日06时海洋天气公报）",
-    "琼州海峡12日08时至14日20时雷雨时阵风8级（海南省气象台11日17时通航预报）"
+    "琼州海峡13日05时至14日20时雷阵雨，雷雨时阵风8级，浪高1.0—2.0米（海南省气象台13日05时）",
+    "13日08时至14日08时巴士海峡及南海东北部海域5—6级风、阵风7级（中央气象台13日06时海洋天气公报）",
+    "海南部分地区13日中到大雨风险（海南广播电视总台11日引用气象预报，需以最新属地预报复核）"
   ],
   "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "ok": true,
-      "source_time": "2026-11-12 08:00"
+      "ok": false,
+      "source_error": true,
+      "note": "页面可访问，13日有效正文/时次未确认"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
       "ok": false,
       "source_error": true,
-      "note": "当日有效正文/时次未可靠确认"
+      "note": "页面可访问，13日有效正文/时次未确认"
     },
     {
-      "name": "中央气象台台风公报",
+      "name": "中央气象台台风公报/快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "ok": true,
-      "source_time": "2026-11-11 20:00",
-      "note": "查帕卡停止编号，暂无12日新公报"
-    },
-    {
-      "name": "中央气象台台风快讯",
-      "url": "https://nmc.cn/publish/typhoon/typhoon_new.html",
-      "ok": true,
-      "source_time": "2026-11-11 20:27",
-      "note": "查帕卡停止编号"
+      "ok": false,
+      "source_error": true,
+      "note": "13日有效正文/时次未完整确认"
     },
     {
       "name": "中央气象台海洋天气公报",
-      "url": "https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261112_4227622.html",
+      "url": "https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261113_4227682.html",
       "ok": true,
-      "source_time": "2026-11-12 06:00"
+      "source_time": "2026-11-13 06:00"
     },
     {
-      "name": "海南省气象台海洋天气",
+      "name": "海南省气象台琼州海峡通航天气",
       "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
       "ok": true,
-      "source_time": "2026-11-12 07:00"
+      "source_time": "2026-11-13 05:00"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
   "stale": true,
-  "stale_reason": "中央气象台11月12日天气公报当日正文未可靠确认；按失败保护保留此前热带系统状态。",
+  "stale_reason": "中央气象台2026-11-13每日天气提示、天气公报、台风公报/快讯的当日有效正文或时次无法全部可靠确认；保留上一轮热带系统状态，不将来源缺口视为无影响。",
   "failed_sources": [
-    "中央气象台天气公报（11月12日正文/时次不可确认）"
+    "中央气象台每日天气提示（13日正文/时次未确认）",
+    "中央气象台天气公报（13日正文/时次未确认）",
+    "中央气象台台风公报/快讯（13日状态未完整确认）"
   ],
-  "note": "暴雨风险需关注，但未证实由影响海南的热带系统导致；保留上一轮热带系统状态并标记stale=true。天气影响不等同空域管制。"
+  "note": "天气风险不等同于空域管制。因中央气象台关键来源未全部核验，保留上一轮热带系统状态，不能将none解释为今日确认无影响。"
 }
