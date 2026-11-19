@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-11-18 12:18:00",
-  "date": "2026-11-18",
+  "generated_at": "2026-11-19 12:09:20",
+  "date": "2026-11-19",
   "summary": {
-    "new": 2,
+    "new": 0,
     "active": 3,
     "upcoming": 0,
     "ended": 9
   },
-  "message": "新增发现文昌三镇11月17日18时至20日24时禁飞及海口秀英烈楼港周边300米11月18日08时至20日24时禁飞，两条均为政府通告权威转载；19市县检索有限。海南近海大风增强，台风快讯核验不完整，stale=true。",
+  "message": "本轮有限公开检索未发现新增可核验禁飞公告；文昌三镇和海口秀英临时禁飞持续至20日24时，屯昌长期孔明灯禁放继续有效。19市县官方栏目尚未逐页穷尽。19—21日琼州海峡雷雨阵风9级；气象关键来源不完整，stale=true。",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -50,8 +50,8 @@
       "end_time": "2026-11-21T00:00:00+08:00",
       "time_text": "2026-11-17T18:00:00+08:00 至 2026-11-21T00:00:00+08:00",
       "status": "active",
-      "is_new_today": true,
-      "is_new_scan": true,
+      "is_new_today": false,
+      "is_new_scan": false,
       "summary": "核心区禁止无人机、航空模型、轻型航空器、热气球、风筝、孔明灯等起降施放飞行；应急作业须通航飞行服务站申请、军民航管制同意及公安报备。",
       "brief": "文昌三镇11月17日18时至20日24时临时禁飞",
       "url": "https://www.hndnews.com/p/764682.html",
@@ -80,8 +80,8 @@
       "end_time": "2026-11-21T00:00:00+08:00",
       "time_text": "2026-11-18T08:00:00+08:00 至 2026-11-21T00:00:00+08:00",
       "status": "active",
-      "is_new_today": true,
-      "is_new_scan": true,
+      "is_new_today": false,
+      "is_new_scan": false,
       "summary": "大型群众性活动期间限制无人机、轻型航空器、滑翔伞、气球、飞艇及航空模型等；特殊飞行须依法办理审批。",
       "brief": "海口秀英烈楼港周边300米半径11月18日08时至20日24时禁飞",
       "url": "https://www.thepaper.cn/newsDetail_forward_34500987",
@@ -238,7 +238,7 @@
     }
   ],
   "typhoon": {
-    "updated_at": "2026-11-18 12:18:00",
+    "updated_at": "2026-11-19 12:09:20",
     "status": "none",
     "impact_level": "none",
     "affects_hainan": false,
@@ -246,62 +246,70 @@
     "system_type": null,
     "name": null,
     "named": false,
-    "headline": "18—20日海南近海冷空气大风，北部湾7—8级阵风9—10级；台风快讯未完成当日核验",
+    "headline": "19—21日海南沿海大风、琼州海峡雷雨阵风9级；中央气象台部分关键正文未确认",
     "source_time": "2026-11-13 06:00",
-    "forecast_period": "2026-11-18至2026-11-21",
-    "summary": "中央气象台18日08时每日天气提示及天气公报已核验；06时海洋天气公报预计18日北部湾7级阵风8—9级、19日北部湾及南海北部7—8级阵风9—10级。海南省气象台18日07时预报北部湾北部阵风9级、本岛西部阵风8级；17日17时通航预报预计18日晚至20日琼州海峡雷雨阵风9级。台风公报停留11日旧产品，18日快讯无法可靠确认，保留原热带系统状态。",
+    "forecast_period": "2026-11-19至2026-11-22",
+    "summary": "中央气象台19日06时海洋天气公报预计19—20日北部湾6—7级、阵风8级；海南省气象台19日07时预报北部湾北部阵风9级、本岛东部阵风8级；19日05时琼州海峡通航预报显示19日05时至21日08时雷雨时阵风9级、浪高1.0—2.5米。每日天气提示、天气公报及台风快讯当日正文未能可靠确认，保留上一轮热带系统状态。",
     "hazards": [
-      "18日北部湾7级、阵风8—9级",
-      "19日北部湾及南海北部7—8级、阵风9—10级",
-      "18日晚至20日琼州海峡雷雨阵风9级",
-      "18日海南岛西部中雨局地大雨"
+      "北部湾北部阵风9级",
+      "海南岛东部海域阵风8级",
+      "19日至21日琼州海峡雷雨时阵风9级、浪高1.0—2.5米"
     ],
     "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
     "sources": [
       {
         "name": "中央气象台每日天气提示",
         "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-        "ok": true,
-        "source_time": "2026-11-18 08:00"
+        "ok": false,
+        "source_error": true,
+        "note": "19日有效正文或发布时次无法确认"
       },
       {
         "name": "中央气象台天气公报",
         "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-        "ok": true,
-        "source_time": "2026-11-18 08:00"
+        "ok": false,
+        "source_error": true,
+        "note": "19日有效正文或发布时次无法确认"
       },
       {
         "name": "中央气象台台风公报/快讯",
         "url": "https://www.nmc.cn/publish/typhoon/warning.html",
         "ok": false,
         "source_error": true,
-        "note": "公报仅11日停止编号旧产品，18日台风快讯未可靠确认"
+        "note": "19日热带系统快讯无法确认"
       },
       {
         "name": "中央气象台海洋天气公报",
         "url": "https://www.nmc.cn/publish/marine/forecast.htm",
         "ok": true,
-        "source_time": "2026-11-18 06:00"
+        "source_time": "2026-11-19 06:00"
       },
       {
         "name": "海南省气象台海洋天气",
         "url": "https://hainan.weather.com.cn/hytq/",
         "ok": true,
-        "source_time": "2026-11-18 07:00"
+        "source_time": "2026-11-19 07:00"
       },
       {
         "name": "海南省气象台琼州海峡通航预报",
-        "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
+        "url": "https://hainan.weather.com.cn/hytq/",
         "ok": true,
-        "source_time": "2026-11-17 17:00",
-        "note": "预报有效期覆盖20日"
+        "source_time": "2026-11-19 05:00"
+      },
+      {
+        "name": "海南省气象台市县预报",
+        "url": "https://www.weather.com.cn/html/province/hainan.shtml",
+        "ok": true,
+        "source_time": "2026-11-19 07:00"
       }
     ],
     "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
     "stale": true,
-    "stale_reason": "18日台风快讯与当日热带系统状态未可靠确认，沿用上一轮status和affects_hainan",
+    "stale_reason": "19日中央气象台每日天气提示、天气公报、台风公报/快讯当日正文或发布时次无法可靠确认；沿用上一轮热带系统状态，不视为当日确认无影响",
     "failed_sources": [
-      "中央气象台台风快讯（18日状态未确认）"
+      "中央气象台每日天气提示（19日正文未确认）",
+      "中央气象台天气公报（19日正文未确认）",
+      "中央气象台台风公报/快讯（19日状态未确认）"
     ],
     "note": "天气影响不等同于空域管制；沿用none不代表已经完整确认今日无热带系统影响。"
   },
@@ -413,202 +421,6 @@
       "note": "三亚市政府网站转载海事水上交通管制信息，排除航空公告入库"
     },
     {
-      "name": "海口",
-      "city": "海口",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "三亚",
-      "city": "三亚",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "三沙",
-      "city": "三沙",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "儋州",
-      "city": "儋州",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "五指山",
-      "city": "五指山",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "琼海",
-      "city": "琼海",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "文昌",
-      "city": "文昌",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "万宁",
-      "city": "万宁",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "东方",
-      "city": "东方",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "定安",
-      "city": "定安",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "屯昌",
-      "city": "屯昌",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "澄迈",
-      "city": "澄迈",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "临高",
-      "city": "临高",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "白沙",
-      "city": "白沙",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "昌江",
-      "city": "昌江",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "乐东",
-      "city": "乐东",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "陵水",
-      "city": "陵水",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "保亭",
-      "city": "保亭",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "琼中",
-      "city": "琼中",
-      "ok": false,
-      "coverage_status": "public_search_limited",
-      "official_full_verification": false,
-      "note": "2026-11-18分地区公开检索范围已纳入；未逐页穷尽当地官方栏目，未发现其他新增不能证明无管制"
-    },
-    {
-      "name": "中央气象台每日天气提示",
-      "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "ok": true,
-      "source_time": "2026-11-18 08:00",
-      "coverage_status": "official_weather_verified"
-    },
-    {
-      "name": "中央气象台天气公报",
-      "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "ok": true,
-      "source_time": "2026-11-18 08:00",
-      "coverage_status": "official_weather_verified"
-    },
-    {
-      "name": "中央气象台台风公报/快讯",
-      "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "ok": false,
-      "source_error": true,
-      "note": "公报仅11日停止编号旧产品，18日台风快讯未可靠确认",
-      "coverage_status": "source_error"
-    },
-    {
-      "name": "中央气象台海洋天气公报",
-      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
-      "ok": true,
-      "source_time": "2026-11-18 06:00",
-      "coverage_status": "official_weather_verified"
-    },
-    {
-      "name": "海南省气象台海洋天气",
-      "url": "https://hainan.weather.com.cn/hytq/",
-      "ok": true,
-      "source_time": "2026-11-18 07:00",
-      "coverage_status": "official_weather_verified"
-    },
-    {
-      "name": "海南省气象台琼州海峡通航预报",
-      "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
-      "ok": true,
-      "source_time": "2026-11-17 17:00",
-      "note": "预报有效期覆盖20日",
-      "coverage_status": "official_weather_verified"
-    },
-    {
       "name": "文昌市11月16日临时禁飞政府通告",
       "url": "https://www.hndnews.com/p/764682.html",
       "ok": true,
@@ -625,6 +437,185 @@
       "source_label": "权威转载",
       "coverage_status": "verified_media_repost",
       "note": "11月18日08时至20日24时；官方直达链接待补"
+    },
+    {
+      "name": "中央气象台每日天气提示",
+      "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
+      "ok": false,
+      "source_error": true,
+      "note": "19日有效正文或发布时次无法确认",
+      "coverage_status": "source_unavailable",
+      "source_unavailable": true
+    },
+    {
+      "name": "中央气象台天气公报",
+      "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
+      "ok": false,
+      "source_error": true,
+      "note": "19日有效正文或发布时次无法确认",
+      "coverage_status": "source_unavailable",
+      "source_unavailable": true
+    },
+    {
+      "name": "中央气象台台风公报/快讯",
+      "url": "https://www.nmc.cn/publish/typhoon/warning.html",
+      "ok": false,
+      "source_error": true,
+      "note": "19日热带系统快讯无法确认",
+      "coverage_status": "source_unavailable",
+      "source_unavailable": true
+    },
+    {
+      "name": "海口",
+      "city": "海口",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "三亚",
+      "city": "三亚",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "三沙",
+      "city": "三沙",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "儋州",
+      "city": "儋州",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "五指山",
+      "city": "五指山",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "琼海",
+      "city": "琼海",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "文昌",
+      "city": "文昌",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "万宁",
+      "city": "万宁",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "东方",
+      "city": "东方",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "定安",
+      "city": "定安",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "屯昌",
+      "city": "屯昌",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "澄迈",
+      "city": "澄迈",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "临高",
+      "city": "临高",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "白沙",
+      "city": "白沙",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "昌江",
+      "city": "昌江",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "乐东",
+      "city": "乐东",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "陵水",
+      "city": "陵水",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "保亭",
+      "city": "保亭",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
+    },
+    {
+      "name": "琼中",
+      "city": "琼中",
+      "ok": false,
+      "coverage_status": "public_search_limited",
+      "official_full_verification": false,
+      "note": "2026-11-19纳入地区检索范围；未逐站穷尽官方栏目，不能将未发现新增解释为无管制"
     }
   ],
   "compliance_note": "公开信息检索仅作辅助监测，实际飞行前仍需核对 UOM 实时空域、NOTAM、军民航空管批复、机场净空及属地临时管制要求。"
