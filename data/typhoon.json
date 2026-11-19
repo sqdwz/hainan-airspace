@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 12:18:00",
+  "updated_at": "2026-11-19 12:09:20",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,62 +7,70 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "18—20日海南近海冷空气大风，北部湾7—8级阵风9—10级；台风快讯未完成当日核验",
+  "headline": "19—21日海南沿海大风、琼州海峡雷雨阵风9级；中央气象台部分关键正文未确认",
   "source_time": "2026-11-13 06:00",
-  "forecast_period": "2026-11-18至2026-11-21",
-  "summary": "中央气象台18日08时每日天气提示及天气公报已核验；06时海洋天气公报预计18日北部湾7级阵风8—9级、19日北部湾及南海北部7—8级阵风9—10级。海南省气象台18日07时预报北部湾北部阵风9级、本岛西部阵风8级；17日17时通航预报预计18日晚至20日琼州海峡雷雨阵风9级。台风公报停留11日旧产品，18日快讯无法可靠确认，保留原热带系统状态。",
+  "forecast_period": "2026-11-19至2026-11-22",
+  "summary": "中央气象台19日06时海洋天气公报预计19—20日北部湾6—7级、阵风8级；海南省气象台19日07时预报北部湾北部阵风9级、本岛东部阵风8级；19日05时琼州海峡通航预报显示19日05时至21日08时雷雨时阵风9级、浪高1.0—2.5米。每日天气提示、天气公报及台风快讯当日正文未能可靠确认，保留上一轮热带系统状态。",
   "hazards": [
-    "18日北部湾7级、阵风8—9级",
-    "19日北部湾及南海北部7—8级、阵风9—10级",
-    "18日晚至20日琼州海峡雷雨阵风9级",
-    "18日海南岛西部中雨局地大雨"
+    "北部湾北部阵风9级",
+    "海南岛东部海域阵风8级",
+    "19日至21日琼州海峡雷雨时阵风9级、浪高1.0—2.5米"
   ],
   "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "ok": true,
-      "source_time": "2026-11-18 08:00"
+      "ok": false,
+      "source_error": true,
+      "note": "19日有效正文或发布时次无法确认"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "ok": true,
-      "source_time": "2026-11-18 08:00"
+      "ok": false,
+      "source_error": true,
+      "note": "19日有效正文或发布时次无法确认"
     },
     {
       "name": "中央气象台台风公报/快讯",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
       "ok": false,
       "source_error": true,
-      "note": "公报仅11日停止编号旧产品，18日台风快讯未可靠确认"
+      "note": "19日热带系统快讯无法确认"
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/publish/marine/forecast.htm",
       "ok": true,
-      "source_time": "2026-11-18 06:00"
+      "source_time": "2026-11-19 06:00"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hytq/",
       "ok": true,
-      "source_time": "2026-11-18 07:00"
+      "source_time": "2026-11-19 07:00"
     },
     {
       "name": "海南省气象台琼州海峡通航预报",
-      "url": "https://www.weather.com.cn/hainan/hytq/index.shtml",
+      "url": "https://hainan.weather.com.cn/hytq/",
       "ok": true,
-      "source_time": "2026-11-17 17:00",
-      "note": "预报有效期覆盖20日"
+      "source_time": "2026-11-19 05:00"
+    },
+    {
+      "name": "海南省气象台市县预报",
+      "url": "https://www.weather.com.cn/html/province/hainan.shtml",
+      "ok": true,
+      "source_time": "2026-11-19 07:00"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
   "stale": true,
-  "stale_reason": "18日台风快讯与当日热带系统状态未可靠确认，沿用上一轮status和affects_hainan",
+  "stale_reason": "19日中央气象台每日天气提示、天气公报、台风公报/快讯当日正文或发布时次无法可靠确认；沿用上一轮热带系统状态，不视为当日确认无影响",
   "failed_sources": [
-    "中央气象台台风快讯（18日状态未确认）"
+    "中央气象台每日天气提示（19日正文未确认）",
+    "中央气象台天气公报（19日正文未确认）",
+    "中央气象台台风公报/快讯（19日状态未确认）"
   ],
   "note": "天气影响不等同于空域管制；沿用none不代表已经完整确认今日无热带系统影响。"
 }
