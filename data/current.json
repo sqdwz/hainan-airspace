@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18 12:18:00",
+  "updated_at": "2026-11-19 12:09:20",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -42,8 +42,8 @@
       "end_time": "2026-11-21T00:00:00+08:00",
       "time_text": "2026-11-17T18:00:00+08:00 至 2026-11-21T00:00:00+08:00",
       "status": "active",
-      "is_new_today": true,
-      "is_new_scan": true,
+      "is_new_today": false,
+      "is_new_scan": false,
       "summary": "核心区禁止无人机、航空模型、轻型航空器、热气球、风筝、孔明灯等起降施放飞行；应急作业须通航飞行服务站申请、军民航管制同意及公安报备。",
       "brief": "文昌三镇11月17日18时至20日24时临时禁飞",
       "url": "https://www.hndnews.com/p/764682.html",
@@ -72,8 +72,8 @@
       "end_time": "2026-11-21T00:00:00+08:00",
       "time_text": "2026-11-18T08:00:00+08:00 至 2026-11-21T00:00:00+08:00",
       "status": "active",
-      "is_new_today": true,
-      "is_new_scan": true,
+      "is_new_today": false,
+      "is_new_scan": false,
       "summary": "大型群众性活动期间限制无人机、轻型航空器、滑翔伞、气球、飞艇及航空模型等；特殊飞行须依法办理审批。",
       "brief": "海口秀英烈楼港周边300米半径11月18日08时至20日24时禁飞",
       "url": "https://www.thepaper.cn/newsDetail_forward_34500987",
