@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 12:10:00",
+  "updated_at": "2026-11-21 12:10:00",
   "notices": [
     {
       "id": "tunchang-20251231-sky-lantern-001",
@@ -30,66 +30,6 @@
       "source_label": "官方发布",
       "verification_note": "2026-10-22通过屯昌县政府网站搜索索引获取官方全文，含屯府办规〔2025〕3号、2025-12-31成文及2026—2028年全年禁止燃放孔明灯规定；直接打开原文返回HTTP 403。时间字段按2026—2028年全年转换，原文注明自发布之日起施行。仅为孔明灯禁放，不代表无人机禁飞。",
       "first_seen": "2026-10-22"
-    },
-    {
-      "id": "wenchang-20261116-001",
-      "title": "文昌市人民政府关于在11月特定时间禁止小型航空器和空飘物飞行活动的通告",
-      "publisher": "文昌市人民政府",
-      "origin_publisher": "文昌市人民政府",
-      "publish_date": "2026-11-16",
-      "area": "龙楼镇、东郊镇、文教镇全域核心禁飞；文昌其他区域禁止影响飞行安全的空飘物",
-      "start_time": "2026-11-17T18:00:00+08:00",
-      "end_time": "2026-11-21T00:00:00+08:00",
-      "time_text": "2026-11-17T18:00:00+08:00 至 2026-11-21T00:00:00+08:00",
-      "status": "active",
-      "is_new_today": false,
-      "is_new_scan": false,
-      "summary": "核心区禁止无人机、航空模型、轻型航空器、热气球、风筝、孔明灯等起降施放飞行；应急作业须通航飞行服务站申请、军民航管制同意及公安报备。",
-      "brief": "文昌三镇11月17日18时至20日24时临时禁飞",
-      "url": "https://www.hndnews.com/p/764682.html",
-      "primary_url": "https://www.hndnews.com/p/764682.html",
-      "links": [
-        {
-          "name": "权威媒体完整转载政府通告（官方直达原文待补）",
-          "url": "https://www.hndnews.com/p/764682.html",
-          "type": "media_repost",
-          "rank": 2
-        }
-      ],
-      "source_type": "media_repost",
-      "source_label": "权威转载",
-      "verification_note": "政府署名通告由权威媒体完整转载；未取得可直接核验的政府原文URL，后续发现官方原文应替换primary_url。",
-      "first_seen": "2026-11-18"
-    },
-    {
-      "id": "haikou-20261116-001",
-      "title": "海口市人民政府关于大型群众性活动期间禁止“无人机”等航空器在相关区域飞行的通告",
-      "publisher": "海口市人民政府",
-      "origin_publisher": "海口市人民政府",
-      "publish_date": "2026-11-16",
-      "area": "海口市秀英区海色路烈楼港区域，以东经110°11′40.553″、北纬20°03′45.004″为中心半径300米",
-      "start_time": "2026-11-18T08:00:00+08:00",
-      "end_time": "2026-11-21T00:00:00+08:00",
-      "time_text": "2026-11-18T08:00:00+08:00 至 2026-11-21T00:00:00+08:00",
-      "status": "active",
-      "is_new_today": false,
-      "is_new_scan": false,
-      "summary": "大型群众性活动期间限制无人机、轻型航空器、滑翔伞、气球、飞艇及航空模型等；特殊飞行须依法办理审批。",
-      "brief": "海口秀英烈楼港周边300米半径11月18日08时至20日24时禁飞",
-      "url": "https://www.thepaper.cn/newsDetail_forward_34500987",
-      "primary_url": "https://www.thepaper.cn/newsDetail_forward_34500987",
-      "links": [
-        {
-          "name": "权威媒体完整转载政府通告（官方直达原文待补）",
-          "url": "https://www.thepaper.cn/newsDetail_forward_34500987",
-          "type": "media_repost",
-          "rank": 2
-        }
-      ],
-      "source_type": "media_repost",
-      "source_label": "权威转载",
-      "verification_note": "政府署名通告由权威媒体完整转载；未取得可直接核验的政府原文URL，后续发现官方原文应替换primary_url。",
-      "first_seen": "2026-11-18"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-20 12:10:00",
+  "updated_at": "2026-11-21 12:10:00",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,59 +7,61 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "20日北部湾、南海北部6—7级风阵风8级；热带系统关键资料未完全核实",
-  "source_time": "2026-11-13 06:00",
-  "forecast_period": "2026-11-20至2026-11-23",
-  "summary": "中央气象台20日06时海洋天气公报（交通运输部转载）确认20日08时至21日08时北部湾、南海北部和中部6—7级、阵风8级东北风，琼州海峡5—6级、阵风7级；21—22日部分南海海域仍有阵风8级。每日天气提示、天气公报、台风快讯及海南本地20日有效正文未能确认，保留上一轮热带系统状态，不判定为当日无影响。",
+  "headline": "21日琼州海峡上午阵风7—8级，岛东部及南部海域阵风8级；热带系统快讯核验不完整",
+  "source_time": "2026-11-21 08:00",
+  "forecast_period": "2026-11-21至2026-11-24",
+  "summary": "中央气象台21日08时每日天气提示及天气公报、06时海洋天气公报均已核验；海南省气象台21日07时沿海预报及05时琼州海峡通航预报已核验。琼州海峡21日05—14时阵风7—8级、浪高1.2—2.5米；海南岛东部和南部海域阵风8级。中央气象台台风公报及快讯当日有效内容未可靠确认，继承上一轮热带系统状态，不把none解释为今日确认无影响。",
   "hazards": [
-    "北部湾、南海北部20日至21日阵风8级",
-    "琼州海峡20日至21日阵风7级"
+    "琼州海峡21日05—14时阵风7—8级、浪高1.2—2.5米",
+    "海南岛东部、南部海域21日阵风8级",
+    "海南岛局地小雨"
   ],
-  "source_url": "https://www.nmc.cn/publish/typhoon/warning.html",
+  "source_url": "https://m.nmc.cn/publish/weatherperday/index.htm",
   "sources": [
     {
       "name": "中央气象台每日天气提示",
       "url": "https://m.nmc.cn/publish/weatherperday/index.htm",
-      "ok": false,
-      "source_error": true,
-      "note": "页面可访问但20日有效正文未确认"
+      "ok": true,
+      "source_time": "2026-11-21 08:00"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "ok": false,
-      "source_error": true,
-      "note": "页面可访问但20日有效正文未确认"
+      "ok": true,
+      "source_time": "2026-11-21 08:00"
+    },
+    {
+      "name": "中央气象台海洋天气公报",
+      "url": "https://m.nmc.cn/publish/marine/forecast.htm",
+      "ok": true,
+      "source_time": "2026-11-21 06:00"
     },
     {
       "name": "中央气象台台风公报/快讯",
-      "url": "https://www.nmc.cn/publish/typhoon/warning.html",
+      "url": "https://www.nmc.cn/publish/typhoon/typhoon_new.html",
       "ok": false,
       "source_error": true,
-      "note": "20日有效热带系统正文未确认"
+      "source_unavailable": true,
+      "note": "当日有效台风快讯及台风公报正文未可靠确认；不能据此判断无热带扰动"
     },
     {
-      "name": "中央气象台海洋天气公报（交通运输部官方转载）",
-      "url": "https://www.mot.gov.cn/fuwu/yujingtishi/haiyangtianqigb/202611/t20261120_4228092.html",
+      "name": "海南省气象台海洋天气及通航预报",
+      "url": "https://hainan.weather.com.cn/hytq/index.shtml",
       "ok": true,
-      "source_time": "2026-11-20 06:00"
+      "source_time": "2026-11-21 07:00"
     },
     {
-      "name": "海南省气象部门海洋天气",
-      "url": "https://hainan.weather.com.cn/hytq/",
-      "ok": false,
-      "source_error": true,
-      "note": "20日有效正文未确认"
+      "name": "海南省气象台市县天气预报",
+      "url": "https://www.weather.com.cn/html/province/hainan.shtml",
+      "ok": true,
+      "source_time": "2026-11-21 07:00"
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
   "stale": true,
-  "stale_reason": "20日每日天气提示、天气公报、台风快讯及海南省气象部门当日有效正文未可靠确认；继承上一轮热带系统状态",
+  "stale_reason": "中央气象台台风公报及台风快讯21日有效内容未能可靠确认；保留上一轮热带系统状态",
   "failed_sources": [
-    "中央气象台每日天气提示（20日正文未确认）",
-    "中央气象台天气公报（20日正文未确认）",
-    "中央气象台台风公报/快讯（20日正文未确认）",
-    "海南省气象部门（20日正文未确认）"
+    "中央气象台台风公报/快讯（21日有效正文未确认）"
   ],
-  "note": "天气影响不等同于空域管制；沿用none不能证明今日无热带系统影响。"
+  "note": "天气影响不等同于空域管制；继承的none不能证明今日海南无热带系统影响。"
 }
