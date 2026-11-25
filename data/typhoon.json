@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24 12:14:29",
+  "updated_at": "2026-11-25 12:10:02",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,15 +7,15 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "冷空气影响，北部湾及南海中北部大风；热带系统仍待完整核验",
-  "source_time": "2026-11-24 08:00",
-  "forecast_period": "2026-11-24 08:00至2026-11-27 08:00",
-  "summary": "24日中央气象台每日天气提示、天气公报及海洋天气公报已核验；冷空气带来海上大风。台风快讯明确提示当前无台风，但台风公报、预警及海南当日截止时刻前有效产品未完整核验，保留上一轮热带系统状态。",
+  "headline": "南海中北部大风有所减弱；热带系统仍待完整核验",
+  "source_time": "2026-11-25",
+  "forecast_period": "2026-11-25 08:00至2026-11-28 08:00",
+  "summary": "中央气象台25日天气提示、天气公报及海洋天气公报已读取。台风公报和预警页面无新产品，快讯超时，海南省及市县有效产品未完整核验，继承上一轮热带系统状态。",
   "hazards": [
-    "24日至25日北部湾及南海中北部7级风、阵风8—9级",
-    "南海东北部部分海域阵风10级",
-    "25日至26日南海中北部阵风8—9级",
-    "26日至27日海南岛部分地区小雨"
+    "25日至26日南海北部和中部6—7级风、阵风8级",
+    "25日至26日北部湾5—6级风、阵风7级",
+    "26日至28日部分南海海域阵风7级",
+    "25日至28日海南岛部分地区小雨"
   ],
   "source_url": "https://www.nmc.cn/publish/weatherperday/index.htm",
   "sources": [
@@ -23,50 +23,50 @@
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
       "ok": true,
-      "note": "移动端超时，桌面版正文核验成功",
-      "source_time": "2026-11-24 08:00"
+      "note": "当日正文已读取，主要为冷空气及全国降水",
+      "source_time": "2026-11-25"
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
       "ok": true,
-      "note": "冷空气及海上大风",
-      "source_time": "2026-11-24 08:00"
+      "note": "当日正文已读取，25—28日海南部分地区小雨",
+      "source_time": "2026-11-25"
     },
     {
       "name": "中央气象台海洋天气公报",
-      "url": "https://www.nmc.cn/publish/marine/forecast.htm",
+      "url": "https://www.nmc.cn/f/p-452",
       "ok": true,
-      "note": "备用网址正文核验成功",
-      "source_time": "2026-11-24 06:00"
+      "note": "原链接超时，备用官方地址取得25日06时公报",
+      "source_time": "2026-11-25 06:00"
     },
     {
       "name": "中央气象台台风快讯",
       "url": "https://www.nmc.cn/publish/typhoon/typhoon_new.html",
-      "ok": true,
-      "note": "页面明确提示当前无台风，历史产品为11月11日；不排除未编号扰动"
+      "ok": false,
+      "note": "直连超时",
+      "source_error": true,
+      "source_unavailable": true
     },
     {
       "name": "中央气象台台风公报",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "ok": false,
-      "note": "正文复核超时",
-      "source_error": true,
-      "source_unavailable": true
+      "ok": true,
+      "note": "页面提示暂无新产品，显示11月11日历史公报",
+      "source_time": "2026-11-11 20:00"
     },
     {
       "name": "中央气象台台风预警",
       "url": "https://www.nmc.cn/publish/typhoon/warning_index.html",
-      "ok": false,
-      "note": "正文复核超时",
-      "source_error": true,
-      "source_unavailable": true
+      "ok": true,
+      "note": "页面提示暂无新产品，显示10月25日历史预警",
+      "source_time": "2026-10-25 18:00"
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hytq/index.shtml",
       "ok": false,
-      "note": "返回13时产品，晚于本轮12:14截止时刻，未采用",
+      "note": "返回25日13时产品，晚于巡检截止时刻，未采用",
       "source_error": true,
       "source_unavailable": true
     },
@@ -74,19 +74,18 @@
       "name": "海南市县气象预警",
       "url": "https://hainan.weather.com.cn/zhyj/index.shtml",
       "ok": false,
-      "note": "未取得当日有效市县预警正文",
+      "note": "仅取得预警科普页面，未确认市县当日有效预警",
       "source_error": true,
       "source_unavailable": true
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
   "stale": true,
-  "stale_reason": "台风公报及预警正文复核超时；海南海洋天气返回晚于截止时刻产品，市县预警正文未确认",
+  "stale_reason": "中央气象台台风快讯：直连超时；海南省气象台海洋天气：返回25日13时产品，晚于巡检截止时刻，未采用；海南市县气象预警：仅取得预警科普页面，未确认市县当日有效预警",
   "failed_sources": [
-    "中央气象台台风公报：正文复核超时",
-    "中央气象台台风预警：正文复核超时",
-    "海南省气象台海洋天气：返回13时产品，晚于本轮12:14截止时刻，未采用",
-    "海南市县气象预警：未取得当日有效市县预警正文"
+    "中央气象台台风快讯：直连超时",
+    "海南省气象台海洋天气：返回25日13时产品，晚于巡检截止时刻，未采用",
+    "海南市县气象预警：仅取得预警科普页面，未确认市县当日有效预警"
   ],
-  "note": "天气影响不等同于空域管制；继承的none不能证明24日海南无热带扰动或低压影响。"
+  "note": "天气影响不等同于空域管制；继承的none不能证明25日海南无热带扰动或低压影响。"
 }
