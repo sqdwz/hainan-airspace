@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25 12:10:02",
+  "updated_at": "2026-11-27 12:14:55",
   "status": "none",
   "impact_level": "none",
   "affects_hainan": false,
@@ -7,10 +7,10 @@
   "system_type": null,
   "name": null,
   "named": false,
-  "headline": "南海中北部大风有所减弱；热带系统仍待完整核验",
+  "headline": "热带系统状态待核验，沿用上一轮记录",
   "source_time": "2026-11-25",
   "forecast_period": "2026-11-25 08:00至2026-11-28 08:00",
-  "summary": "中央气象台25日天气提示、天气公报及海洋天气公报已读取。台风公报和预警页面无新产品，快讯超时，海南省及市县有效产品未完整核验，继承上一轮热带系统状态。",
+  "summary": "本轮关键气象来源未通过当日时效核验，保留11月25日有效记录及其预报时段，不作为今日实况。",
   "hazards": [
     "25日至26日南海北部和中部6—7级风、阵风8级",
     "25日至26日北部湾5—6级风、阵风7级",
@@ -22,51 +22,56 @@
     {
       "name": "中央气象台每日天气提示",
       "url": "https://www.nmc.cn/publish/weatherperday/index.htm",
-      "ok": true,
-      "note": "当日正文已读取，主要为冷空气及全国降水",
-      "source_time": "2026-11-25"
+      "ok": false,
+      "note": "页面可访问，但未确认2026-11-27有效正文",
+      "source_error": true,
+      "source_unavailable": true
     },
     {
       "name": "中央气象台天气公报",
       "url": "https://www.nmc.cn/publish/weather-bulletin/index.htm",
-      "ok": true,
-      "note": "当日正文已读取，25—28日海南部分地区小雨",
-      "source_time": "2026-11-25"
+      "ok": false,
+      "note": "页面可访问，但未确认2026-11-27有效正文",
+      "source_error": true,
+      "source_unavailable": true
     },
     {
       "name": "中央气象台海洋天气公报",
       "url": "https://www.nmc.cn/f/p-452",
-      "ok": true,
-      "note": "原链接超时，备用官方地址取得25日06时公报",
-      "source_time": "2026-11-25 06:00"
+      "ok": false,
+      "note": "页面可访问，但未确认2026-11-27有效正文",
+      "source_error": true,
+      "source_unavailable": true
     },
     {
       "name": "中央气象台台风快讯",
       "url": "https://www.nmc.cn/publish/typhoon/typhoon_new.html",
       "ok": false,
-      "note": "直连超时",
+      "note": "本轮访问超时",
       "source_error": true,
       "source_unavailable": true
     },
     {
       "name": "中央气象台台风公报",
       "url": "https://www.nmc.cn/publish/typhoon/warning.html",
-      "ok": true,
-      "note": "页面提示暂无新产品，显示11月11日历史公报",
-      "source_time": "2026-11-11 20:00"
+      "ok": false,
+      "note": "页面可访问，但未确认2026-11-27有效正文",
+      "source_error": true,
+      "source_unavailable": true
     },
     {
       "name": "中央气象台台风预警",
       "url": "https://www.nmc.cn/publish/typhoon/warning_index.html",
-      "ok": true,
-      "note": "页面提示暂无新产品，显示10月25日历史预警",
-      "source_time": "2026-10-25 18:00"
+      "ok": false,
+      "note": "页面可访问，但未确认2026-11-27有效正文",
+      "source_error": true,
+      "source_unavailable": true
     },
     {
       "name": "海南省气象台海洋天气",
       "url": "https://hainan.weather.com.cn/hytq/index.shtml",
       "ok": false,
-      "note": "返回25日13时产品，晚于巡检截止时刻，未采用",
+      "note": "页面可访问，但未确认2026-11-27有效正文",
       "source_error": true,
       "source_unavailable": true
     },
@@ -74,18 +79,23 @@
       "name": "海南市县气象预警",
       "url": "https://hainan.weather.com.cn/zhyj/index.shtml",
       "ok": false,
-      "note": "仅取得预警科普页面，未确认市县当日有效预警",
+      "note": "返回2025年历史内容及科普，未确认当日预警",
       "source_error": true,
       "source_unavailable": true
     }
   ],
   "publisher": "中央气象台 / 中国气象局公共气象服务 / 海南省气象台",
   "stale": true,
-  "stale_reason": "中央气象台台风快讯：直连超时；海南省气象台海洋天气：返回25日13时产品，晚于巡检截止时刻，未采用；海南市县气象预警：仅取得预警科普页面，未确认市县当日有效预警",
+  "stale_reason": "中央气象台每日天气提示：页面可访问，但未确认2026-11-27有效正文；中央气象台天气公报：页面可访问，但未确认2026-11-27有效正文；中央气象台海洋天气公报：页面可访问，但未确认2026-11-27有效正文；中央气象台台风快讯：本轮访问超时；中央气象台台风公报：页面可访问，但未确认2026-11-27有效正文；中央气象台台风预警：页面可访问，但未确认2026-11-27有效正文；海南省气象台海洋天气：页面可访问，但未确认2026-11-27有效正文；海南市县气象预警：返回2025年历史内容及科普，未确认当日预警",
   "failed_sources": [
-    "中央气象台台风快讯：直连超时",
-    "海南省气象台海洋天气：返回25日13时产品，晚于巡检截止时刻，未采用",
-    "海南市县气象预警：仅取得预警科普页面，未确认市县当日有效预警"
+    "中央气象台每日天气提示：页面可访问，但未确认2026-11-27有效正文",
+    "中央气象台天气公报：页面可访问，但未确认2026-11-27有效正文",
+    "中央气象台海洋天气公报：页面可访问，但未确认2026-11-27有效正文",
+    "中央气象台台风快讯：本轮访问超时",
+    "中央气象台台风公报：页面可访问，但未确认2026-11-27有效正文",
+    "中央气象台台风预警：页面可访问，但未确认2026-11-27有效正文",
+    "海南省气象台海洋天气：页面可访问，但未确认2026-11-27有效正文",
+    "海南市县气象预警：返回2025年历史内容及科普，未确认当日预警"
   ],
-  "note": "天气影响不等同于空域管制；继承的none不能证明25日海南无热带扰动或低压影响。"
+  "note": "天气影响不等同于空域管制；继承的none不能证明27日海南无热带系统影响。hazards为25日旧预报，非今日核验结果。"
 }
